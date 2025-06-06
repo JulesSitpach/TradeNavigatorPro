@@ -214,6 +214,11 @@ export default function SignupPage() {
               )}
             </button>
           </div>
+          <div>
+            <Link href="/login" className="group relative w-full flex justify-center py-2 px-4 border border-brand text-sm font-medium rounded-md text-brand bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand mt-2">
+              Sign In
+            </Link>
+          </div>
         </form>
 
         <div className="mt-6">

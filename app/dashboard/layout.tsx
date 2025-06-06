@@ -19,6 +19,9 @@ export default function DashboardLayout({ children }: LayoutProps) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    // TEMPORARY BYPASS: Disable session check for development
+    // Comment out the following block to allow dashboard access without auth
+    /*
     const checkUser = async () => {
       const supabase = supabaseBrowser();
       const { data: { session } } = await supabase.auth.getSession();
@@ -33,6 +36,8 @@ export default function DashboardLayout({ children }: LayoutProps) {
     };
     
     checkUser();
+    */
+    setIsLoading(false);
   }, [router]);
 
   const handleSignOut = async () => {

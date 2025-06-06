@@ -6,12 +6,11 @@ const nextConfig = {
     domains: [
       'lh3.googleusercontent.com', // For Google OAuth profile pictures
       'avatars.githubusercontent.com', // For potential GitHub integration
+      'images.unsplash.com', // Keep your existing domain
     ],
     formats: ['image/avif', 'image/webp'],
   },
-  experimental: {
-    serverActions: true,
-  },
+  // Removed experimental.serverActions - it's enabled by default in Next.js 14
   async headers() {
     return [
       {
@@ -56,6 +55,6 @@ const nextConfig = {
       },
     ];
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig

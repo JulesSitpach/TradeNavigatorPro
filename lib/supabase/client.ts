@@ -1,23 +1,30 @@
-import { createBrowserClient } from '@supabase/auth-helpers-nextjs';
-import type { Database } from '@/types/supabase';
+import { createBrowserClient } from '@supabase/ssr'
 
-/**
- * Creates a Supabase client configured for browser usage
- * This client should be used in client components or event handlers
- */
-export const supabaseBrowser = () => {
-  return createBrowserClient<Database>(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-  );
-};
-
-/**
- * Helper function to get the current user from the browser client
- * Useful for quick user checks in client components
- */
-export async function getCurrentUser() {
-  const supabase = supabaseBrowser();
-  const { data: { user } } = await supabase.auth.getUser();
-  return user;
+export type Database = {
+  // Add your database types here when you have them
+  // For now, we'll use a generic type
+  public: {
+    Tables: {
+      [key: string]: {
+        Row: { [key: string]: any }
+        Insert: { [key: string]: any }
+        Update: { [key: string]: any }
+      }
+    }
+  }
 }
+
+export const supabaseBrowser = () => {
+  // Get environment variables - these should be available in browser
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+  if (!supabaseUrl || !supabaseAnonKey) {
+    throw new Error('Missing Supabase environment variables')
+  }
+
+  return createBrowserClient<Database>(supabaseUrl, supabaseAnonKey)
+}
+
+// For direct usage in components
+export const createClient = () => supabaseBrowser()
