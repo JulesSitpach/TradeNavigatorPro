@@ -1,0 +1,18 @@
+import { redirect } from 'next/navigation';
+import { i18n } from '@/lib/i18n/config';
+
+/**
+ * Root page that redirects to the locale-specific dashboard
+ * This ensures users always see content in their preferred language
+ */
+export default function RootPage() {
+  // Get the default locale from i18n config
+  const defaultLocale = i18n.defaultLocale;
+  
+  // Redirect to the default locale
+  redirect(`/${defaultLocale}`);
+  
+  // This return is never reached due to the redirect,
+  // but is required to satisfy TypeScript
+  return null;
+}

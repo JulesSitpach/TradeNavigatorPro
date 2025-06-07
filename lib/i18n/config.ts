@@ -1,4 +1,4 @@
-import { createDictionary } from './dictionaries'
+import { Dictionary, getDictionary } from './dictionaries';
 
 // Define available locales
 export const i18n = {
@@ -9,28 +9,26 @@ export const i18n = {
     en: 'English',
     es: 'Español',
   },
-}
+};
 
 // Type for translation keys
-export type LocaleKey = keyof typeof i18n.localeNames
+export type LocaleKey = keyof typeof i18n.localeNames;
+
+// Export the Dictionary type for use in other files
+export type { Dictionary };
 
 // Get locale from path
 export function getLocaleFromPath(path: string): LocaleKey {
-  const locale = path.split('/')[1]
+  const locale = path.split('/')[1];
   return i18n.locales.includes(locale as LocaleKey) 
     ? (locale as LocaleKey) 
-    : i18n.defaultLocale as LocaleKey
+    : i18n.defaultLocale as LocaleKey;
 }
 
 // Create path with locale
 export function createLocalePath(locale: LocaleKey, path: string = ''): string {
-  const cleanPath = path.startsWith('/') ? path : `/${path}`
-  return `/${locale}${cleanPath}`
-}
-
-// Get dictionary for the current locale
-export async function getDictionary(locale: LocaleKey) {
-  return createDictionary(locale)
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  return `/${locale}${cleanPath}`;
 }
 
 // Format number according to locale
@@ -39,7 +37,7 @@ export function formatNumber(
   locale: LocaleKey, 
   options?: Intl.NumberFormatOptions
 ): string {
-  return new Intl.NumberFormat(locale, options).format(value)
+  return new Intl.NumberFormat(locale, options).format(value);
 }
 
 // Format currency according to locale
@@ -51,7 +49,7 @@ export function formatCurrency(
   return formatNumber(value, locale, {
     style: 'currency',
     currency,
-  })
+  });
 }
 
 // Format date according to locale
@@ -60,13 +58,13 @@ export function formatDate(
   locale: LocaleKey,
   options?: Intl.DateTimeFormatOptions
 ): string {
-  const dateObject = typeof date === 'object' ? date : new Date(date)
-  return new Intl.DateTimeFormat(locale, options).format(dateObject)
+  const dateObject = typeof date === 'object' ? date : new Date(date);
+  return new Intl.DateTimeFormat(locale, options).format(dateObject);
 }
 
 // Get direction (RTL/LTR) for locale
 export function getLocaleDirection(locale: LocaleKey): 'ltr' | 'rtl' {
   // Currently all supported locales are LTR
   // Add RTL locales here if needed in the future
-  return 'ltr'
+  return 'ltr';
 }
