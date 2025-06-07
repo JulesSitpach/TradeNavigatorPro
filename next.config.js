@@ -1,17 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  
-  // Configure internationalization
-  i18n: {
-    // List of supported locales
-    locales: ['en', 'es'],
-    // Default locale
-    defaultLocale: 'en',
-    // Automatic locale detection
-    localeDetection: true,
-  },
+  // Remove swcMinify - it's default now
   
   // Image optimization configuration
   images: {
@@ -19,14 +9,9 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
   },
   
-  // Enable experimental features for App Router
+  // Clean up experimental section
   experimental: {
-    // Enable server components
-    serverComponents: true,
-    // Enable app directory features
-    appDir: true,
-    // Enable server actions
-    serverActions: true,
+    // Remove the old ones, keep only what's needed
   },
   
   // Environment variable configuration
@@ -37,24 +22,11 @@ const nextConfig = {
   
   // Webpack configuration for SVG files
   webpack(config) {
-    // SVG handling
     config.module.rules.push({
       test: /\.svg$/,
       use: ['@svgr/webpack'],
     });
-    
     return config;
-  },
-  
-  // Redirects configuration
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/en',
-        permanent: true,
-      },
-    ];
   },
   
   // Headers configuration for security
