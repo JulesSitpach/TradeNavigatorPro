@@ -61,6 +61,8 @@ import {
   Upload,
   User,
   X,
+  Twitter,
+  Linkedin,
   type LucideIcon,
   type LucideProps,
   Calculator,
@@ -181,6 +183,10 @@ export const Icons = {
   alertTriangle: AlertTriangle,
   shieldAlert: ShieldAlert,
   shieldCheck: ShieldCheck,
+  
+  // Social media icons
+  twitter: Twitter,
+  linkedin: Linkedin,
   
   // Placeholder for custom icons
   custom: (icon: LucideIcon) => React.createElement(icon),
