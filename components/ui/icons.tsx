@@ -14,7 +14,7 @@ import {
   ChevronLeft,
   ChevronRight,
   ChevronUp,
-  CircleAlert,
+  AlertCircle,
   Clock,
   Cloud,
   Copy,
@@ -44,7 +44,6 @@ import {
   Package,
   Percent,
   Plus,
-  Refresh,
   Route,
   Search,
   Send,
@@ -153,7 +152,6 @@ export const Icons = {
   globe: Globe,
   copy: Copy,
   edit: Edit,
-  refresh: Refresh,
   send: Send,
   mapPin: MapPin,
   building: Building,
@@ -179,7 +177,7 @@ export const Icons = {
   cloud: Cloud,
   
   // Alert and notification icons
-  alertCircle: CircleAlert,
+  alertCircle: AlertCircle,
   alertTriangle: AlertTriangle,
   shieldAlert: ShieldAlert,
   shieldCheck: ShieldCheck,
@@ -191,3 +189,4 @@ export const Icons = {
   // Placeholder for custom icons
   custom: (icon: LucideIcon) => React.createElement(icon),
 }
+
