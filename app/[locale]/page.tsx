@@ -8,7 +8,12 @@ import {
 } from "@/components/ui/card";
 import Link from "next/link";
 
-export default function HomePage({ params }: { params: { locale: string } }) {
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   return (
     <div
       className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100"
