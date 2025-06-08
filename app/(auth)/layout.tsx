@@ -1,0 +1,16 @@
+export default function AuthLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <div
+      className="min-h-screen flex items-center justify-center bg-gray-50"
+      data-oid="1vxzq8:"
+    >
+      <div className="max-w-md w-full space-y-8" data-oid="ojw65:y">
+        {children}
+      </div>
+    </div>
+  );
+}
