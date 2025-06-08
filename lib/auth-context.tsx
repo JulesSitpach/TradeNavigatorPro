@@ -21,7 +21,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <AuthContext.Provider value={value} data-oid="xt275-8">
+    <AuthContext.Provider value={value} data-oid=":qm8k3:">
       {children}
     </AuthContext.Provider>
   );
