@@ -42,104 +42,104 @@ export default async function DashboardLayout({
     {
       id: "cost-calculator",
       title: apps.costCalculator.title,
-      icon: <Icons.calculator className="h-5 w-5" data-oid="ebtucq5" />,
+      icon: <Icons.calculator className="h-5 w-5" data-oid="adhhsf2" />,
       href: `/${locale}/apps/cost-calculator`,
     },
     {
       id: "supply-pivot",
       title: apps.supplyChainPlanner.title,
-      icon: <Icons.network className="h-5 w-5" data-oid="aejg.k3" />,
+      icon: <Icons.network className="h-5 w-5" data-oid="aq4aw:m" />,
       href: `/${locale}/apps/supply-pivot`,
     },
     {
       id: "pricing-optimizer",
       title: apps.pricingOptimizer.title,
-      icon: <Icons.dollarSign className="h-5 w-5" data-oid="nonsjqi" />,
+      icon: <Icons.dollarSign className="h-5 w-5" data-oid=":ur2s1r" />,
       href: `/${locale}/apps/pricing-optimizer`,
     },
     {
       id: "tariff-tracker",
       title: apps.tariffTracker.title,
-      icon: <Icons.clock className="h-5 w-5" data-oid="06omdyc" />,
+      icon: <Icons.clock className="h-5 w-5" data-oid="zm5seje" />,
       href: `/${locale}/apps/tariff-tracker`,
     },
     {
       id: "route-optimizer",
       title: apps.routeOptimizer.title,
-      icon: <Icons.route className="h-5 w-5" data-oid="j_-mqh6" />,
+      icon: <Icons.route className="h-5 w-5" data-oid="mi27oze" />,
       href: `/${locale}/apps/route-optimizer`,
     },
   ];
 
   return (
-    <div className="flex h-screen overflow-hidden" data-oid="5.z7p4:">
+    <div className="flex h-screen overflow-hidden" data-oid="ss2teo_">
       {/* Sidebar */}
       <aside
         className="hidden w-64 flex-shrink-0 border-r bg-background md:flex md:flex-col"
-        data-oid="zrlpw9:"
+        data-oid="ht1:q9-"
       >
         {/* Logo and brand */}
         <div
           className="flex h-16 items-center border-b px-4"
-          data-oid="i.:ai9m"
+          data-oid="w6d8tvf"
         >
           <Link
             href={`/${locale}`}
             className="flex items-center gap-2"
-            data-oid="qg.cilg"
+            data-oid="3ekm3bu"
           >
-            <Icons.logo className="h-6 w-6" data-oid="vil7jlg" />
-            <span className="font-bold" data-oid="ts0r3he">
+            <Icons.logo className="h-6 w-6" data-oid="1r1mi1c" />
+            <span className="font-bold" data-oid="y0ess38">
               TradeNavigatorPro
             </span>
           </Link>
         </div>
 
         {/* Navigation */}
-        <nav className="flex-1 overflow-y-auto py-4" data-oid="a99l3fs">
-          <div className="px-4 pb-2" data-oid="ug-u7g:">
+        <nav className="flex-1 overflow-y-auto py-4" data-oid="mm:o1m1">
+          <div className="px-4 pb-2" data-oid="l8cmp4p">
             <h2
               className="mb-2 px-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground"
-              data-oid="7.75cmk"
+              data-oid="w3xq7z."
             >
               {t.dashboard}
             </h2>
-            <div className="space-y-1" data-oid=".7r8eks">
+            <div className="space-y-1" data-oid="s0tuzbf">
               <Link
                 href={`/${locale}`}
                 className="flex items-center rounded-md px-2 py-1.5 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
-                data-oid=".6hlvmv"
+                data-oid="0wpuj5g"
               >
-                <Icons.dashboard className="mr-2 h-4 w-4" data-oid="26b164t" />
+                <Icons.dashboard className="mr-2 h-4 w-4" data-oid="1xzdkz1" />
                 {t.dashboard}
               </Link>
               <Link
                 href={`/${locale}/reports`}
                 className="flex items-center rounded-md px-2 py-1.5 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
-                data-oid="e7ceyjs"
+                data-oid="ysklhco"
               >
-                <Icons.fileChart className="mr-2 h-4 w-4" data-oid="wol1.o9" />
+                <Icons.fileChart className="mr-2 h-4 w-4" data-oid="5dszm-t" />
                 {t.reports}
               </Link>
             </div>
           </div>
 
-          <div className="px-4 py-2" data-oid="mkyite-">
+          <div className="px-4 py-2" data-oid="hqh.9ta">
             <h2
               className="mb-2 px-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground"
-              data-oid="1dnmufs"
+              data-oid="h2k296f"
             >
               {t.applications}
             </h2>
-            <div className="space-y-1" data-oid="oelgl:e">
+            <div className="space-y-1" data-oid="q3ydg0x">
               {coreApplications.map((app) => (
                 <Link
                   key={app.id}
                   href={app.href}
                   className="flex items-center rounded-md px-2 py-1.5 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
-                  data-oid="vc6xnh5"
+                  data-oid="jctrxx5"
                 >
-                  <span className="mr-2" data-oid="o25o6r8">
+                  <span className="mr-2" data-oid="tx7dagr">
                     {app.icon}
                   </span>
                   {app.title}
@@ -148,28 +148,28 @@ export default async function DashboardLayout({
             </div>
           </div>
 
-          <div className="px-4 py-2" data-oid="ccki:5b">
+          <div className="px-4 py-2" data-oid=":3-emgk">
             <h2
               className="mb-2 px-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground"
-              data-oid="og2avxs"
+              data-oid="1whe7e1"
             >
               {t.settings}
             </h2>
-            <div className="space-y-1" data-oid="q7br92i">
+            <div className="space-y-1" data-oid="74tdhpx">
               <Link
                 href={`/${locale}/settings/profile`}
                 className="flex items-center rounded-md px-2 py-1.5 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
-                data-oid="_phpisf"
+                data-oid=".skxyvx"
               >
-                <Icons.user className="mr-2 h-4 w-4" data-oid="xm71u2r" />
+                <Icons.user className="mr-2 h-4 w-4" data-oid="b2589:z" />
                 {t.account}
               </Link>
               <Link
                 href={`/${locale}/settings/billing`}
                 className="flex items-center rounded-md px-2 py-1.5 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
-                data-oid="6ga8rhc"
+                data-oid="1yg-71i"
               >
-                <Icons.billing className="mr-2 h-4 w-4" data-oid="2_oa_r3" />
+                <Icons.billing className="mr-2 h-4 w-4" data-oid="nwo217d" />
                 {dictionary.settings.billing}
               </Link>
             </div>
@@ -177,34 +177,34 @@ export default async function DashboardLayout({
         </nav>
 
         {/* User section */}
-        <div className="mt-auto border-t p-4" data-oid="l_bgcrr">
-          <div className="flex items-center justify-between" data-oid="78sd5o-">
-            <div className="flex items-center gap-2" data-oid="4wszywp">
+        <div className="mt-auto border-t p-4" data-oid="o3exm2v">
+          <div className="flex items-center justify-between" data-oid="irw4t2l">
+            <div className="flex items-center gap-2" data-oid="p0va0j0">
               <div
                 className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center"
-                data-oid="v47.y6d"
+                data-oid="ymejz44"
               >
                 <span
                   className="text-sm font-medium text-primary"
-                  data-oid="e:_yfpv"
+                  data-oid="i0wbzr-"
                 >
                   {session.user.firstName?.[0] ||
                     session.user.email[0].toUpperCase()}
                 </span>
               </div>
-              <div data-oid="bu260ug">
-                <p className="text-sm font-medium" data-oid="ftslv1p">
+              <div data-oid="715rxw.">
+                <p className="text-sm font-medium" data-oid="y8wttj4">
                   {session.user.firstName || session.user.email}
                 </p>
-                <p className="text-xs text-muted-foreground" data-oid="9r12o1d">
+                <p className="text-xs text-muted-foreground" data-oid="s4zl08_">
                   {session.user.email}
                 </p>
               </div>
             </div>
-            <Button variant="ghost" size="icon" asChild data-oid="hlo7x51">
-              <Link href={`/${locale}/api/auth/signout`} data-oid="s2w1j9:">
-                <Icons.logout className="h-4 w-4" data-oid="a84u_97" />
-                <span className="sr-only" data-oid="u48osar">
+            <Button variant="ghost" size="icon" asChild data-oid="rmp.z.8">
+              <Link href={`/${locale}/api/auth/signout`} data-oid="h7z:nz5">
+                <Icons.logout className="h-4 w-4" data-oid="gprnnkn" />
+                <span className="sr-only" data-oid="n8a2lhn">
                   {dictionary.auth.signOut}
                 </span>
               </Link>
@@ -214,65 +214,65 @@ export default async function DashboardLayout({
       </aside>
 
       {/* Main content */}
-      <div className="flex flex-1 flex-col overflow-hidden" data-oid="e886t99">
+      <div className="flex flex-1 flex-col overflow-hidden" data-oid="097vtt5">
         {/* Header */}
         <header
           className="flex h-16 items-center justify-between border-b px-4 md:px-6"
-          data-oid="_-x4w9p"
+          data-oid="e192u.p"
         >
           {/* Mobile menu button */}
           <Button
             variant="ghost"
             size="icon"
             className="md:hidden"
-            data-oid="a_5s5pr"
+            data-oid="rknpifq"
           >
-            <Icons.menu className="h-5 w-5" data-oid="f8m1.b:" />
-            <span className="sr-only" data-oid="t73fn60">
+            <Icons.menu className="h-5 w-5" data-oid="5wgwdia" />
+            <span className="sr-only" data-oid="xrdm1bj">
               Menu
             </span>
           </Button>
 
           {/* Search (placeholder) */}
-          <div className="hidden md:flex md:flex-1" data-oid="wp4y43u">
-            <div className="relative max-w-md" data-oid="im001_i">
+          <div className="hidden md:flex md:flex-1" data-oid="7omf74r">
+            <div className="relative max-w-md" data-oid="9riaax5">
               <Icons.search
                 className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground"
-                data-oid="izuhw.r"
+                data-oid="wobwj8k"
               />
 
               <input
                 type="search"
                 placeholder={dictionary.common.search}
                 className="h-9 w-full rounded-md border border-input bg-background pl-8 pr-3 text-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
-                data-oid="bsby8qv"
+                data-oid="5o4d3ev"
               />
             </div>
           </div>
 
           {/* Right side actions */}
-          <div className="flex items-center gap-2" data-oid="ulz1x-7">
+          <div className="flex items-center gap-2" data-oid="hr.m1lk">
             {/* Notifications */}
-            <Button variant="ghost" size="icon" data-oid="qyxcl_x">
-              <Icons.bell className="h-5 w-5" data-oid="m8namb:" />
-              <span className="sr-only" data-oid="ybxhhmp">
+            <Button variant="ghost" size="icon" data-oid="1az.p62">
+              <Icons.bell className="h-5 w-5" data-oid="ju0crj-" />
+              <span className="sr-only" data-oid="a46j12h">
                 Notifications
               </span>
             </Button>
 
             {/* Language switcher */}
-            <LanguageSwitcher locale={locale as LocaleKey} data-oid="12m4.5y" />
+            <LanguageSwitcher locale={locale as LocaleKey} data-oid="014.-2o" />
           </div>
         </header>
 
         {/* Page content */}
-        <main className="flex-1 overflow-y-auto" data-oid="d4kc_qi">
+        <main className="flex-1 overflow-y-auto" data-oid="_.yjdr:">
           {children}
         </main>
       </div>
 
       {/* Toast notifications */}
-      <Toaster data-oid="fj-.2h6" />
+      <Toaster data-oid="llfse67" />
     </div>
   );
 }

@@ -7,7 +7,7 @@ export default function MarketingLayout({
 }) {
   return (
     <>
-      <Navigation data-oid="5fchky5" />
+      <Navigation data-oid="wrldv0j" />
       {children}
     </>
   );

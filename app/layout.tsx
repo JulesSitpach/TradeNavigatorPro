@@ -25,14 +25,14 @@ export default function RootLayout({
     <html
       lang={params.locale || "en"}
       suppressHydrationWarning
-      data-oid="k:4u3du"
+      data-oid="st1.u9y"
     >
-      <head data-oid="fhuccn-" />
-      <body className="" data-oid="97emlml">
-        <main className="min-h-screen flex flex-col" data-oid="2k_jsb.">
+      <head data-oid="c.15yks" />
+      <body className="" data-oid="hrueuob">
+        <main className="min-h-screen flex flex-col" data-oid="fazq:qm">
           {children}
         </main>
-        <Toaster data-oid=":v26a2x" />
+        <Toaster data-oid="xlxkn:i" />
       </body>
     </html>
   );
