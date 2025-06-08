@@ -48,7 +48,7 @@ export function CheckoutButton({
   const handleCheckout = async () => {
     try {
       setIsLoading(true);
-      
+
       // Call API route to create checkout session
       const response = await fetch("/api/stripe/create-checkout", {
         method: "POST",
@@ -69,20 +69,22 @@ export function CheckoutButton({
       }
 
       const { sessionId, sessionUrl } = await response.json();
-      
+
       // Call optional callback if provided
       if (onCheckoutCreated) {
         onCheckoutCreated(sessionId, sessionUrl);
       }
-      
+
       // Redirect to Stripe Checkout
       router.push(sessionUrl);
-      
     } catch (error) {
       console.error("Checkout error:", error);
       toast({
         title: "Checkout Error",
-        description: error instanceof Error ? error.message : "Failed to start checkout process",
+        description:
+          error instanceof Error
+            ? error.message
+            : "Failed to start checkout process",
         variant: "destructive",
       });
     } finally {
@@ -95,10 +97,14 @@ export function CheckoutButton({
       onClick={handleCheckout}
       disabled={isLoading}
       {...props}
+      data-oid="icfq4ok"
     >
       {isLoading ? (
         <>
-          <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+          <Icons.spinner
+            className="mr-2 h-4 w-4 animate-spin"
+            data-oid="g2mj7n6"
+          />
           Processing...
         </>
       ) : (

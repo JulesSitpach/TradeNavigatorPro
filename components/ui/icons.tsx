@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import {
   AlertTriangle,
   ArrowDown,
@@ -65,7 +65,7 @@ import {
   type LucideIcon,
   type LucideProps,
   Calculator,
-} from "lucide-react"
+} from "lucide-react";
 
 // Custom logo icon
 const Logo = (props: LucideProps) => (
@@ -86,7 +86,7 @@ const Logo = (props: LucideProps) => (
     <path d="M12 12l-8 -4.5" />
     <path d="M16 5.25l-8 4.5" />
   </svg>
-)
+);
 
 // Custom file chart icon
 const FileChart = (props: LucideProps) => (
@@ -101,6 +101,7 @@ const FileChart = (props: LucideProps) => (
     {...props}
   >
     <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+
     <polyline points="14 2 14 8 20 8" />
     <path d="M8 13h2" />
     <path d="M8 17h2" />
@@ -108,7 +109,7 @@ const FileChart = (props: LucideProps) => (
     <path d="M14 17h2" />
     <path d="M10 9h4" />
   </svg>
-)
+);
 
 // Export all icons
 export const Icons = {
@@ -162,31 +163,30 @@ export const Icons = {
   tag: Tag,
   star: Star,
   fileCheck: FileCheck,
-  
+
   // Core application icons
   calculator: Calculator,
   network: Network,
   dollarSign: DollarSign,
   clock: Clock,
   route: Route,
-  
+
   // Additional application icons
   dashboard: LayoutDashboard,
   fileChart: FileChart,
   fileText: FileText,
   cloud: Cloud,
-  
+
   // Alert and notification icons
   alertCircle: AlertCircle,
   alertTriangle: AlertTriangle,
   shieldAlert: ShieldAlert,
   shieldCheck: ShieldCheck,
-  
+
   // Social media icons
   twitter: Twitter,
   linkedin: Linkedin,
-  
+
   // Placeholder for custom icons
   custom: (icon: LucideIcon) => React.createElement(icon),
-}
-
+};
