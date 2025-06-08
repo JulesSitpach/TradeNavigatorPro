@@ -199,3 +199,15 @@ export function getNestedValue<T, F = undefined>(
   
   return (result === undefined) ? fallback : result as T
 }
+
+/**
+ * Get the base URL for the app (for use in server-side Stripe logic, etc.)
+ * Returns the NEXT_PUBLIC_APP_URL env variable if set, otherwise defaults to http://localhost:3000
+ */
+export function getURL() {
+  // Prefer environment variable, fallback to localhost
+  return (
+    process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, '') ||
+    'http://localhost:3000'
+  );
+}
