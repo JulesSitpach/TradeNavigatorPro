@@ -46,35 +46,53 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full space-y-8">
-        <div>
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+    <div
+      className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8"
+      data-oid="090nk_l"
+    >
+      <div className="max-w-md w-full space-y-8" data-oid="p_grpja">
+        <div data-oid="3cyo-hp">
+          <h2
+            className="mt-6 text-center text-3xl font-extrabold text-gray-900"
+            data-oid="1vhqceh"
+          >
             Create your account
           </h2>
-          <p className="mt-2 text-center text-sm text-gray-600">
+          <p
+            className="mt-2 text-center text-sm text-gray-600"
+            data-oid="ujqiens"
+          >
             Or{" "}
             <Link
               href={`/${params.locale}/login`}
               className="font-medium text-blue-600 hover:text-blue-500"
+              data-oid="2r:xv3u"
             >
               sign in to your existing account
             </Link>
           </p>
         </div>
 
-        <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
+        <form
+          className="mt-8 space-y-6"
+          onSubmit={handleSubmit}
+          data-oid="s8yhy57"
+        >
           {error && (
-            <div className="bg-red-50 border border-red-200 text-red-600 px-4 py-3 rounded-md text-sm">
+            <div
+              className="bg-red-50 border border-red-200 text-red-600 px-4 py-3 rounded-md text-sm"
+              data-oid="zuhonxw"
+            >
               {error}
             </div>
           )}
 
-          <div className="space-y-4">
-            <div>
+          <div className="space-y-4" data-oid="nk44zr0">
+            <div data-oid="c6052jz">
               <label
                 htmlFor="fullName"
                 className="block text-sm font-medium text-gray-700"
+                data-oid="fqb.jzy"
               >
                 Full Name
               </label>
@@ -87,13 +105,15 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
                 onChange={(e) => setFullName(e.target.value)}
                 className="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="Enter your full name"
+                data-oid="c0ppcvb"
               />
             </div>
 
-            <div>
+            <div data-oid="ixg98dx">
               <label
                 htmlFor="email"
                 className="block text-sm font-medium text-gray-700"
+                data-oid="mn2q-22"
               >
                 Email Address
               </label>
@@ -107,13 +127,15 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
                 onChange={(e) => setEmail(e.target.value)}
                 className="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="Enter your email address"
+                data-oid="wqt4-ag"
               />
             </div>
 
-            <div>
+            <div data-oid="q0527kr">
               <label
                 htmlFor="password"
                 className="block text-sm font-medium text-gray-700"
+                data-oid="k5.co-b"
               >
                 Password
               </label>
@@ -127,13 +149,15 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
                 onChange={(e) => setPassword(e.target.value)}
                 className="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="Create a password"
+                data-oid=".tp2qda"
               />
             </div>
 
-            <div>
+            <div data-oid="z8_ooma">
               <label
                 htmlFor="confirmPassword"
                 className="block text-sm font-medium text-gray-700"
+                data-oid="4r0cnll"
               >
                 Confirm Password
               </label>
@@ -147,19 +171,24 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
                 onChange={(e) => setConfirmPassword(e.target.value)}
                 className="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="Confirm your password"
+                data-oid="s1:oelk"
               />
             </div>
           </div>
 
-          <div>
+          <div data-oid="3utt.34">
             <button
               type="submit"
               disabled={isLoading}
               className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+              data-oid="z9.4ums"
             >
               {isLoading ? (
-                <div className="flex items-center">
-                  <div className="animate-spin -ml-1 mr-3 h-5 w-5 border-2 border-white border-t-transparent rounded-full"></div>
+                <div className="flex items-center" data-oid="cio5wqc">
+                  <div
+                    className="animate-spin -ml-1 mr-3 h-5 w-5 border-2 border-white border-t-transparent rounded-full"
+                    data-oid="ja61dmb"
+                  ></div>
                   Creating Account...
                 </div>
               ) : (
@@ -168,16 +197,21 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
             </button>
           </div>
 
-          <div className="text-center">
-            <p className="text-xs text-gray-500">
+          <div className="text-center" data-oid="n0ce238">
+            <p className="text-xs text-gray-500" data-oid="84nrb03">
               By creating an account, you agree to our{" "}
-              <Link href="/terms" className="text-blue-600 hover:text-blue-500">
+              <Link
+                href="/terms"
+                className="text-blue-600 hover:text-blue-500"
+                data-oid="vxaxto-"
+              >
                 Terms of Service
               </Link>{" "}
               and{" "}
               <Link
                 href="/privacy"
                 className="text-blue-600 hover:text-blue-500"
+                data-oid="vxrb5hh"
               >
                 Privacy Policy
               </Link>
