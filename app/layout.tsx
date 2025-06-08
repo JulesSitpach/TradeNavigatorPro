@@ -22,11 +22,17 @@ export default function RootLayout({
   params: { locale: string };
 }) {
   return (
-    <html lang={params.locale || "en"} suppressHydrationWarning>
-      <head />
-      <body className="">
-        <main className="min-h-screen flex flex-col">{children}</main>
-        <Toaster />
+    <html
+      lang={params.locale || "en"}
+      suppressHydrationWarning
+      data-oid="28z6htf"
+    >
+      <head data-oid=":7jr1cq" />
+      <body className="" data-oid="wf:a88l">
+        <main className="min-h-screen flex flex-col" data-oid="mp4tvpe">
+          {children}
+        </main>
+        <Toaster data-oid="64p6dse" />
       </body>
     </html>
   );
