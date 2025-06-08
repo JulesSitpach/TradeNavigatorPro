@@ -1,0 +1,181 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  password      String?
+  company       String?
+  role          UserRole  @default(USER)
+  subscription  SubscriptionTier @default(FREE)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  accounts      Account[]
+  sessions      Session[]
+  calculations  TariffCalculation[]
+  products      Product[]
+  suppliers     Supplier[]
+  alerts        TariffAlert[]
+
+  @@map("users")
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Product {
+  id          String   @id @default(cuid())
+  name        String
+  hsCode      String?
+  description String?
+  category    String?
+  userId      String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user         User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  calculations TariffCalculation[]
+  suppliers    ProductSupplier[]
+
+  @@map("products")
+}
+
+model Supplier {
+  id          String   @id @default(cuid())
+  name        String
+  country     String
+  contactInfo String?
+  reliability Float?   @default(0)
+  userId      String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user     User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  products ProductSupplier[]
+
+  @@map("suppliers")
+}
+
+model ProductSupplier {
+  id         String @id @default(cuid())
+  productId  String
+  supplierId String
+  unitPrice  Float?
+  leadTime   Int?   // in days
+  minOrder   Int?
+
+  product  Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  supplier Supplier @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, supplierId])
+  @@map("product_suppliers")
+}
+
+model TariffCalculation {
+  id            String   @id @default(cuid())
+  productId     String
+  originCountry String
+  quantity      Int
+  unitValue     Float
+  baseCost      Float
+  tariffRate    Float
+  tariffAmount  Float
+  totalCost     Float
+  userId        String
+  createdAt     DateTime @default(now())
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@map("tariff_calculations")
+}
+
+model TariffAlert {
+  id            String      @id @default(cuid())
+  productName   String
+  hsCode        String?
+  originCountry String
+  currentRate   Float
+  newRate       Float?
+  effectiveDate DateTime?
+  priority      AlertPriority @default(MEDIUM)
+  status        AlertStatus   @default(ACTIVE)
+  userId        String
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("tariff_alerts")
+}
+
+enum UserRole {
+  USER
+  ADMIN
+  ENTERPRISE
+}
+
+enum SubscriptionTier {
+  FREE
+  STARTER
+  PROFESSIONAL
+  ENTERPRISE
+}
+
+enum AlertPriority {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+}
+
+enum AlertStatus {
+  ACTIVE
+  DISMISSED
+  RESOLVED
+}
