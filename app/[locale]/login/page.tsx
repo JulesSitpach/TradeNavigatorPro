@@ -1,3 +1,3 @@
 export default function LoginPage() {
-  return <div data-oid="tng0mbf">{/* Your login content */}</div>;
+  return <div data-oid="q9m5cl0">{/* Your login content */}</div>;
 }
