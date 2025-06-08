@@ -10,8 +10,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-oid="5:t0qi4">
-      <body className="" data-oid="ckbn8b7">
+    <html lang="en" data-oid="g2issrs">
+      <body className="" data-oid=":q2n3:k">
         {children}
       </body>
     </html>

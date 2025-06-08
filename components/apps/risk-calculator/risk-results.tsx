@@ -43,56 +43,56 @@ export function RiskResults() {
 
   if (!currentRisk && recentCalculations.length === 0) {
     return (
-      <div className="text-center text-gray-500 py-8" data-oid="b3b0o:r">
-        <p data-oid="cij0m3b">Enter trade details to see risk analysis</p>
+      <div className="text-center text-gray-500 py-8" data-oid="ui:3js.">
+        <p data-oid="ay-yxol">Enter trade details to see risk analysis</p>
       </div>
     );
   }
 
   return (
-    <div className="space-y-4" data-oid="54vke7u">
+    <div className="space-y-4" data-oid="5_19.e9">
       {currentRisk && (
-        <div className="space-y-3" data-oid="_o_.a6y">
-          <div className="p-3 bg-blue-50 rounded-lg" data-oid="n42yc5f">
-            <div className="text-sm text-gray-600" data-oid="sng13s_">
+        <div className="space-y-3" data-oid="8l8lbom">
+          <div className="p-3 bg-blue-50 rounded-lg" data-oid="m8731i-">
+            <div className="text-sm text-gray-600" data-oid="avsk-w4">
               Position Size
             </div>
-            <div className="text-xl font-bold text-blue-600" data-oid="bhws2b8">
+            <div className="text-xl font-bold text-blue-600" data-oid="::hk733">
               {currentRisk.positionSize.toLocaleString()} units
             </div>
           </div>
 
-          <div className="p-3 bg-red-50 rounded-lg" data-oid="gcpi1--">
-            <div className="text-sm text-gray-600" data-oid="xdgqm6r">
+          <div className="p-3 bg-red-50 rounded-lg" data-oid="k::phbs">
+            <div className="text-sm text-gray-600" data-oid="l32-ch3">
               Risk Amount
             </div>
-            <div className="text-xl font-bold text-red-600" data-oid="et-tq6u">
+            <div className="text-xl font-bold text-red-600" data-oid="_5kp51p">
               ${currentRisk.riskAmount.toLocaleString()}
             </div>
           </div>
 
           {currentRisk.rewardAmount > 0 && (
             <>
-              <div className="p-3 bg-green-50 rounded-lg" data-oid="0s-h7ig">
-                <div className="text-sm text-gray-600" data-oid="dx.9ssy">
+              <div className="p-3 bg-green-50 rounded-lg" data-oid="zthkvm2">
+                <div className="text-sm text-gray-600" data-oid="k.ji8z5">
                   Potential Reward
                 </div>
                 <div
                   className="text-xl font-bold text-green-600"
-                  data-oid="vjwgoyh"
+                  data-oid="110shxl"
                 >
                   ${currentRisk.rewardAmount.toLocaleString()}
                 </div>
               </div>
 
-              <div className="p-3 bg-gray-50 rounded-lg" data-oid="11ocj8o">
-                <div className="text-sm text-gray-600" data-oid="ucku0l3">
+              <div className="p-3 bg-gray-50 rounded-lg" data-oid="fod9o37">
+                <div className="text-sm text-gray-600" data-oid="z9syl0.">
                   Risk/Reward Ratio
                 </div>
-                <div className="text-xl font-bold" data-oid="3qblsha">
+                <div className="text-xl font-bold" data-oid="nqlq0:k">
                   1:{currentRisk.riskRewardRatio}
                 </div>
-                <div className="text-xs text-gray-500 mt-1" data-oid="ej89qms">
+                <div className="text-xs text-gray-500 mt-1" data-oid="6yw_aj8">
                   {currentRisk.riskRewardRatio >= 2
                     ? "Good ratio ✓"
                     : "Consider higher reward"}
@@ -104,27 +104,27 @@ export function RiskResults() {
       )}
 
       {recentCalculations.length > 0 && (
-        <div className="mt-6" data-oid="ypp-aq9">
+        <div className="mt-6" data-oid="pfc_zy1">
           <h4
             className="text-sm font-semibold text-gray-700 mb-2"
-            data-oid=":amzsu:"
+            data-oid="72.ythd"
           >
             Recent Calculations
           </h4>
-          <div className="space-y-2" data-oid="soas5j.">
+          <div className="space-y-2" data-oid="un5b10h">
             {recentCalculations.map((calc, index) => (
               <div
                 key={index}
                 className="p-2 bg-gray-50 rounded text-xs"
-                data-oid=".-tn66a"
+                data-oid="y3.x7e2"
               >
-                <div className="flex justify-between" data-oid="zrk8_1f">
-                  <span data-oid="irjpayc">{calc.currencyPair}</span>
-                  <span className="text-red-600" data-oid="o1suhd1">
+                <div className="flex justify-between" data-oid="sith4yf">
+                  <span data-oid="0:erf24">{calc.currencyPair}</span>
+                  <span className="text-red-600" data-oid="5v_fnta">
                     ${calc.riskAmount}
                   </span>
                 </div>
-                <div className="text-gray-500" data-oid="uzaq2ns">
+                <div className="text-gray-500" data-oid="i79-i:n">
                   {new Date(calc.timestamp).toLocaleDateString()}
                 </div>
               </div>
