@@ -9,7 +9,7 @@ interface SessionProviderProps {
 
 export function SessionProvider({ children }: SessionProviderProps) {
   return (
-    <NextAuthSessionProvider data-oid="_lfe27z">
+    <NextAuthSessionProvider data-oid="-1yxpct">
       {children}
     </NextAuthSessionProvider>
   );
