@@ -10,23 +10,47 @@ export default function Navigation() {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+    <nav className="bg-gray-900 text-white" data-oid=":atyvre">
+      <div
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+        data-oid=":4fruu9"
+      >
+        <div
+          className="flex justify-between items-center h-16"
+          data-oid="7t:w0k_"
+        >
           {/* Logo */}
-          <div className="flex items-center">
-            <Link href="/en" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center">
-                <span className="text-white font-bold text-sm">T</span>
+          <div className="flex items-center" data-oid="f1ni6zl">
+            <Link
+              href="/en"
+              className="flex items-center space-x-2"
+              data-oid="d54el0_"
+            >
+              <div
+                className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center"
+                data-oid="je.xfaa"
+              >
+                <span
+                  className="text-white font-bold text-sm"
+                  data-oid="0l48wry"
+                >
+                  T
+                </span>
               </div>
-              <span className="text-xl font-semibold text-white">
+              <span
+                className="text-xl font-semibold text-white"
+                data-oid="fqsafh:"
+              >
                 TradeNavigatorPro
               </span>
             </Link>
           </div>
 
           {/* Center Navigation Links */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div
+            className="hidden md:flex items-center space-x-8"
+            data-oid="_uum0pu"
+          >
             <Link
               href="/en"
               className={`text-sm font-medium transition-colors ${
@@ -34,6 +58,7 @@ export default function Navigation() {
                   ? "text-white border-b-2 border-orange-500 pb-1"
                   : "text-gray-300 hover:text-white"
               }`}
+              data-oid="mk5xu-w"
             >
               Home
             </Link>
@@ -45,6 +70,7 @@ export default function Navigation() {
                   ? "text-white border-b-2 border-orange-500 pb-1"
                   : "text-gray-300 hover:text-white"
               }`}
+              data-oid=":d:0c2h"
             >
               Solutions
             </Link>
@@ -55,26 +81,32 @@ export default function Navigation() {
                   ? "text-white border-b-2 border-orange-500 pb-1"
                   : "text-gray-300 hover:text-white"
               }`}
+              data-oid="m_4ia8q"
             >
               Pricing
             </Link>
 
             {/* Language Dropdown */}
-            <div className="relative">
+            <div className="relative" data-oid="_lwpih3">
               <button
                 onClick={() => setIsLanguageOpen(!isLanguageOpen)}
                 className="flex items-center space-x-1 text-sm font-medium text-gray-300 hover:text-white transition-colors"
+                data-oid="w4xhatg"
               >
-                <span>EN</span>
-                <ChevronDown className="w-4 h-4" />
+                <span data-oid="mm_jxqh">EN</span>
+                <ChevronDown className="w-4 h-4" data-oid="-ofadza" />
               </button>
 
               {isLanguageOpen && (
-                <div className="absolute right-0 mt-2 w-24 bg-white rounded-md shadow-lg py-1 z-50">
+                <div
+                  className="absolute right-0 mt-2 w-24 bg-white rounded-md shadow-lg py-1 z-50"
+                  data-oid="5zc1du_"
+                >
                   <Link
                     href="/en"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={() => setIsLanguageOpen(false)}
+                    data-oid="hsj2qdn"
                   >
                     English
                   </Link>
@@ -82,6 +114,7 @@ export default function Navigation() {
                     href="/es"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={() => setIsLanguageOpen(false)}
+                    data-oid="lzs8f66"
                   >
                     Español
                   </Link>
@@ -89,6 +122,7 @@ export default function Navigation() {
                     href="/fr"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={() => setIsLanguageOpen(false)}
+                    data-oid="fn5s-x9"
                   >
                     Français
                   </Link>
@@ -98,38 +132,46 @@ export default function Navigation() {
           </div>
 
           {/* Right Side - Auth Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div
+            className="hidden md:flex items-center space-x-4"
+            data-oid="6tx7h57"
+          >
             <Link
               href="/en/login"
               className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
+              data-oid="c4sgvtm"
             >
               Sign In
             </Link>
             <Link
               href="/en/signup"
               className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
+              data-oid="h9mh64v"
             >
               Get Started
             </Link>
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden" data-oid="fzsk9ej">
             <button
               type="button"
               className="text-gray-300 hover:text-white focus:outline-none focus:text-white"
+              data-oid=":d3-s3y"
             >
               <svg
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
+                data-oid="z2oloce"
               >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
                   d="M4 6h16M4 12h16M4 18h16"
+                  data-oid="l1k-i-d"
                 />
               </svg>
             </button>

@@ -8,5 +8,9 @@ interface SessionProviderProps {
 }
 
 export function SessionProvider({ children }: SessionProviderProps) {
-  return <NextAuthSessionProvider>{children}</NextAuthSessionProvider>;
+  return (
+    <NextAuthSessionProvider data-oid="k1lxw9v">
+      {children}
+    </NextAuthSessionProvider>
+  );
 }
