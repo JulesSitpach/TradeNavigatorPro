@@ -10,36 +10,36 @@ export default function Navigation() {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 text-white" data-oid="2sq:z0o">
+    <nav className="bg-gray-900 text-white" data-oid="liguwvn">
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-        data-oid="y8fdw3f"
+        data-oid="_9_7v2:"
       >
         <div
           className="flex justify-between items-center h-16"
-          data-oid="d6.hiqk"
+          data-oid="1mzvxgg"
         >
           {/* Logo */}
-          <div className="flex items-center" data-oid="exryh.n">
+          <div className="flex items-center" data-oid="p5tx82y">
             <Link
               href="/en"
               className="flex items-center space-x-2"
-              data-oid="2:5tbuf"
+              data-oid="v7wy6wu"
             >
               <div
                 className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center"
-                data-oid="s3l8.99"
+                data-oid="iztmrgc"
               >
                 <span
                   className="text-white font-bold text-sm"
-                  data-oid="32n5i95"
+                  data-oid="7_0faev"
                 >
                   T
                 </span>
               </div>
               <span
                 className="text-xl font-semibold text-white"
-                data-oid="jvtwm-1"
+                data-oid="zig_wz6"
               >
                 TradeNavigatorPro
               </span>
@@ -49,7 +49,7 @@ export default function Navigation() {
           {/* Center Navigation Links */}
           <div
             className="hidden md:flex items-center space-x-8"
-            data-oid="c7.th0x"
+            data-oid="lm73lzw"
           >
             <Link
               href="/en"
@@ -58,7 +58,7 @@ export default function Navigation() {
                   ? "text-white border-b-2 border-orange-500 pb-1"
                   : "text-gray-300 hover:text-white"
               }`}
-              data-oid="9evpgbw"
+              data-oid="i4sq75f"
             >
               Home
             </Link>
@@ -70,7 +70,7 @@ export default function Navigation() {
                   ? "text-white border-b-2 border-orange-500 pb-1"
                   : "text-gray-300 hover:text-white"
               }`}
-              data-oid="unxg2ea"
+              data-oid="eqjuzt7"
             >
               Solutions
             </Link>
@@ -81,32 +81,32 @@ export default function Navigation() {
                   ? "text-white border-b-2 border-orange-500 pb-1"
                   : "text-gray-300 hover:text-white"
               }`}
-              data-oid="xkbzj4s"
+              data-oid="fq-v6aj"
             >
               Pricing
             </Link>
 
             {/* Language Dropdown */}
-            <div className="relative" data-oid="-80v5gl">
+            <div className="relative" data-oid=":5xyej8">
               <button
                 onClick={() => setIsLanguageOpen(!isLanguageOpen)}
                 className="flex items-center space-x-1 text-sm font-medium text-gray-300 hover:text-white transition-colors"
-                data-oid="xnte3ac"
+                data-oid="5_42v2m"
               >
-                <span data-oid="eit5oyj">EN</span>
-                <ChevronDown className="w-4 h-4" data-oid="mujmdo7" />
+                <span data-oid="3ri8b2g">EN</span>
+                <ChevronDown className="w-4 h-4" data-oid="l0y_2wz" />
               </button>
 
               {isLanguageOpen && (
                 <div
                   className="absolute right-0 mt-2 w-24 bg-white rounded-md shadow-lg py-1 z-50"
-                  data-oid="jib0dpp"
+                  data-oid="exe9f1n"
                 >
                   <Link
                     href="/en"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={() => setIsLanguageOpen(false)}
-                    data-oid="wcnzd2."
+                    data-oid="h._g99-"
                   >
                     English
                   </Link>
@@ -114,7 +114,7 @@ export default function Navigation() {
                     href="/es"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={() => setIsLanguageOpen(false)}
-                    data-oid="6teyl:_"
+                    data-oid="3l4jhrz"
                   >
                     Español
                   </Link>
@@ -122,7 +122,7 @@ export default function Navigation() {
                     href="/fr"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={() => setIsLanguageOpen(false)}
-                    data-oid="de3f8vw"
+                    data-oid="zji-lfx"
                   >
                     Français
                   </Link>
@@ -134,44 +134,44 @@ export default function Navigation() {
           {/* Right Side - Auth Buttons */}
           <div
             className="hidden md:flex items-center space-x-4"
-            data-oid="psfxbe2"
+            data-oid="vj6.yac"
           >
             <Link
               href="/en/login"
               className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
-              data-oid="iwve10z"
+              data-oid="i2m1qja"
             >
               Sign In
             </Link>
             <Link
               href="/en/signup"
               className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
-              data-oid="l8fbfyv"
+              data-oid="ullse4u"
             >
               Get Started
             </Link>
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden" data-oid=".zu5bi9">
+          <div className="md:hidden" data-oid="1ocn7c.">
             <button
               type="button"
               className="text-gray-300 hover:text-white focus:outline-none focus:text-white"
-              data-oid="wjuwm-s"
+              data-oid="p.ztfz_"
             >
               <svg
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                data-oid="mlka4x:"
+                data-oid="8ccl.9m"
               >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
                   d="M4 6h16M4 12h16M4 18h16"
-                  data-oid="2-ic:q-"
+                  data-oid="ic5eujz"
                 />
               </svg>
             </button>
