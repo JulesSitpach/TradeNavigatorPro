@@ -11,6 +11,7 @@ export const metadata: Metadata = {
       name: "TradeNavigatorPro Team",
     },
   ],
+
   creator: "TradeNavigatorPro",
 };
 export default function RootLayout({
@@ -24,14 +25,14 @@ export default function RootLayout({
     <html
       lang={params.locale || "en"}
       suppressHydrationWarning
-      data-oid=":-60tra"
+      data-oid="wp.74_c"
     >
-      <head data-oid="2d30xu4" />
-      <body className="" data-oid="8wjx1lm">
-        <main className="min-h-screen flex flex-col" data-oid="nhn7i7f">
+      <head data-oid="0xktx7g" />
+      <body className="" data-oid="6vnjms9">
+        <main className="min-h-screen flex flex-col" data-oid="4z_w5lc">
           {children}
         </main>
-        <Toaster data-oid="iudjjjf" />
+        <Toaster data-oid=".n9b_.4" />
       </body>
     </html>
   );

@@ -22,7 +22,7 @@ const Separator = React.forwardRef<HTMLDivElement, SeparatorProps>(
       {...props}
       role={decorative ? "none" : "separator"}
       aria-orientation={decorative ? undefined : orientation}
-      data-oid="65lmpyj"
+      data-oid="81xhj3m"
     />
   ),
 );
