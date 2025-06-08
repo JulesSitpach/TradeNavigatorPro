@@ -4,16 +4,16 @@ export default function SignupPage() {
   return (
     <div
       className="flex min-h-screen items-center justify-center bg-gray-100"
-      data-oid="z772miu"
+      data-oid="jcgt88o"
     >
       <div
         className="bg-white p-8 rounded shadow-md w-full max-w-md text-center"
-        data-oid="_28:73i"
+        data-oid="4q7k8.o"
       >
-        <h1 className="text-2xl font-bold mb-4" data-oid="2vz7fij">
+        <h1 className="text-2xl font-bold mb-4" data-oid="vzjt1xo">
           Sign Up
         </h1>
-        <p className="text-gray-600" data-oid="o6c.ssu">
+        <p className="text-gray-600" data-oid="vhb49ff">
           This is a placeholder signup page. Implement your signup form here.
         </p>
       </div>

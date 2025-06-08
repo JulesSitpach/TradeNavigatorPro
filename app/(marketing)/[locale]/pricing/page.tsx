@@ -65,38 +65,38 @@ export default async function PricingPage({
   return (
     <div
       className="container mx-auto px-4 py-16 sm:px-6 lg:px-8"
-      data-oid="hhsu8ll"
+      data-oid="_-0j4-7"
     >
       {/* Page header */}
-      <div className="mx-auto max-w-3xl text-center mb-16" data-oid="_s0q6wl">
+      <div className="mx-auto max-w-3xl text-center mb-16" data-oid="ixb8elv">
         <h1
           className="text-4xl font-bold tracking-tight sm:text-5xl"
-          data-oid="arvmfyw"
+          data-oid="0oj7u4_"
         >
           {t.pricing}
         </h1>
-        <p className="mt-4 text-xl text-muted-foreground" data-oid="e0du7yn">
+        <p className="mt-4 text-xl text-muted-foreground" data-oid="o:454xh">
           Choose the plan that works best for your business
         </p>
       </div>
 
       {/* Pricing tabs */}
-      <div className="mx-auto max-w-5xl" data-oid="npnb_rv">
-        <Tabs defaultValue="monthly" className="w-full" data-oid="kxaot13">
-          <div className="flex justify-center mb-8" data-oid="sjwib7d">
+      <div className="mx-auto max-w-5xl" data-oid="_tgm56j">
+        <Tabs defaultValue="monthly" className="w-full" data-oid="r.lqm6:">
+          <div className="flex justify-center mb-8" data-oid="gl69w--">
             <TabsList
               className="grid w-full max-w-md grid-cols-2"
-              data-oid="ygy-q3e"
+              data-oid="gwhbsw:"
             >
-              <TabsTrigger value="monthly" data-oid="gguc-8z">
+              <TabsTrigger value="monthly" data-oid="nkunzu8">
                 Monthly Billing
               </TabsTrigger>
-              <TabsTrigger value="yearly" data-oid="4jf6s_y">
+              <TabsTrigger value="yearly" data-oid="y12i9ku">
                 Yearly Billing
                 <Badge
                   variant="secondary"
                   className="ml-2 bg-green-100 text-green-700 border-green-200"
-                  data-oid="utskvvz"
+                  data-oid="qlr4am4"
                 >
                   Save 20%
                 </Badge>
@@ -104,78 +104,78 @@ export default async function PricingPage({
             </TabsList>
           </div>
 
-          <TabsContent value="monthly" className="w-full" data-oid="xijt-:4">
-            <div className="grid gap-6 md:grid-cols-3" data-oid="chk9gjk">
+          <TabsContent value="monthly" className="w-full" data-oid="6acha19">
+            <div className="grid gap-6 md:grid-cols-3" data-oid="ay:0.r1">
               {monthlyTiers.map((tier) => (
                 <Card
                   key={tier.id}
                   className={`flex flex-col ${tier.id === "professional" ? "border-primary shadow-lg relative" : ""}`}
-                  data-oid="czeg3p3"
+                  data-oid="u.lt6ne"
                 >
                   {tier.id === "professional" && (
                     <div
                       className="absolute -top-5 left-0 right-0 flex justify-center"
-                      data-oid="ncf-4pv"
+                      data-oid="gbhr5gc"
                     >
                       <Badge
                         variant="default"
                         className="bg-primary text-primary-foreground"
-                        data-oid="djtnr9b"
+                        data-oid="tg96qy-"
                       >
                         Most Popular
                       </Badge>
                     </div>
                   )}
-                  <CardHeader data-oid="gn8l.jd">
-                    <CardTitle className="text-xl" data-oid="9zx8bve">
+                  <CardHeader data-oid="5u58xd_">
+                    <CardTitle className="text-xl" data-oid="278:k3t">
                       {tier.name}
                     </CardTitle>
-                    <CardDescription className="pt-1.5" data-oid="kg7s-9v">
+                    <CardDescription className="pt-1.5" data-oid="pj151:v">
                       {tier.description}
                     </CardDescription>
                   </CardHeader>
-                  <CardContent className="flex-grow" data-oid="pwf_y0e">
-                    <div className="mb-4" data-oid="eyyc4b5">
-                      <span className="text-3xl font-bold" data-oid="9de5brm">
+                  <CardContent className="flex-grow" data-oid="i_sn6dp">
+                    <div className="mb-4" data-oid="pqh33q:">
+                      <span className="text-3xl font-bold" data-oid=".opdhio">
                         {formatPrice(tier.price, tier.currency)}
                       </span>
                       <span
                         className="text-muted-foreground"
-                        data-oid="nnvjfap"
+                        data-oid="36xwwlf"
                       >
                         /{tier.interval}
                       </span>
                     </div>
 
-                    <div className="space-y-2 text-sm" data-oid="p1adx8a">
+                    <div className="space-y-2 text-sm" data-oid="y0d:1t-">
                       {tier.features.map((feature, index) => (
                         <div
                           key={index}
                           className="flex items-center"
-                          data-oid=":k8zr7g"
+                          data-oid="adth-.0"
                         >
                           <Icons.check
                             className="mr-2 h-4 w-4 text-green-500"
-                            data-oid="89.xw3-"
+                            data-oid="gcru-df"
                           />
 
-                          <span data-oid="_hlk24c">{feature}</span>
+                          <span data-oid="p0yy5v5">{feature}</span>
                         </div>
                       ))}
                     </div>
                   </CardContent>
-                  <CardFooter className="pt-4 pb-6" data-oid="fr6h2nt">
+                  <CardFooter className="pt-4 pb-6" data-oid="ifh:71.">
                     <Button
                       asChild
                       className="w-full"
                       variant={
                         tier.id === "professional" ? "default" : "outline"
                       }
-                      data-oid="tg5sm69"
+                      data-oid="3ogdkwj"
                     >
                       <Link
                         href={`/${locale}/register?plan=${tier.id}`}
-                        data-oid="j4m-0rq"
+                        data-oid="464sc6p"
                       >
                         Get Started
                       </Link>
@@ -186,67 +186,67 @@ export default async function PricingPage({
             </div>
           </TabsContent>
 
-          <TabsContent value="yearly" className="w-full" data-oid="2-u_hrq">
-            <div className="grid gap-6 md:grid-cols-3" data-oid="7f5700j">
+          <TabsContent value="yearly" className="w-full" data-oid="5dtb989">
+            <div className="grid gap-6 md:grid-cols-3" data-oid="p1awpv1">
               {yearlyTiers.map((tier) => (
                 <Card
                   key={tier.id}
                   className={`flex flex-col ${tier.id === "professional-yearly" ? "border-primary shadow-lg relative" : ""}`}
-                  data-oid="-05oc:6"
+                  data-oid="oz2fqlj"
                 >
                   {tier.id === "professional-yearly" && (
                     <div
                       className="absolute -top-5 left-0 right-0 flex justify-center"
-                      data-oid="_ncacht"
+                      data-oid="xbxh0dc"
                     >
                       <Badge
                         variant="default"
                         className="bg-primary text-primary-foreground"
-                        data-oid="9sknwe."
+                        data-oid="9qsmn-6"
                       >
                         Most Popular
                       </Badge>
                     </div>
                   )}
-                  <CardHeader data-oid="1rfu77c">
-                    <CardTitle className="text-xl" data-oid="a7nvxj3">
+                  <CardHeader data-oid="fexb9e6">
+                    <CardTitle className="text-xl" data-oid="5-qbpf0">
                       {tier.name}
                     </CardTitle>
-                    <CardDescription className="pt-1.5" data-oid="knn1bt3">
+                    <CardDescription className="pt-1.5" data-oid="ddlf.zm">
                       {tier.description}
                     </CardDescription>
                   </CardHeader>
-                  <CardContent className="flex-grow" data-oid="s1u87fk">
-                    <div className="mb-4" data-oid="pqw1rk:">
-                      <span className="text-3xl font-bold" data-oid="c5hi1yf">
+                  <CardContent className="flex-grow" data-oid="6o7vviy">
+                    <div className="mb-4" data-oid="._kia:p">
+                      <span className="text-3xl font-bold" data-oid="w71leba">
                         {formatPrice(tier.price, tier.currency)}
                       </span>
                       <span
                         className="text-muted-foreground"
-                        data-oid="ge3xke6"
+                        data-oid=":p3datn"
                       >
                         /{tier.interval}
                       </span>
                     </div>
 
-                    <div className="space-y-2 text-sm" data-oid="-3j:n9q">
+                    <div className="space-y-2 text-sm" data-oid="_i-by52">
                       {tier.features.map((feature, index) => (
                         <div
                           key={index}
                           className="flex items-center"
-                          data-oid="lumsqi3"
+                          data-oid="q5l4thz"
                         >
                           <Icons.check
                             className="mr-2 h-4 w-4 text-green-500"
-                            data-oid="zv8w086"
+                            data-oid="l266xs5"
                           />
 
-                          <span data-oid="ghm:dm8">{feature}</span>
+                          <span data-oid="vaj4q74">{feature}</span>
                         </div>
                       ))}
                     </div>
                   </CardContent>
-                  <CardFooter className="pt-4 pb-6" data-oid="1tcl4dv">
+                  <CardFooter className="pt-4 pb-6" data-oid="3aqk9yt">
                     <Button
                       asChild
                       className="w-full"
@@ -255,11 +255,11 @@ export default async function PricingPage({
                           ? "default"
                           : "outline"
                       }
-                      data-oid="a.38x9i"
+                      data-oid="ovfz8bp"
                     >
                       <Link
                         href={`/${locale}/register?plan=${tier.id}`}
-                        data-oid="de-it6p"
+                        data-oid="j9b5koj"
                       >
                         Get Started
                       </Link>
@@ -273,17 +273,17 @@ export default async function PricingPage({
       </div>
 
       {/* Enterprise section */}
-      <div className="mx-auto max-w-3xl mt-16 text-center" data-oid="pykz:nu">
-        <h2 className="text-2xl font-bold" data-oid="2-4_7yw">
+      <div className="mx-auto max-w-3xl mt-16 text-center" data-oid="omiy5:g">
+        <h2 className="text-2xl font-bold" data-oid="9.5_4f.">
           Need a custom solution?
         </h2>
-        <p className="mt-4 text-muted-foreground" data-oid="v:z890t">
+        <p className="mt-4 text-muted-foreground" data-oid="61d113l">
           Contact us for enterprise pricing, custom integrations, and dedicated
           support.
         </p>
-        <div className="mt-6" data-oid="qbt4bii">
-          <Button asChild variant="outline" size="lg" data-oid="jxdd2aq">
-            <Link href={`/${locale}/contact`} data-oid="o3.e:sc">
+        <div className="mt-6" data-oid="mhf9nej">
+          <Button asChild variant="outline" size="lg" data-oid="gbl2mhj">
+            <Link href={`/${locale}/contact`} data-oid="uct9dm.">
               Contact Sales
             </Link>
           </Button>
@@ -291,16 +291,16 @@ export default async function PricingPage({
       </div>
 
       {/* FAQ section */}
-      <div className="mx-auto max-w-3xl mt-16" data-oid="qqj_gwn">
-        <h2 className="text-2xl font-bold text-center mb-8" data-oid="8j7utg6">
+      <div className="mx-auto max-w-3xl mt-16" data-oid="wkmb3_:">
+        <h2 className="text-2xl font-bold text-center mb-8" data-oid="1xta08e">
           Frequently Asked Questions
         </h2>
-        <div className="space-y-4" data-oid="g0:w8rl">
-          <div className="border rounded-lg p-4" data-oid="7-9v.nv">
-            <h3 className="font-medium" data-oid="_vnt1b.">
+        <div className="space-y-4" data-oid="3l3j139">
+          <div className="border rounded-lg p-4" data-oid="q:3w-zp">
+            <h3 className="font-medium" data-oid="qc7ggx5">
               What's included in each plan?
             </h3>
-            <p className="text-muted-foreground mt-1" data-oid="a:ddhok">
+            <p className="text-muted-foreground mt-1" data-oid="xd7lzlb">
               Each plan includes access to our core tools with varying limits on
               products and features. The Starter plan includes basic
               calculations and email support. Professional adds all 5
@@ -308,29 +308,29 @@ export default async function PricingPage({
               products, API access, and phone support.
             </p>
           </div>
-          <div className="border rounded-lg p-4" data-oid="ghiei-g">
-            <h3 className="font-medium" data-oid="hq:3h83">
+          <div className="border rounded-lg p-4" data-oid="q1dbwz.">
+            <h3 className="font-medium" data-oid="vlxzhao">
               Can I change plans later?
             </h3>
-            <p className="text-muted-foreground mt-1" data-oid="bbo25d3">
+            <p className="text-muted-foreground mt-1" data-oid="ci3fwz:">
               Yes, you can upgrade or downgrade your plan at any time. Changes
               take effect at the start of your next billing period.
             </p>
           </div>
-          <div className="border rounded-lg p-4" data-oid="2.tc-wn">
-            <h3 className="font-medium" data-oid="fg_umhm">
+          <div className="border rounded-lg p-4" data-oid="n43.67i">
+            <h3 className="font-medium" data-oid="0jj8g:v">
               Do you offer a free trial?
             </h3>
-            <p className="text-muted-foreground mt-1" data-oid="3822j:5">
+            <p className="text-muted-foreground mt-1" data-oid="na:6lx6">
               Yes, all plans include a 14-day free trial. No credit card
               required to start.
             </p>
           </div>
-          <div className="border rounded-lg p-4" data-oid=".:be5lu">
-            <h3 className="font-medium" data-oid="wqixp88">
+          <div className="border rounded-lg p-4" data-oid="hp.i3-q">
+            <h3 className="font-medium" data-oid="to4fi56">
               What payment methods do you accept?
             </h3>
-            <p className="text-muted-foreground mt-1" data-oid="bw0dbk6">
+            <p className="text-muted-foreground mt-1" data-oid="8hdl2ho">
               We accept all major credit cards including Visa, Mastercard,
               American Express, and Discover.
             </p>
@@ -339,18 +339,18 @@ export default async function PricingPage({
       </div>
 
       {/* CTA section */}
-      <div className="mx-auto max-w-3xl mt-16 text-center" data-oid="j1wutv-">
-        <div className="bg-primary/5 rounded-lg p-8" data-oid="cn10cf-">
-          <h2 className="text-2xl font-bold" data-oid="y10i:yw">
+      <div className="mx-auto max-w-3xl mt-16 text-center" data-oid="c3iczyh">
+        <div className="bg-primary/5 rounded-lg p-8" data-oid="h-jmy7s">
+          <h2 className="text-2xl font-bold" data-oid="1w:z:j.">
             Ready to navigate US trade with confidence?
           </h2>
-          <p className="mt-4 text-muted-foreground" data-oid="0-d8kg2">
+          <p className="mt-4 text-muted-foreground" data-oid="e4c7fu7">
             Join thousands of businesses using TradeNavigatorPro to optimize
             their trade strategy.
           </p>
-          <div className="mt-6" data-oid="b__lzfk">
-            <Button asChild size="lg" data-oid="a3lf40j">
-              <Link href={`/${locale}/register`} data-oid="6ft14cw">
+          <div className="mt-6" data-oid="4tg.uiz">
+            <Button asChild size="lg" data-oid=":25ws1c">
+              <Link href={`/${locale}/register`} data-oid="f9:wrmg">
                 Start Your Free Trial
               </Link>
             </Button>
