@@ -20,7 +20,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     isAuthenticated: !!session?.user,
   };
 
-  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+  return (
+    <AuthContext.Provider value={value} data-oid="xt275-8">
+      {children}
+    </AuthContext.Provider>
+  );
 }
 
 export function useAuth() {
