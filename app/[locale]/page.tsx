@@ -43,12 +43,12 @@ export default async function HomePage({
             className="flex justify-center space-x-4 mb-8"
             data-oid="eq12dmp"
           >
-            <Link href={`/${params.locale}/dashboard`} data-oid="m_b-fsn">
+            <Link href={`/${locale}/dashboard`} data-oid="m_b-fsn">
               <Button size="lg" className="px-8 py-3" data-oid="oeoklcw">
                 Go to Dashboard
               </Button>
             </Link>
-            <Link href={`/${params.locale}/login`} data-oid="uqaj-am">
+            <Link href={`/${locale}/login`} data-oid="uqaj-am">
               <Button
                 variant="outline"
                 size="lg"
@@ -127,12 +127,12 @@ export default async function HomePage({
             Quick Access
           </h2>
           <div className="flex justify-center space-x-4" data-oid="cartc9z">
-            <Link href={`/${params.locale}/signup`} data-oid="5ir-ahd">
+            <Link href={`/${locale}/signup`} data-oid="5ir-ahd">
               <Button variant="outline" data-oid="otl2poa">
                 Sign Up
               </Button>
             </Link>
-            <Link href={`/${params.locale}/dashboard`} data-oid="kl9-ao5">
+            <Link href={`/${locale}/dashboard`} data-oid="kl9-ao5">
               <Button variant="outline" data-oid="r1rt0a8">
                 Dashboard
               </Button>

@@ -46,11 +46,12 @@ const mockTrades = [
   },
 ];
 
-export default function DashboardPage({
+export default async function DashboardPage({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   const [trades, setTrades] = useState(mockTrades);
   const [stats, setStats] = useState({
     totalTrades: 0,
@@ -91,7 +92,7 @@ export default function DashboardPage({
             data-oid="xw1zyz6"
           >
             <div className="flex items-center space-x-4" data-oid="nfd313c">
-              <Link href={`/${params.locale}`} data-oid="gx-f6yk">
+              <Link href={`/${locale}`} data-oid="gx-f6yk">
                 <Button variant="outline" size="sm" data-oid="s1ybuyn">
                   ← Home
                 </Button>
@@ -107,7 +108,7 @@ export default function DashboardPage({
               <span className="text-sm text-gray-600" data-oid="kt5gyz1">
                 Welcome back!
               </span>
-              <Link href={`/${params.locale}/login`} data-oid="jrixg3h">
+              <Link href={`/${locale}/login`} data-oid="jrixg3h">
                 <Button variant="outline" data-oid="ux1cec8">
                   Login
                 </Button>
