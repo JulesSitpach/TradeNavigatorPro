@@ -97,13 +97,13 @@ export function CheckoutButton({
       onClick={handleCheckout}
       disabled={isLoading}
       {...props}
-      data-oid="9d6zgne"
+      data-oid="4fcbkux"
     >
       {isLoading ? (
         <>
           <Icons.spinner
             className="mr-2 h-4 w-4 animate-spin"
-            data-oid="rnbsj33"
+            data-oid="ae3n1xj"
           />
           Processing...
         </>

@@ -205,17 +205,17 @@ export function SubscriptionManagement({
   // Render loading state
   if (isLoading) {
     return (
-      <Card data-oid="h:hv1up">
-        <CardHeader data-oid="12248ys">
-          <CardTitle data-oid="plt2.7r">Subscription</CardTitle>
-          <CardDescription data-oid="ny3royt">
+      <Card data-oid="6bhj7ge">
+        <CardHeader data-oid="vcjh9i.">
+          <CardTitle data-oid="u6f:tpq">Subscription</CardTitle>
+          <CardDescription data-oid="rieteyv">
             Loading your subscription details...
           </CardDescription>
         </CardHeader>
-        <CardContent className="flex justify-center py-8" data-oid="avmu1-m">
+        <CardContent className="flex justify-center py-8" data-oid="qm.e7ul">
           <Icons.spinner
             className="h-8 w-8 animate-spin text-muted-foreground"
-            data-oid="ro8_lrn"
+            data-oid="1pca3s3"
           />
         </CardContent>
       </Card>
@@ -225,24 +225,24 @@ export function SubscriptionManagement({
   // Render no subscription state
   if (!subscription) {
     return (
-      <Card data-oid="a_x4jwz">
-        <CardHeader data-oid="w0gl_nm">
-          <CardTitle data-oid="1::nqdz">Subscription</CardTitle>
-          <CardDescription data-oid="idd689o">
+      <Card data-oid="_.fwgqa">
+        <CardHeader data-oid="lnxzb8f">
+          <CardTitle data-oid="ejgngnh">Subscription</CardTitle>
+          <CardDescription data-oid="zijo8_y">
             You don't have an active subscription
           </CardDescription>
         </CardHeader>
-        <CardContent data-oid="w82dwj3">
-          <Alert data-oid="-_m82:d">
-            <Icons.info className="h-4 w-4" data-oid="ludjfgr" />
-            <AlertTitle data-oid="_h3puu8">No subscription found</AlertTitle>
-            <AlertDescription data-oid="6hfwvvz">
+        <CardContent data-oid="4qmu4yl">
+          <Alert data-oid="fqba_pj">
+            <Icons.info className="h-4 w-4" data-oid="w5myuf2" />
+            <AlertTitle data-oid="mga-48q">No subscription found</AlertTitle>
+            <AlertDescription data-oid="aj2bcj1">
               Subscribe to a plan to access all TradeNavigatorPro features.
             </AlertDescription>
           </Alert>
         </CardContent>
-        <CardFooter data-oid="1rcl28.">
-          <Button onClick={() => router.push("/pricing")} data-oid="irpx5zt">
+        <CardFooter data-oid="5gk8utn">
+          <Button onClick={() => router.push("/pricing")} data-oid="rderwab">
             View Plans
           </Button>
         </CardFooter>
@@ -251,38 +251,38 @@ export function SubscriptionManagement({
   }
 
   return (
-    <Card data-oid="rvbefgp">
-      <CardHeader data-oid="9ie:k9b">
-        <div className="flex items-center justify-between" data-oid="kqteu_p">
-          <div data-oid=":f6qkq9">
-            <CardTitle data-oid="fact449">Subscription</CardTitle>
-            <CardDescription data-oid="rr.g6zx">
+    <Card data-oid="l4dcpo.">
+      <CardHeader data-oid="v4vp52d">
+        <div className="flex items-center justify-between" data-oid="4_xira:">
+          <div data-oid="cm-jze0">
+            <CardTitle data-oid="pik:2_u">Subscription</CardTitle>
+            <CardDescription data-oid="nq:9toq">
               Manage your subscription and billing
             </CardDescription>
           </div>
           <Badge
             variant={getStatusBadgeVariant(subscription.status) as any}
-            data-oid="2uqjw.0"
+            data-oid="ge7cumx"
           >
             {formatStatus(subscription.status)}
           </Badge>
         </div>
       </CardHeader>
-      <CardContent className="space-y-6" data-oid="vv7.ec3">
+      <CardContent className="space-y-6" data-oid="luhx.ky">
         {/* Plan details */}
-        <div className="space-y-2" data-oid="n5np69k">
+        <div className="space-y-2" data-oid="phplfxx">
           <h3
             className="text-sm font-medium text-muted-foreground"
-            data-oid="mz:2xhz"
+            data-oid="_va34kw"
           >
             Plan
           </h3>
-          <div className="flex items-center justify-between" data-oid="mtrrsez">
-            <div data-oid="2:ayecj">
-              <p className="font-medium" data-oid="3mg3o.-">
+          <div className="flex items-center justify-between" data-oid="k-koefy">
+            <div data-oid="6495_:w">
+              <p className="font-medium" data-oid="mn:qyjo">
                 {priceTier?.name || "Unknown Plan"}
               </p>
-              <p className="text-sm text-muted-foreground" data-oid="g968g76">
+              <p className="text-sm text-muted-foreground" data-oid="hawuaeh">
                 {priceTier
                   ? `${formatPrice(priceTier.price, priceTier.currency)}/${priceTier.interval}`
                   : ""}
@@ -292,7 +292,7 @@ export function SubscriptionManagement({
               <Badge
                 variant="outline"
                 className="bg-amber-100 text-amber-700 border-amber-200"
-                data-oid="ejii2-h"
+                data-oid="aslw:9t"
               >
                 Cancels on {formatDate(subscription.currentPeriodEnd)}
               </Badge>
@@ -300,56 +300,56 @@ export function SubscriptionManagement({
           </div>
         </div>
 
-        <Separator data-oid="n05ywjm" />
+        <Separator data-oid="n_4ra-8" />
 
         {/* Product limits */}
-        <div className="space-y-2" data-oid="zw__n.8">
+        <div className="space-y-2" data-oid="0rs230s">
           <h3
             className="text-sm font-medium text-muted-foreground"
-            data-oid="p_.7:.q"
+            data-oid="gmpb8fm"
           >
             Product Limits
           </h3>
-          <p className="font-medium" data-oid="5tnz3br">
+          <p className="font-medium" data-oid="mdh-6r_">
             {subscription.productLimit === Infinity
               ? "Unlimited products"
               : `${subscription.productLimit.toLocaleString()} products`}
           </p>
         </div>
 
-        <Separator data-oid="5.2snm6" />
+        <Separator data-oid="h2e-1o:" />
 
         {/* Billing details */}
-        <div className="space-y-2" data-oid="ahsq5v_">
+        <div className="space-y-2" data-oid="adi2dcn">
           <h3
             className="text-sm font-medium text-muted-foreground"
-            data-oid="lbfd5t2"
+            data-oid="n3q5-vn"
           >
             Billing Details
           </h3>
-          <div className="space-y-1" data-oid="jz59umz">
-            <div className="flex justify-between" data-oid="7hanlbd">
-              <p className="text-sm" data-oid="mvsxy2c">
+          <div className="space-y-1" data-oid=":8207l.">
+            <div className="flex justify-between" data-oid="rwecweo">
+              <p className="text-sm" data-oid="spbz9yr">
                 Current period ends
               </p>
-              <p className="text-sm font-medium" data-oid="rk-lr.y">
+              <p className="text-sm font-medium" data-oid="pstz_fu">
                 {formatDate(subscription.currentPeriodEnd)}
               </p>
             </div>
-            <div className="flex justify-between" data-oid="yky5hqm">
-              <p className="text-sm" data-oid="1_eujwx">
+            <div className="flex justify-between" data-oid="i1q5xxz">
+              <p className="text-sm" data-oid="xo0ho4.">
                 Subscription started
               </p>
-              <p className="text-sm font-medium" data-oid="d71g.th">
+              <p className="text-sm font-medium" data-oid="zw:c-pi">
                 {formatDate(subscription.createdAt)}
               </p>
             </div>
             {subscription.paymentMethod?.card && (
-              <div className="flex justify-between" data-oid=":gd0y74">
-                <p className="text-sm" data-oid="67im2:r">
+              <div className="flex justify-between" data-oid="t07m-zc">
+                <p className="text-sm" data-oid="ni95t7r">
                   Payment method
                 </p>
-                <p className="text-sm font-medium" data-oid="qta8cu0">
+                <p className="text-sm font-medium" data-oid="iwql3.r">
                   {subscription.paymentMethod.card.brand.toUpperCase()} ending
                   in {subscription.paymentMethod.card.last4}
                   {" • "}
@@ -365,15 +365,15 @@ export function SubscriptionManagement({
         {subscription.status === "active" &&
           !subscription.cancelAtPeriodEnd && (
             <>
-              <Separator data-oid="vzs-c:k" />
-              <div className="space-y-2" data-oid="eyl4v5f">
+              <Separator data-oid="d-:kqw3" />
+              <div className="space-y-2" data-oid="p17voo1">
                 <h3
                   className="text-sm font-medium text-muted-foreground"
-                  data-oid="75sxbc0"
+                  data-oid="vfncze8"
                 >
                   Manage Subscription
                 </h3>
-                <p className="text-sm text-muted-foreground" data-oid="4-ap08n">
+                <p className="text-sm text-muted-foreground" data-oid="mplqyws">
                   You can manage your subscription, update payment methods, or
                   view billing history through the customer portal.
                 </p>
@@ -383,26 +383,26 @@ export function SubscriptionManagement({
       </CardContent>
       <CardFooter
         className="flex flex-col space-y-2 sm:flex-row sm:justify-between sm:space-x-2 sm:space-y-0"
-        data-oid="b63.tvi"
+        data-oid=".ofgznw"
       >
         <Button
           variant="default"
           onClick={handleCustomerPortal}
           disabled={isPortalLoading}
           className="w-full sm:w-auto"
-          data-oid="6i.ajoe"
+          data-oid="sdrjjt1"
         >
           {isPortalLoading ? (
             <>
               <Icons.spinner
                 className="mr-2 h-4 w-4 animate-spin"
-                data-oid="juko6ic"
+                data-oid="9-1kws1"
               />
               Loading...
             </>
           ) : (
             <>
-              <Icons.creditCard className="mr-2 h-4 w-4" data-oid="7-t6bv5" />
+              <Icons.creditCard className="mr-2 h-4 w-4" data-oid="90w.e06" />
               Billing Portal
             </>
           )}
@@ -415,19 +415,19 @@ export function SubscriptionManagement({
               onClick={handleCancelSubscription}
               disabled={isCancelLoading}
               className="w-full sm:w-auto"
-              data-oid="l1xy.:c"
+              data-oid="h4d2cbn"
             >
               {isCancelLoading ? (
                 <>
                   <Icons.spinner
                     className="mr-2 h-4 w-4 animate-spin"
-                    data-oid="bh_vj00"
+                    data-oid="9-yn11w"
                   />
                   Processing...
                 </>
               ) : (
                 <>
-                  <Icons.x className="mr-2 h-4 w-4" data-oid="n:xir9i" />
+                  <Icons.x className="mr-2 h-4 w-4" data-oid=":r6tqqr" />
                   Cancel Subscription
                 </>
               )}

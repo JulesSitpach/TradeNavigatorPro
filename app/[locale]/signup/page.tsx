@@ -1,3 +1,3 @@
 export default function SignupPage() {
-  return <div data-oid="zbx4t-7">{/* Your signup content */}</div>;
+  return <div data-oid="4aai9fg">{/* Your signup content */}</div>;
 }
