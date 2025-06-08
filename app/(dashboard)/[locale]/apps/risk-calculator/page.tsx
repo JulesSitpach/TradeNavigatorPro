@@ -5,113 +5,75 @@ import { RiskProfiles } from "@/components/apps/risk-calculator/risk-profiles";
 
 export default function RiskCalculatorPage() {
   return (
-    <div className="space-y-6" data-oid="dy6fegp">
-      <div data-oid=".pt9kmu">
-        <h1 className="text-3xl font-bold text-gray-900" data-oid="1p8mti_">
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-3xl font-bold text-gray-900">
           Risk Management Calculator
         </h1>
-        <p className="text-gray-600 mt-2" data-oid="u8l7xjd">
+        <p className="text-gray-600 mt-2">
           Calculate position sizing, risk/reward ratios, and manage your trading
           risk
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6" data-oid="5ytyfeb">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Risk Calculator Form */}
-        <div className="lg:col-span-2" data-oid="xksptuz">
-          <Card className="p-6" data-oid="hyk4v9m">
-            <h2
-              className="text-xl font-semibold text-gray-900 mb-4"
-              data-oid="1nh1b.:"
-            >
+        <div className="lg:col-span-2">
+          <Card className="p-6">
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">
               Position Size Calculator
             </h2>
-            <RiskCalculatorForm data-oid="z_z.2zt" />
+            <RiskCalculatorForm />
           </Card>
         </div>
 
         {/* Risk Results */}
-        <div data-oid="g-cnzji">
-          <Card className="p-6" data-oid="u:nad1:">
-            <h2
-              className="text-xl font-semibold text-gray-900 mb-4"
-              data-oid="mcaw3_e"
-            >
+        <div>
+          <Card className="p-6">
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">
               Risk Analysis
             </h2>
-            <RiskResults data-oid="htf1hjk" />
+            <RiskResults />
           </Card>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" data-oid="vv1ub-i">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Risk Profiles */}
-        <Card className="p-6" data-oid="je0kghw">
-          <h2
-            className="text-xl font-semibold text-gray-900 mb-4"
-            data-oid="ip44s7z"
-          >
+        <Card className="p-6">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4">
             Saved Risk Profiles
           </h2>
-          <RiskProfiles data-oid="jqwo-_i" />
+          <RiskProfiles />
         </Card>
 
         {/* Portfolio Risk Overview */}
-        <Card className="p-6" data-oid="plrao1j">
-          <h2
-            className="text-xl font-semibold text-gray-900 mb-4"
-            data-oid="h0-a_x3"
-          >
+        <Card className="p-6">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4">
             Portfolio Risk Overview
           </h2>
-          <div className="space-y-4" data-oid="454xc9r">
-            <div
-              className="flex justify-between items-center"
-              data-oid="q69c82f"
-            >
-              <span className="text-sm text-gray-600" data-oid="0w6ihvb">
+          <div className="space-y-4">
+            <div className="flex justify-between items-center">
+              <span className="text-sm text-gray-600">
                 Total Portfolio Risk
               </span>
-              <span
-                className="text-lg font-semibold text-red-600"
-                data-oid="p81ln67"
-              >
-                2.5%
-              </span>
+              <span className="text-lg font-semibold text-red-600">2.5%</span>
             </div>
-            <div
-              className="flex justify-between items-center"
-              data-oid=".dj4pxt"
-            >
-              <span className="text-sm text-gray-600" data-oid="bcz.cmj">
-                Open Positions
-              </span>
-              <span className="text-lg font-semibold" data-oid="k4hzc1w">
-                3
-              </span>
+            <div className="flex justify-between items-center">
+              <span className="text-sm text-gray-600">Open Positions</span>
+              <span className="text-lg font-semibold">3</span>
             </div>
-            <div
-              className="flex justify-between items-center"
-              data-oid="ww-vexp"
-            >
-              <span className="text-sm text-gray-600" data-oid="mykp415">
-                Max Risk per Trade
-              </span>
-              <span className="text-lg font-semibold" data-oid="-zu28ok">
-                1%
-              </span>
+            <div className="flex justify-between items-center">
+              <span className="text-sm text-gray-600">Max Risk per Trade</span>
+              <span className="text-lg font-semibold">1%</span>
             </div>
-            <div
-              className="w-full bg-gray-200 rounded-full h-2"
-              data-oid="x6h1kv:"
-            >
+            <div className="w-full bg-gray-200 rounded-full h-2">
               <div
                 className="bg-red-500 h-2 rounded-full"
                 style={{ width: "25%" }}
-                data-oid="hlj:_9:"
               ></div>
             </div>
-            <p className="text-xs text-gray-500" data-oid="1-8cu7t">
+            <p className="text-xs text-gray-500">
               Risk utilization: 25% of maximum
             </p>
           </div>
