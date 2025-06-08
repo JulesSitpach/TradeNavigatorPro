@@ -40,32 +40,24 @@ export function LanguageSwitcher({ locale }: LanguageSwitcherProps) {
   };
 
   return (
-    <DropdownMenu data-oid="78ro8r-">
-      <DropdownMenuTrigger asChild data-oid="5z:_dn4">
-        <Button
-          variant="ghost"
-          size="sm"
-          className="gap-1 px-2"
-          data-oid="tqc0t5y"
-        >
-          <Icons.globe className="h-4 w-4" data-oid="1xkwn2l" />
-          <span className="hidden md:inline-block" data-oid="gy.4-3b">
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button variant="ghost" size="sm" className="gap-1 px-2">
+          <Icons.globe className="h-4 w-4" />
+          <span className="hidden md:inline-block">
             {getCurrentLocaleDisplayName()}
           </span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" data-oid="81x.0r0">
+      <DropdownMenuContent align="end">
         {Object.entries(i18n.localeNames).map(([localeKey, localeName]) => (
-          <DropdownMenuItem key={localeKey} asChild data-oid="mr9v53r">
+          <DropdownMenuItem key={localeKey} asChild>
             <Link
               href={createPathWithLocale(localeKey as LocaleKey)}
               className={locale === localeKey ? "font-medium" : ""}
-              data-oid="_-4xtw8"
             >
               {localeName}
-              {locale === localeKey && (
-                <Icons.check className="ml-2 h-4 w-4" data-oid="xi9qf72" />
-              )}
+              {locale === localeKey && <Icons.check className="ml-2 h-4 w-4" />}
             </Link>
           </DropdownMenuItem>
         ))}
