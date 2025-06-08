@@ -34,11 +34,7 @@ export interface BadgeProps
 
 function Badge({ className, variant, ...props }: BadgeProps) {
   return (
-    <div
-      className={cn(badgeVariants({ variant }), className)}
-      {...props}
-      data-oid="2s-yp-e"
-    />
+    <div className={cn(badgeVariants({ variant }), className)} {...props} />
   );
 }
 

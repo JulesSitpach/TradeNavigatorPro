@@ -38,31 +38,31 @@ export default async function MarketingPage({
   return (
     <div
       className="min-h-screen bg-[#18171c] text-white flex flex-col items-center py-0 px-4"
-      data-oid="pak4160"
+      data-oid="z-enlv7"
     >
       {/* Hero Section */}
       <section
         className="w-full flex flex-col items-center justify-center py-20 bg-gradient-to-b from-[#18171c] to-[#23222a] mb-12"
-        data-oid="4o3dda7"
+        data-oid="olqo-.i"
       >
         <div
           className="flex flex-col items-center gap-4 max-w-2xl text-center"
-          data-oid="7-8_jxh"
+          data-oid="zjxkpwd"
         >
           <Icons.logo
             className="h-14 w-14 text-[#ff6b3d] mb-2"
-            data-oid="qng20:w"
+            data-oid="41mh8o0"
           />
 
           <h1
             className="text-5xl md:text-6xl font-extrabold text-[#ff6b3d] mb-2"
-            data-oid="p7ib6-w"
+            data-oid="tzw9fkp"
           >
             Stop Trade Policy Surprises From Destroying Your Profits
           </h1>
           <p
             className="text-2xl text-white font-semibold mb-6"
-            data-oid="ub6hji:"
+            data-oid="9tm1che"
           >
             Turn US trade uncertainty into competitive advantage. Calculate real
             tariff costs, find alternative suppliers, and optimize pricing in
@@ -70,30 +70,30 @@ export default async function MarketingPage({
           </p>
           <ul
             className="text-left text-lg text-[#ffb366] font-semibold space-y-2 mb-8"
-            data-oid="0_j8udn"
+            data-oid="w2ue0l5"
           >
-            <li data-oid="fr_czf8">
+            <li data-oid="h_m8ai9">
               • Your supplier claims 25% price increases due to "new
               tariffs"—but is that accurate?
             </li>
-            <li data-oid="g0tslha">
+            <li data-oid=":l5wal0">
               • Competitors found cheaper supply routes you don't know about
             </li>
-            <li data-oid="jsvcte8">
+            <li data-oid="euv_psf">
               • Every trade announcement sends you scrambling while others stay
               ahead
             </li>
           </ul>
           <div
             className="flex flex-col md:flex-row gap-4 w-full justify-center"
-            data-oid="_xlro3b"
+            data-oid="73-:z8n"
           >
             <Button
               asChild
               className="bg-[#ff6b3d] hover:bg-[#ffb366] text-black font-bold px-8 py-4 text-lg"
-              data-oid="2htq6n_"
+              data-oid="5hm.fxg"
             >
-              <Link href={`/${locale}/solutions`} data-oid="z:861aj">
+              <Link href={`/${locale}/solutions`} data-oid="_8o:dj4">
                 Discover Our 5 Essential Tools
               </Link>
             </Button>
@@ -101,9 +101,9 @@ export default async function MarketingPage({
               asChild
               variant="outline"
               className="border-[#ff6b3d] text-[#ff6b3d] font-bold px-8 py-4 text-lg"
-              data-oid="v_ua_4j"
+              data-oid="o56lzq5"
             >
-              <Link href={`/${locale}/signup`} data-oid="79ctkmr">
+              <Link href={`/${locale}/signup`} data-oid="mq62oqb">
                 Start Free Trial
               </Link>
             </Button>
@@ -114,24 +114,24 @@ export default async function MarketingPage({
       {/* Problem Section */}
       <section
         className="w-full flex flex-col items-center justify-center py-16 bg-[#23222a] mb-12"
-        data-oid="rqajrip"
+        data-oid="is-74:p"
       >
-        <div className="max-w-3xl text-center" data-oid="an9j7m9">
+        <div className="max-w-3xl text-center" data-oid="dm0wph2">
           <h2
             className="text-4xl md:text-5xl font-bold text-[#ffb366] mb-6"
-            data-oid="6j20bn3"
+            data-oid="gf1voyq"
           >
             Every Day You Wait, Your Competition Gets Further Ahead
           </h2>
-          <p className="text-xl text-gray-300 mb-6" data-oid="eq_yzuj">
+          <p className="text-xl text-gray-300 mb-6" data-oid="19ac-s4">
             While you're manually calculating tariff impacts, smart SMBs use
             TradeNavigatorPro to make data-driven decisions in real-time.
             They're winning your customers with better prices while maintaining
             higher margins.
           </p>
-          <p className="text-xl text-gray-200 font-semibold" data-oid="lj_uxet">
+          <p className="text-xl text-gray-200 font-semibold" data-oid="jo9i1rb">
             40,000+ small businesses face the same challenge:{" "}
-            <span className="text-[#ffb366]" data-oid="2v6_rcc">
+            <span className="text-[#ffb366]" data-oid="nj2qz41">
               trade policies change faster than they can adapt
             </span>
             . The businesses that survive turn uncertainty into opportunity.
@@ -142,91 +142,91 @@ export default async function MarketingPage({
       {/* Solution Preview */}
       <section
         className="w-full flex flex-col items-center justify-center py-16 bg-[#18171c] mb-12"
-        data-oid="uvbca36"
+        data-oid="p_uznuk"
       >
-        <div className="max-w-4xl text-center mb-10" data-oid="x5.0z2.">
+        <div className="max-w-4xl text-center mb-10" data-oid="8wjq6qg">
           <h2
             className="text-4xl md:text-5xl font-bold text-[#ff6b3d] mb-6"
-            data-oid="ugz0mwk"
+            data-oid="qy32h8:"
           >
             5 Tools That Give You Unfair Advantage
           </h2>
         </div>
         <div
           className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl mb-10"
-          data-oid="05w-mys"
+          data-oid="g.a.z0o"
         >
           <div
             className="bg-[#23222a] rounded-lg p-6 flex flex-col shadow-lg border-t-4 border-[#ff6b3d]"
-            data-oid="6jeja.9"
+            data-oid="5:s::t7"
           >
-            <span className="text-2xl mb-2" data-oid="lvvo9e3">
+            <span className="text-2xl mb-2" data-oid="lxemb3l">
               💰
             </span>
-            <h3 className="font-bold text-lg mb-1" data-oid="ld80atv">
+            <h3 className="font-bold text-lg mb-1" data-oid="jffgj.-">
               Emergency Cost Calculator
             </h3>
-            <p className="text-gray-400 text-base mb-2" data-oid="1kksstt">
+            <p className="text-gray-400 text-base mb-2" data-oid="jfdm5nv">
               Upload purchase orders → get instant landed cost breakdown. Verify
               if supplier price increases are accurate.
             </p>
           </div>
           <div
             className="bg-[#23222a] rounded-lg p-6 flex flex-col shadow-lg border-t-4 border-[#ff6b3d]"
-            data-oid="6:uxnzw"
+            data-oid="kupc0pc"
           >
-            <span className="text-2xl mb-2" data-oid="5-:-hkb">
+            <span className="text-2xl mb-2" data-oid="jzc:hkd">
               🌍
             </span>
-            <h3 className="font-bold text-lg mb-1" data-oid="hipdk90">
+            <h3 className="font-bold text-lg mb-1" data-oid="mw1y.ep">
               Supply Chain Pivot Planner
             </h3>
-            <p className="text-gray-400 text-base mb-2" data-oid="2el8jmc">
+            <p className="text-gray-400 text-base mb-2" data-oid="vax59._">
               AI finds alternative suppliers in tariff-free countries. Compare
               total costs including logistics and quality.
             </p>
           </div>
           <div
             className="bg-[#23222a] rounded-lg p-6 flex flex-col shadow-lg border-t-4 border-[#ff6b3d]"
-            data-oid="kwig4:o"
+            data-oid="bs:7961"
           >
-            <span className="text-2xl mb-2" data-oid="qks-3hc">
+            <span className="text-2xl mb-2" data-oid="w.bir57">
               📊
             </span>
-            <h3 className="font-bold text-lg mb-1" data-oid="4l07j2_">
+            <h3 className="font-bold text-lg mb-1" data-oid="pp39i..">
               Pricing Strategy Optimizer
             </h3>
-            <p className="text-gray-400 text-base mb-2" data-oid="ybbf53k">
+            <p className="text-gray-400 text-base mb-2" data-oid="wjhn5g7">
               Model scenarios: absorb, pass-through, or split costs. Protect
               margins without losing customers.
             </p>
           </div>
           <div
             className="bg-[#23222a] rounded-lg p-6 flex flex-col shadow-lg border-t-4 border-[#ff6b3d]"
-            data-oid="8n6a00p"
+            data-oid="p2rv_q0"
           >
-            <span className="text-2xl mb-2" data-oid="0sk85o.">
+            <span className="text-2xl mb-2" data-oid="r8gdfzk">
               ⏰
             </span>
-            <h3 className="font-bold text-lg mb-1" data-oid="_2wvv7o">
+            <h3 className="font-bold text-lg mb-1" data-oid="olf_-_0">
               Tariff Timeline Tracker
             </h3>
-            <p className="text-gray-400 text-base mb-2" data-oid="l7wcp1c">
+            <p className="text-gray-400 text-base mb-2" data-oid="yzr.0rs">
               Get 30/60/90-day advance warnings. Know what's coming before your
               competitors do.
             </p>
           </div>
           <div
             className="bg-[#23222a] rounded-lg p-6 flex flex-col shadow-lg border-t-4 border-[#ff6b3d] md:col-span-2"
-            data-oid="berp0j0"
+            data-oid="qs-t9yk"
           >
-            <span className="text-2xl mb-2" data-oid="64b8-7z">
+            <span className="text-2xl mb-2" data-oid="0etrw5o">
               🚚
             </span>
-            <h3 className="font-bold text-lg mb-1" data-oid="grpkpql">
+            <h3 className="font-bold text-lg mb-1" data-oid="yqpro2x">
               Trade Route Optimizer
             </h3>
-            <p className="text-gray-400 text-base mb-2" data-oid="mrc34-9">
+            <p className="text-gray-400 text-base mb-2" data-oid="g51ocar">
               Discover routing opportunities that minimize tariffs. Maximize
               trade agreements automatically.
             </p>
@@ -237,66 +237,66 @@ export default async function MarketingPage({
       {/* Social Proof */}
       <section
         className="w-full flex flex-col items-center justify-center py-16 bg-[#23222a] mb-12"
-        data-oid="75iv55j"
+        data-oid="xk5np-w"
       >
-        <div className="max-w-4xl text-center mb-10" data-oid="-n1469k">
+        <div className="max-w-4xl text-center mb-10" data-oid=":ycu26d">
           <h2
             className="text-3xl md:text-4xl font-bold text-[#ffb366] mb-6"
-            data-oid="0p78g-x"
+            data-oid="mk60vpn"
           >
             Join 40,000+ SMBs Taking Control of Trade Policy
           </h2>
         </div>
         <div
           className="flex flex-col gap-6 items-center mb-6"
-          data-oid="ts.7z1:"
+          data-oid="6nxh97e"
         >
           <blockquote
             className="text-lg text-gray-200 italic border-l-4 border-[#ff6b3d] pl-4 max-w-xl"
-            data-oid=".d059ub"
+            data-oid="d3z_iva"
           >
             "Saved us $180,000 in Q1 by finding alternative suppliers before
             competitors caught on."{" "}
-            <span className="not-italic font-semibold" data-oid="nmg:8gk">
+            <span className="not-italic font-semibold" data-oid="g5ovb-i">
               — Sarah M., Import Manager
             </span>
           </blockquote>
           <blockquote
             className="text-lg text-gray-200 italic border-l-4 border-[#ff6b3d] pl-4 max-w-xl"
-            data-oid="7t0ah31"
+            data-oid="_cfcq7m"
           >
             "90-day warnings let us adjust pricing properly. Retention actually
             improved during trade disputes."{" "}
-            <span className="not-italic font-semibold" data-oid="tsw5y7x">
+            <span className="not-italic font-semibold" data-oid="us5_er0">
               — Mike R., CEO
             </span>
           </blockquote>
         </div>
         <div
           className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto mt-4"
-          data-oid="1nwj41l"
+          data-oid="si.cv:r"
         >
           <span
             className="bg-[#18171c] rounded px-4 py-2 text-base text-gray-200 border border-[#33323a]"
-            data-oid="gze324h"
+            data-oid="668gj0h"
           >
             SOC 2 Compliant
           </span>
           <span
             className="bg-[#18171c] rounded px-4 py-2 text-base text-gray-200 border border-[#33323a]"
-            data-oid="m74p1.y"
+            data-oid="dy1p60:"
           >
             99.9% Uptime
           </span>
           <span
             className="bg-[#18171c] rounded px-4 py-2 text-base text-gray-200 border border-[#33323a]"
-            data-oid="6d3uy54"
+            data-oid="oq-r2v-"
           >
             Real-time USTR Data
           </span>
           <span
             className="bg-[#18171c] rounded px-4 py-2 text-base text-gray-200 border border-[#33323a]"
-            data-oid="qcma.jd"
+            data-oid="1:n.97k"
           >
             47 States
           </span>
@@ -306,84 +306,84 @@ export default async function MarketingPage({
       {/* Benefits */}
       <section
         className="w-full flex flex-col items-center justify-center py-16 bg-[#18171c] mb-12"
-        data-oid=":2hzdw8"
+        data-oid="dohb9j4"
       >
-        <div className="max-w-4xl text-center mb-10" data-oid="dkmrwip">
+        <div className="max-w-4xl text-center mb-10" data-oid="2x-wk9z">
           <h2
             className="text-4xl md:text-5xl font-bold text-[#ffb366] mb-6"
-            data-oid="pqxubu-"
+            data-oid="svgvmln"
           >
             Turn Uncertainty Into Your Biggest Advantage
           </h2>
         </div>
         <div
           className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl mb-10"
-          data-oid="iocbg90"
+          data-oid="4u.ovgf"
         >
           <div
             className="bg-[#23222a] rounded-lg p-6 flex flex-col shadow-lg border-t-4 border-[#ff6b3d] items-center"
-            data-oid="m8h3_cb"
+            data-oid="m9zryv."
           >
-            <span className="text-2xl mb-2" data-oid="vukogs2">
+            <span className="text-2xl mb-2" data-oid="2rn_vyp">
               ⚡
             </span>
-            <h3 className="font-bold text-lg mb-1" data-oid="q9yceq3">
+            <h3 className="font-bold text-lg mb-1" data-oid="ntkud1.">
               Lightning Decisions
             </h3>
             <p
               className="text-gray-400 text-base text-center"
-              data-oid="b.7w9i7"
+              data-oid=":mlm._e"
             >
               Calculate in minutes what takes weeks to research
             </p>
           </div>
           <div
             className="bg-[#23222a] rounded-lg p-6 flex flex-col shadow-lg border-t-4 border-[#ff6b3d] items-center"
-            data-oid="-j1:lfa"
+            data-oid="unfe6gm"
           >
-            <span className="text-2xl mb-2" data-oid="bq5nlfv">
+            <span className="text-2xl mb-2" data-oid=":0g635g">
               💰
             </span>
-            <h3 className="font-bold text-lg mb-1" data-oid=".n80c9j">
+            <h3 className="font-bold text-lg mb-1" data-oid="br7m2a6">
               Protect Margins
             </h3>
             <p
               className="text-gray-400 text-base text-center"
-              data-oid="89l1o7z"
+              data-oid="u81t7vl"
             >
               Find savings competitors miss
             </p>
           </div>
           <div
             className="bg-[#23222a] rounded-lg p-6 flex flex-col shadow-lg border-t-4 border-[#ff6b3d] items-center"
-            data-oid="ih5iwca"
+            data-oid="256x-nw"
           >
-            <span className="text-2xl mb-2" data-oid="i8ytspd">
+            <span className="text-2xl mb-2" data-oid="8jtvrbs">
               🎯
             </span>
-            <h3 className="font-bold text-lg mb-1" data-oid="jyj5sek">
+            <h3 className="font-bold text-lg mb-1" data-oid="mwevzk7">
               Stay Ahead
             </h3>
             <p
               className="text-gray-400 text-base text-center"
-              data-oid="s:f:zu9"
+              data-oid="jx_u1q6"
             >
               Early warnings while others scramble
             </p>
           </div>
           <div
             className="bg-[#23222a] rounded-lg p-6 flex flex-col shadow-lg border-t-4 border-[#ff6b3d] items-center"
-            data-oid="3iiewe:"
+            data-oid="7:c803f"
           >
-            <span className="text-2xl mb-2" data-oid="12yk2z3">
+            <span className="text-2xl mb-2" data-oid="qjo12c8">
               📊
             </span>
-            <h3 className="font-bold text-lg mb-1" data-oid="p-tfa0.">
+            <h3 className="font-bold text-lg mb-1" data-oid=":iwtv47">
               Professional Reports
             </h3>
             <p
               className="text-gray-400 text-base text-center"
-              data-oid="jn3o102"
+              data-oid=":z:4czi"
             >
               Data-backed recommendations for stakeholders
             </p>
@@ -394,16 +394,16 @@ export default async function MarketingPage({
       {/* Final CTA */}
       <section
         className="w-full flex flex-col items-center justify-center py-16 bg-[#23222a] mb-12"
-        data-oid="c86l._v"
+        data-oid="bi22v:h"
       >
-        <div className="max-w-2xl text-center mb-8" data-oid="9vgvapq">
+        <div className="max-w-2xl text-center mb-8" data-oid="3_f75.k">
           <h2
             className="text-3xl md:text-4xl font-bold text-[#ff6b3d] mb-4"
-            data-oid="hf6ebbp"
+            data-oid="3x-ongv"
           >
             Ready to Stop Reacting and Start Anticipating?
           </h2>
-          <p className="text-lg text-gray-300 mb-6" data-oid="pb9ilw8">
+          <p className="text-lg text-gray-300 mb-6" data-oid="t24kun4">
             Thousands of SMBs stopped letting trade policy control their
             business. While competitors panic with each announcement, you'll be
             three steps ahead.
@@ -411,14 +411,14 @@ export default async function MarketingPage({
         </div>
         <div
           className="flex flex-col md:flex-row gap-4 w-full justify-center mb-6"
-          data-oid="mx67:6r"
+          data-oid="ttvbxut"
         >
           <Button
             asChild
             className="bg-[#ff6b3d] hover:bg-[#ffb366] text-black font-bold px-8 py-4 text-lg"
-            data-oid="jidh-pk"
+            data-oid="tijl3ou"
           >
-            <Link href={`/${locale}/solutions`} data-oid="2g6hrd_">
+            <Link href={`/${locale}/solutions`} data-oid=":aakll7">
               See How Our 5 Tools Work Together
             </Link>
           </Button>
@@ -426,18 +426,18 @@ export default async function MarketingPage({
             asChild
             variant="outline"
             className="border-[#ff6b3d] text-[#ff6b3d] font-bold px-8 py-4 text-lg"
-            data-oid="c25ffyc"
+            data-oid="fzvj0kl"
           >
-            <Link href={`/${locale}/signup`} data-oid="tprmedr">
+            <Link href={`/${locale}/signup`} data-oid="9s5_6dz">
               Start Free Trial
             </Link>
           </Button>
         </div>
         <div
           className="text-gray-300 text-lg text-center max-w-xl mx-auto"
-          data-oid="0a1vp51"
+          data-oid="lk6akl0"
         >
-          <span className="font-semibold text-white" data-oid="4w.f2mp">
+          <span className="font-semibold text-white" data-oid="8op2_wk">
             No credit card required.
           </span>{" "}
           Save 10x your cost or full refund.
