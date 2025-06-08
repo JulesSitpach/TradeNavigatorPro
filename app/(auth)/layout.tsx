@@ -6,9 +6,9 @@ export default function AuthLayout({
   return (
     <div
       className="min-h-screen flex items-center justify-center bg-gray-50"
-      data-oid="1vxzq8:"
+      data-oid="di.-b5b"
     >
-      <div className="max-w-md w-full space-y-8" data-oid="ojw65:y">
+      <div className="max-w-md w-full space-y-8" data-oid="rel25im">
         {children}
       </div>
     </div>

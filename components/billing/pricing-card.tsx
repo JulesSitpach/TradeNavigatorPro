@@ -70,51 +70,51 @@ export function PricingCard({
         isPopular && "border-primary shadow-lg",
         className,
       )}
-      data-oid="7vu5ump"
+      data-oid="cfq:3vw"
     >
-      <CardHeader data-oid="3mo5-2c">
-        <div className="flex items-center justify-between" data-oid="hfzxc7u">
-          <CardTitle className="text-xl" data-oid="z51rrdy">
+      <CardHeader data-oid="prv:ris">
+        <div className="flex items-center justify-between" data-oid="93gfa1e">
+          <CardTitle className="text-xl" data-oid="-nttai3">
             {tier.name}
           </CardTitle>
           {isPopular && (
-            <Badge variant="secondary" className="ml-2" data-oid="8xuby7:">
+            <Badge variant="secondary" className="ml-2" data-oid="u43ysej">
               Most Popular
             </Badge>
           )}
         </div>
-        <CardDescription className="pt-1.5" data-oid="5ba40xv">
+        <CardDescription className="pt-1.5" data-oid="_jvu6e1">
           {tier.description}
         </CardDescription>
       </CardHeader>
-      <CardContent className="flex-grow" data-oid="wqo9575">
-        <div className="mb-4" data-oid="-vp7v4b">
-          <span className="text-3xl font-bold" data-oid="8y0tzsn">
+      <CardContent className="flex-grow" data-oid="4anv_2-">
+        <div className="mb-4" data-oid="clmezg7">
+          <span className="text-3xl font-bold" data-oid="trbhau3">
             {formatPrice(tier.price, tier.currency)}
           </span>
-          <span className="text-muted-foreground" data-oid="fvc.tuv">
+          <span className="text-muted-foreground" data-oid="bggu_g-">
             /{tier.interval}
           </span>
         </div>
 
-        <div className="space-y-2 text-sm" data-oid="6anbvot">
+        <div className="space-y-2 text-sm" data-oid="69qet6t">
           {tier.features.map((feature, index) => (
-            <div key={index} className="flex items-center" data-oid="gtavtl:">
+            <div key={index} className="flex items-center" data-oid="snet6d3">
               <Icons.check
                 className="mr-2 h-4 w-4 text-green-500"
-                data-oid="eu6736l"
+                data-oid="sjnvz3_"
               />
 
-              <span data-oid="3392l9v">{feature}</span>
+              <span data-oid="i1.lcxy">{feature}</span>
             </div>
           ))}
         </div>
       </CardContent>
-      <CardFooter className="pt-4 pb-6" data-oid=":g8e2lr">
+      <CardFooter className="pt-4 pb-6" data-oid="w9lh:nn">
         {isCurrentPlan ? (
           <div
             className="w-full rounded-md bg-primary/10 p-2 text-center text-sm font-medium text-primary"
-            data-oid="x5awh:z"
+            data-oid="hnk8lqx"
           >
             Your Current Plan
           </div>
@@ -127,7 +127,7 @@ export function PricingCard({
             onCheckoutCreated={onCheckoutCreated}
             className="w-full"
             variant={isPopular ? "default" : "outline"}
-            data-oid="3z85aaf"
+            data-oid="4ghh.zk"
           >
             {isPopular ? "Subscribe Now" : "Choose Plan"}
           </CheckoutButton>
