@@ -1,1 +1,1 @@
-export { default } from '../../[locale]/signup/page';
+export { default } from "../../[locale]/signup/page";
