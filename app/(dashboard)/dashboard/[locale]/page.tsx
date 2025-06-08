@@ -7,9 +7,9 @@ export default async function DashboardPage({
   const { locale } = await params;
 
   return (
-    <div data-oid="n:1ep::">
-      <h1 data-oid="-m9el:-">Dashboard</h1>
-      <p data-oid="ibaf9wc">Welcome to the dashboard for locale: {locale}</p>
+    <div>
+      <h1>Dashboard</h1>
+      <p>Welcome to the dashboard for locale: {locale}</p>
       {/* Add your dashboard content here */}
     </div>
   );
