@@ -48,25 +48,25 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
   return (
     <div
       className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8"
-      data-oid="090nk_l"
+      data-oid="9xx_jkr"
     >
-      <div className="max-w-md w-full space-y-8" data-oid="p_grpja">
-        <div data-oid="3cyo-hp">
+      <div className="max-w-md w-full space-y-8" data-oid="o:f:163">
+        <div data-oid="m1:2ttr">
           <h2
             className="mt-6 text-center text-3xl font-extrabold text-gray-900"
-            data-oid="1vhqceh"
+            data-oid="d--nejs"
           >
             Create your account
           </h2>
           <p
             className="mt-2 text-center text-sm text-gray-600"
-            data-oid="ujqiens"
+            data-oid="1.eg79f"
           >
             Or{" "}
             <Link
               href={`/${params.locale}/login`}
               className="font-medium text-blue-600 hover:text-blue-500"
-              data-oid="2r:xv3u"
+              data-oid="-4cjqk_"
             >
               sign in to your existing account
             </Link>
@@ -76,23 +76,23 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
         <form
           className="mt-8 space-y-6"
           onSubmit={handleSubmit}
-          data-oid="s8yhy57"
+          data-oid="nudkben"
         >
           {error && (
             <div
               className="bg-red-50 border border-red-200 text-red-600 px-4 py-3 rounded-md text-sm"
-              data-oid="zuhonxw"
+              data-oid="_02za:z"
             >
               {error}
             </div>
           )}
 
-          <div className="space-y-4" data-oid="nk44zr0">
-            <div data-oid="c6052jz">
+          <div className="space-y-4" data-oid="nxz73z8">
+            <div data-oid="2pj1ts7">
               <label
                 htmlFor="fullName"
                 className="block text-sm font-medium text-gray-700"
-                data-oid="fqb.jzy"
+                data-oid="_i50uwg"
               >
                 Full Name
               </label>
@@ -105,15 +105,15 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
                 onChange={(e) => setFullName(e.target.value)}
                 className="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="Enter your full name"
-                data-oid="c0ppcvb"
+                data-oid="_k8gvn_"
               />
             </div>
 
-            <div data-oid="ixg98dx">
+            <div data-oid="2fyjqfv">
               <label
                 htmlFor="email"
                 className="block text-sm font-medium text-gray-700"
-                data-oid="mn2q-22"
+                data-oid="tns3gs."
               >
                 Email Address
               </label>
@@ -127,15 +127,15 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
                 onChange={(e) => setEmail(e.target.value)}
                 className="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="Enter your email address"
-                data-oid="wqt4-ag"
+                data-oid="xdoqj:x"
               />
             </div>
 
-            <div data-oid="q0527kr">
+            <div data-oid="twc4y.6">
               <label
                 htmlFor="password"
                 className="block text-sm font-medium text-gray-700"
-                data-oid="k5.co-b"
+                data-oid=".zr9:0i"
               >
                 Password
               </label>
@@ -149,15 +149,15 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
                 onChange={(e) => setPassword(e.target.value)}
                 className="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="Create a password"
-                data-oid=".tp2qda"
+                data-oid=":20h.ja"
               />
             </div>
 
-            <div data-oid="z8_ooma">
+            <div data-oid="-.yt_8d">
               <label
                 htmlFor="confirmPassword"
                 className="block text-sm font-medium text-gray-700"
-                data-oid="4r0cnll"
+                data-oid="dk_ns62"
               >
                 Confirm Password
               </label>
@@ -171,23 +171,23 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
                 onChange={(e) => setConfirmPassword(e.target.value)}
                 className="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="Confirm your password"
-                data-oid="s1:oelk"
+                data-oid=".o5_w:o"
               />
             </div>
           </div>
 
-          <div data-oid="3utt.34">
+          <div data-oid="97r1nk4">
             <button
               type="submit"
               disabled={isLoading}
               className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
-              data-oid="z9.4ums"
+              data-oid="p_kj-60"
             >
               {isLoading ? (
-                <div className="flex items-center" data-oid="cio5wqc">
+                <div className="flex items-center" data-oid="ohs:q9y">
                   <div
                     className="animate-spin -ml-1 mr-3 h-5 w-5 border-2 border-white border-t-transparent rounded-full"
-                    data-oid="ja61dmb"
+                    data-oid="osyt2-q"
                   ></div>
                   Creating Account...
                 </div>
@@ -197,13 +197,13 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
             </button>
           </div>
 
-          <div className="text-center" data-oid="n0ce238">
-            <p className="text-xs text-gray-500" data-oid="84nrb03">
+          <div className="text-center" data-oid="hm:9qjl">
+            <p className="text-xs text-gray-500" data-oid="8xu6d6z">
               By creating an account, you agree to our{" "}
               <Link
                 href="/terms"
                 className="text-blue-600 hover:text-blue-500"
-                data-oid="vxaxto-"
+                data-oid="b:t1qqd"
               >
                 Terms of Service
               </Link>{" "}
@@ -211,7 +211,7 @@ export default function SignupPage({ params }: { params: { locale: string } }) {
               <Link
                 href="/privacy"
                 className="text-blue-600 hover:text-blue-500"
-                data-oid="vxrb5hh"
+                data-oid="wgi:0w0"
               >
                 Privacy Policy
               </Link>
