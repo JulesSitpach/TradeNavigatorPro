@@ -86,32 +86,32 @@ export default function CalculatorPage() {
   return (
     <div
       className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800"
-      data-oid="q24pp8p"
+      data-oid=".w-qj9x"
     >
       {/* Header */}
       <header
         className="border-b border-slate-700/50 bg-slate-900/80 backdrop-blur-sm"
-        data-oid="_-jh:31"
+        data-oid="9:pujes"
       >
-        <div className="container mx-auto px-4 py-4" data-oid="sfwak0m">
-          <div className="flex items-center justify-between" data-oid="61wb796">
+        <div className="container mx-auto px-4 py-4" data-oid="rlz:q4j">
+          <div className="flex items-center justify-between" data-oid="p35qx5s">
             <Link
               href="/"
               className="flex items-center space-x-2 text-slate-300 hover:text-white"
-              data-oid="exbhq-8"
+              data-oid="3.1rqm8"
             >
-              <ArrowLeft className="h-5 w-5" data-oid="2lh:5ac" />
-              <span data-oid="__3fs_2">Back to Home</span>
+              <ArrowLeft className="h-5 w-5" data-oid="e-m0lyk" />
+              <span data-oid="0dij41z">Back to Home</span>
             </Link>
-            <div className="flex items-center space-x-2" data-oid="4hi0oby">
+            <div className="flex items-center space-x-2" data-oid="0ycw.ml">
               <Calculator
                 className="h-6 w-6 text-blue-400"
-                data-oid="8_eizd6"
+                data-oid="u5b3_:7"
               />
 
               <span
                 className="text-lg font-semibold text-white"
-                data-oid="lvq7198"
+                data-oid="wfj34i7"
               >
                 Import Cost Calculator
               </span>
@@ -120,16 +120,16 @@ export default function CalculatorPage() {
         </div>
       </header>
 
-      <div className="container mx-auto px-4 py-8" data-oid="2t67ioa">
-        <div className="grid lg:grid-cols-2 gap-8" data-oid="opkjwkl">
+      <div className="container mx-auto px-4 py-8" data-oid="25m25ph">
+        <div className="grid lg:grid-cols-2 gap-8" data-oid="_knqcq6">
           {/* Input Form */}
           <div
             className="bg-slate-800/50 p-6 rounded-xl border border-slate-700"
-            data-oid="eyemq:a"
+            data-oid="ytm0:t6"
           >
             <h2
               className="text-2xl font-bold text-white mb-6"
-              data-oid="5tdyk:4"
+              data-oid="1sl75z."
             >
               Product Details
             </h2>
@@ -139,11 +139,11 @@ export default function CalculatorPage() {
           {/* Results */}
           <div
             className="bg-slate-800/50 p-6 rounded-xl border border-slate-700"
-            data-oid="whs_vyg"
+            data-oid="16i7dhj"
           >
             <h2
               className="text-2xl font-bold text-white mb-6"
-              data-oid="lbxqc1l"
+              data-oid="b8_raih"
             >
               Cost Breakdown
             </h2>

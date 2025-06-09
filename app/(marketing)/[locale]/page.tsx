@@ -32,37 +32,37 @@ const iconMap = {
 
 export default function HomePage({ params }: { params: { locale: string } }) {
   return (
-    <div className="flex flex-col" data-oid="tobwrpk">
+    <div className="flex flex-col" data-oid="01mvyrh">
       {/* Hero Section */}
       <section
         className="relative py-20 lg:py-32 overflow-hidden"
-        data-oid="dp.8tk7"
+        data-oid="dkytx9f"
       >
         <div
           className="absolute inset-0 bg-gradient-to-br from-orange/10 via-background to-blue-600/10"
-          data-oid="a4at9vl"
+          data-oid="mavir5v"
         />
 
         <div
           className="container mx-auto px-4 sm:px-6 lg:px-8 relative"
-          data-oid="-t3:7d0"
+          data-oid="7l_kuyk"
         >
-          <div className="max-w-4xl mx-auto text-center" data-oid="ai_tw2x">
-            <Badge variant="secondary" className="mb-6" data-oid="j.rps59">
+          <div className="max-w-4xl mx-auto text-center" data-oid="4wxwrug">
+            <Badge variant="secondary" className="mb-6" data-oid="wxx8ppr">
               🚀 AI-Powered Trade Intelligence
             </Badge>
             <h1
               className="text-4xl lg:text-6xl font-bold text-foreground mb-6"
-              data-oid="mds5i:1"
+              data-oid="efys4nn"
             >
               Navigate Global Trade with{" "}
-              <span className="text-orange" data-oid="x9ln__0">
+              <span className="text-orange" data-oid="rtha-fu">
                 Confidence
               </span>
             </h1>
             <p
               className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto"
-              data-oid="sldwca6"
+              data-oid="0tow9cg"
             >
               Stop guessing about tariff impacts. Get instant cost calculations,
               find alternative suppliers, and optimize your pricing strategy
@@ -70,31 +70,31 @@ export default function HomePage({ params }: { params: { locale: string } }) {
             </p>
             <div
               className="flex flex-col sm:flex-row gap-4 justify-center"
-              data-oid="j_nekzs"
+              data-oid="u-e2h4v"
             >
               <Button
                 size="lg"
                 className="btn-orange"
                 asChild
-                data-oid=".2v1294"
+                data-oid="paws7l3"
               >
                 <Link
                   href={`/${params.locale}/apps/cost-calculator`}
-                  data-oid="fcmtx-x"
+                  data-oid="59frrmy"
                 >
                   Try Cost Calculator Free
-                  <ArrowRight className="ml-2 h-5 w-5" data-oid="u1e28r:" />
+                  <ArrowRight className="ml-2 h-5 w-5" data-oid="1a1m-gj" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" asChild data-oid="28n3v48">
-                <Link href={`/${params.locale}/demo`} data-oid="dfetc.6">
+              <Button size="lg" variant="outline" asChild data-oid="hc7bxl_">
+                <Link href={`/${params.locale}/demo`} data-oid="94p:gk.">
                   Watch Demo
                 </Link>
               </Button>
             </div>
             <p
               className="text-sm text-muted-foreground mt-4"
-              data-oid="q9iu_9t"
+              data-oid="sk4jbu2"
             >
               No credit card required • Get results in seconds
             </p>
@@ -103,64 +103,64 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* Problem Statement */}
-      <section className="py-16 bg-muted/30" data-oid="66u5_w-">
+      <section className="py-16 bg-muted/30" data-oid="d2l3ay_">
         <div
           className="container mx-auto px-4 sm:px-6 lg:px-8"
-          data-oid="n5mh5or"
+          data-oid="tfa52:1"
         >
-          <div className="max-w-3xl mx-auto text-center" data-oid="t0:kp_6">
+          <div className="max-w-3xl mx-auto text-center" data-oid="r2ryar5">
             <h2
               className="text-3xl font-bold text-foreground mb-6"
-              data-oid="8kvch3q"
+              data-oid="dd7aim1"
             >
               Trade Policy Changes Shouldn't Catch You Off Guard
             </h2>
             <div
               className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12"
-              data-oid="zs9m62h"
+              data-oid="v.o3ppt"
             >
-              <div className="text-center" data-oid="qca-g-x">
+              <div className="text-center" data-oid="vqab29m">
                 <div
                   className="w-12 h-12 bg-destructive/10 rounded-lg flex items-center justify-center mx-auto mb-4"
-                  data-oid="qxpmpci"
+                  data-oid="uel3nqb"
                 >
                   <TrendingUp
                     className="h-6 w-6 text-destructive"
-                    data-oid="zzqy:oh"
+                    data-oid="0kbadqq"
                   />
                 </div>
-                <h3 className="font-semibold mb-2" data-oid="8ts7kdd">
+                <h3 className="font-semibold mb-2" data-oid="18lux4k">
                   Surprise Cost Increases
                 </h3>
-                <p className="text-sm text-muted-foreground" data-oid="f:h6qx2">
+                <p className="text-sm text-muted-foreground" data-oid="m-jt1ci">
                   "My supplier said costs are going up 25% - is that right?"
                 </p>
               </div>
-              <div className="text-center" data-oid="v1gfdbu">
+              <div className="text-center" data-oid="3h18nwr">
                 <div
                   className="w-12 h-12 bg-warning/10 rounded-lg flex items-center justify-center mx-auto mb-4"
-                  data-oid="-84yaax"
+                  data-oid="2qz90:3"
                 >
-                  <Shield className="h-6 w-6 text-warning" data-oid="m1mq2z." />
+                  <Shield className="h-6 w-6 text-warning" data-oid="l6p9:wa" />
                 </div>
-                <h3 className="font-semibold mb-2" data-oid=":_6l3rt">
+                <h3 className="font-semibold mb-2" data-oid="-hf4x:l">
                   Supply Chain Risks
                 </h3>
-                <p className="text-sm text-muted-foreground" data-oid="7wd.vqb">
+                <p className="text-sm text-muted-foreground" data-oid="-dxnxn-">
                   "Where else can I source without getting hit by tariffs?"
                 </p>
               </div>
-              <div className="text-center" data-oid="74dj3di">
+              <div className="text-center" data-oid="btu93rd">
                 <div
                   className="w-12 h-12 bg-info/10 rounded-lg flex items-center justify-center mx-auto mb-4"
-                  data-oid="nboo08r"
+                  data-oid="13ge857"
                 >
-                  <Zap className="h-6 w-6 text-info" data-oid="1fmk8p8" />
+                  <Zap className="h-6 w-6 text-info" data-oid="bt1_p9c" />
                 </div>
-                <h3 className="font-semibold mb-2" data-oid="1qfhe7j">
+                <h3 className="font-semibold mb-2" data-oid="wtqa9v.">
                   Pricing Pressure
                 </h3>
-                <p className="text-sm text-muted-foreground" data-oid="loh.8gw">
+                <p className="text-sm text-muted-foreground" data-oid="y5tbqiq">
                   "How do I stay profitable without losing customers?"
                 </p>
               </div>
@@ -170,21 +170,21 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* Core Applications */}
-      <section className="py-20" data-oid="bf4lfbo">
+      <section className="py-20" data-oid="wdvpal0">
         <div
           className="container mx-auto px-4 sm:px-6 lg:px-8"
-          data-oid="9iryyo5"
+          data-oid="ixhlo:d"
         >
-          <div className="text-center mb-16" data-oid="sphc8e_">
+          <div className="text-center mb-16" data-oid="lzu-80q">
             <h2
               className="text-3xl lg:text-4xl font-bold text-foreground mb-4"
-              data-oid="z.s8whh"
+              data-oid="joof0wm"
             >
               5 Essential Tools for Trade Success
             </h2>
             <p
               className="text-xl text-muted-foreground max-w-2xl mx-auto"
-              data-oid="polp4te"
+              data-oid="qwohcfs"
             >
               Each tool solves a specific trade challenge with instant,
               actionable insights
@@ -193,7 +193,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
 
           <div
             className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8"
-            data-oid="lhc7igk"
+            data-oid="xjq39am"
           >
             {CORE_APPS.map((app, index) => {
               const Icon = iconMap[app.icon as keyof typeof iconMap];
@@ -201,40 +201,40 @@ export default function HomePage({ params }: { params: { locale: string } }) {
                 <Card
                   key={app.id}
                   className="card-hover group"
-                  data-oid="ebxghd4"
+                  data-oid="bu4yeib"
                 >
-                  <CardHeader data-oid="65ame13">
+                  <CardHeader data-oid="dmqu6e_">
                     <div
                       className="flex items-center justify-between mb-4"
-                      data-oid="n0l2meh"
+                      data-oid="ignuhwr"
                     >
                       <div
                         className={`w-12 h-12 rounded-lg bg-${app.color}-500/10 flex items-center justify-center`}
-                        data-oid=":oghhtq"
+                        data-oid="twq3hyr"
                       >
                         <Icon
                           className={`h-6 w-6 text-${app.color}-500`}
-                          data-oid="hnus80d"
+                          data-oid="glqv652"
                         />
                       </div>
-                      <Badge variant="secondary" data-oid="q34f_8-">
+                      <Badge variant="secondary" data-oid="3zc0uyh">
                         #{index + 1}
                       </Badge>
                     </div>
-                    <CardTitle className="text-xl" data-oid=".dh6eg:">
+                    <CardTitle className="text-xl" data-oid="t50xd69">
                       {app.name}
                     </CardTitle>
                     <CardDescription
                       className="text-destructive font-medium"
-                      data-oid="wzcujtn"
+                      data-oid="28e.rna"
                     >
                       "{app.problem}"
                     </CardDescription>
                   </CardHeader>
-                  <CardContent data-oid="1syg3ew">
+                  <CardContent data-oid="yu.a0-z">
                     <p
                       className="text-muted-foreground mb-6"
-                      data-oid="lqgg40x"
+                      data-oid=":fnbqfs"
                     >
                       {app.solution}
                     </p>
@@ -242,16 +242,16 @@ export default function HomePage({ params }: { params: { locale: string } }) {
                       className="w-full group-hover:bg-orange group-hover:text-white transition-colors"
                       variant="outline"
                       asChild
-                      data-oid="1:vz1rb"
+                      data-oid="loskc8s"
                     >
                       <Link
                         href={`/${params.locale}${app.href}`}
-                        data-oid=".q-6:rr"
+                        data-oid="ycc19g2"
                       >
                         {app.name.split(" ")[0]} Now
                         <ArrowRight
                           className="ml-2 h-4 w-4"
-                          data-oid="fzzidah"
+                          data-oid="yxkao80"
                         />
                       </Link>
                     </Button>
@@ -264,122 +264,122 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 bg-muted/30" data-oid="jqtwyrw">
+      <section className="py-20 bg-muted/30" data-oid="2d8_d:k">
         <div
           className="container mx-auto px-4 sm:px-6 lg:px-8"
-          data-oid="ldzlnzo"
+          data-oid="0yao-el"
         >
-          <div className="max-w-4xl mx-auto" data-oid="x330kup">
-            <div className="text-center mb-16" data-oid="4ie8cxa">
+          <div className="max-w-4xl mx-auto" data-oid="d7eh9.b">
+            <div className="text-center mb-16" data-oid="_m0dk_o">
               <h2
                 className="text-3xl lg:text-4xl font-bold text-foreground mb-4"
-                data-oid="k3so-li"
+                data-oid="tgsku9_"
               >
                 Why Trade Professionals Choose Us
               </h2>
-              <p className="text-xl text-muted-foreground" data-oid="ykrxx--">
+              <p className="text-xl text-muted-foreground" data-oid="oe4osb0">
                 Get the insights you need to make confident trade decisions
               </p>
             </div>
 
             <div
               className="grid grid-cols-1 md:grid-cols-2 gap-8"
-              data-oid="1799a9t"
+              data-oid="sv0a3tf"
             >
-              <div className="space-y-6" data-oid="0w9clyc">
-                <div className="flex items-start space-x-4" data-oid="319n9ck">
+              <div className="space-y-6" data-oid="eh41a-8">
+                <div className="flex items-start space-x-4" data-oid="xqk_:b1">
                   <CheckCircle
                     className="h-6 w-6 text-success mt-1 flex-shrink-0"
-                    data-oid="vbt4kw_"
+                    data-oid="wx3ayk5"
                   />
 
-                  <div data-oid="bfd8erb">
-                    <h3 className="font-semibold mb-2" data-oid="dkpbqri">
+                  <div data-oid="x3g5nbt">
+                    <h3 className="font-semibold mb-2" data-oid=":.zar8r">
                       Instant Cost Analysis
                     </h3>
-                    <p className="text-muted-foreground" data-oid="7g5sdo2">
+                    <p className="text-muted-foreground" data-oid="nn81wmu">
                       Upload your purchase order and get landed cost
                       calculations in seconds, not hours of manual work.
                     </p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4" data-oid="pzeijm.">
+                <div className="flex items-start space-x-4" data-oid="8gc1ka.">
                   <CheckCircle
                     className="h-6 w-6 text-success mt-1 flex-shrink-0"
-                    data-oid="9xpri:x"
+                    data-oid="6-kpu3p"
                   />
 
-                  <div data-oid="q-5fcyn">
-                    <h3 className="font-semibold mb-2" data-oid="fb_nh7a">
+                  <div data-oid="2mvm_22">
+                    <h3 className="font-semibold mb-2" data-oid="hf.b986">
                       AI-Powered Recommendations
                     </h3>
-                    <p className="text-muted-foreground" data-oid="o9d7_tq">
+                    <p className="text-muted-foreground" data-oid="_1.44x3">
                       Find alternative suppliers and optimize trade routes using
                       machine learning and real-time data.
                     </p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4" data-oid=".pg2ble">
+                <div className="flex items-start space-x-4" data-oid="5z-bunz">
                   <CheckCircle
                     className="h-6 w-6 text-success mt-1 flex-shrink-0"
-                    data-oid="l2vd.5h"
+                    data-oid="shgaglp"
                   />
 
-                  <div data-oid="dm_zvfl">
-                    <h3 className="font-semibold mb-2" data-oid="o6js:ak">
+                  <div data-oid=".fu3snt">
+                    <h3 className="font-semibold mb-2" data-oid="o878nxc">
                       Scenario Planning
                     </h3>
-                    <p className="text-muted-foreground" data-oid="vfz_sow">
+                    <p className="text-muted-foreground" data-oid="sr1k-a.">
                       Model different pricing strategies and see the impact on
                       your margins and customer relationships.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="space-y-6" data-oid="5_p8jd8">
-                <div className="flex items-start space-x-4" data-oid="35s5gdv">
+              <div className="space-y-6" data-oid="lyja:4u">
+                <div className="flex items-start space-x-4" data-oid="2fr.foq">
                   <CheckCircle
                     className="h-6 w-6 text-success mt-1 flex-shrink-0"
-                    data-oid="veq-ipe"
+                    data-oid="9f_f87f"
                   />
 
-                  <div data-oid="s020s31">
-                    <h3 className="font-semibold mb-2" data-oid="_.g-q5l">
+                  <div data-oid=":3khc2x">
+                    <h3 className="font-semibold mb-2" data-oid=".zqn6fp">
                       Early Warning System
                     </h3>
-                    <p className="text-muted-foreground" data-oid="24hf61h">
+                    <p className="text-muted-foreground" data-oid="i5btifo">
                       Get 30/60/90 day advance warnings about policy changes
                       that could affect your business.
                     </p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4" data-oid="tdkol1w">
+                <div className="flex items-start space-x-4" data-oid="yj7t::s">
                   <CheckCircle
                     className="h-6 w-6 text-success mt-1 flex-shrink-0"
-                    data-oid="6uu-a53"
+                    data-oid="k59r.r9"
                   />
 
-                  <div data-oid="5rgwbc5">
-                    <h3 className="font-semibold mb-2" data-oid="o6bk8xc">
+                  <div data-oid="fmz-b3-">
+                    <h3 className="font-semibold mb-2" data-oid="wu4zccq">
                       Professional Reports
                     </h3>
-                    <p className="text-muted-foreground" data-oid="e:q_4p_">
+                    <p className="text-muted-foreground" data-oid="68l_afm">
                       Generate executive-ready reports and customer
                       communication templates with one click.
                     </p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4" data-oid="928g6wq">
+                <div className="flex items-start space-x-4" data-oid="vft:6pr">
                   <CheckCircle
                     className="h-6 w-6 text-success mt-1 flex-shrink-0"
-                    data-oid="-9e14ok"
+                    data-oid="ou.w616"
                   />
 
-                  <div data-oid="::ef-22">
-                    <h3 className="font-semibold mb-2" data-oid="xz-grqm">
+                  <div data-oid=".3vqh:m">
+                    <h3 className="font-semibold mb-2" data-oid="stkukvk">
                       No Setup Required
                     </h3>
-                    <p className="text-muted-foreground" data-oid="jxol3aq">
+                    <p className="text-muted-foreground" data-oid="cj0l3y7">
                       Start analyzing your trade impact immediately - no complex
                       integrations or lengthy onboarding.
                     </p>
@@ -392,52 +392,52 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20" data-oid="_2gl0gv">
+      <section className="py-20" data-oid="k4djf-.">
         <div
           className="container mx-auto px-4 sm:px-6 lg:px-8"
-          data-oid="7dh1pju"
+          data-oid="-d90xus"
         >
-          <div className="max-w-3xl mx-auto text-center" data-oid="5.slx6w">
+          <div className="max-w-3xl mx-auto text-center" data-oid="wwep10r">
             <h2
               className="text-3xl lg:text-4xl font-bold text-foreground mb-6"
-              data-oid="jtsn5ci"
+              data-oid="yno0dq4"
             >
               Ready to Take Control of Your Trade Costs?
             </h2>
             <p
               className="text-xl text-muted-foreground mb-8"
-              data-oid="q1:0nuq"
+              data-oid="865o-.2"
             >
               Join thousands of trade professionals who use TradeNavigatorPro to
               make smarter, faster decisions.
             </p>
             <div
               className="flex flex-col sm:flex-row gap-4 justify-center"
-              data-oid="c27wgye"
+              data-oid="0e69v5o"
             >
               <Button
                 size="lg"
                 className="btn-orange"
                 asChild
-                data-oid="2w5vbnv"
+                data-oid="w7.u4c8"
               >
                 <Link
                   href={`/${params.locale}/apps/cost-calculator`}
-                  data-oid="xhcsdze"
+                  data-oid="6rydbcw"
                 >
                   Start Free Analysis
-                  <ArrowRight className="ml-2 h-5 w-5" data-oid="cdxhy6c" />
+                  <ArrowRight className="ml-2 h-5 w-5" data-oid="h199wxu" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" asChild data-oid="5_j.rp0">
-                <Link href={`/${params.locale}/contact`} data-oid="u.zsvfk">
+              <Button size="lg" variant="outline" asChild data-oid="tm1dx6w">
+                <Link href={`/${params.locale}/contact`} data-oid="crp6sd5">
                   Talk to an Expert
                 </Link>
               </Button>
             </div>
             <p
               className="text-sm text-muted-foreground mt-6"
-              data-oid="d.o9qph"
+              data-oid=":vx:glk"
             >
               ✓ No credit card required ✓ Instant results ✓ Cancel anytime
             </p>
