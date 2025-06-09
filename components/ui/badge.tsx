@@ -24,7 +24,7 @@ function Badge({ className, variant = "default", ...props }: BadgeProps) {
         className,
       )}
       {...props}
-      data-oid="krufz:m"
+      data-oid=".ejbd:0"
     />
   );
 }
