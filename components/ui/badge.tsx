@@ -24,7 +24,6 @@ function Badge({ className, variant = "default", ...props }: BadgeProps) {
         className,
       )}
       {...props}
-      data-oid="d01nokt"
     />
   );
 }

@@ -15,7 +15,6 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
         )}
         ref={ref}
         {...props}
-        data-oid="x.b.7.i"
       />
     );
   },

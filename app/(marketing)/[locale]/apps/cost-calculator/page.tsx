@@ -41,57 +41,57 @@ export default function CostCalculatorPage() {
   };
 
   return (
-    <div className="min-h-screen bg-background" data-oid="3pr20tg">
+    <div className="min-h-screen bg-background" data-oid="_c9--gf">
       {/* Header */}
-      <div className="border-b border-border bg-muted/30" data-oid=":dnffj5">
+      <div className="border-b border-border bg-muted/30" data-oid="33al5nk">
         <div
           className="container mx-auto px-4 sm:px-6 lg:px-8 py-8"
-          data-oid="r2loy60"
+          data-oid="lgu8cux"
         >
-          <div className="flex items-center space-x-4 mb-4" data-oid="8644mr1">
+          <div className="flex items-center space-x-4 mb-4" data-oid="mj.cdtz">
             <div
               className="w-12 h-12 bg-orange/10 rounded-lg flex items-center justify-center"
-              data-oid="qugp5-j"
+              data-oid="2.6ei_u"
             >
-              <Calculator className="h-6 w-6 text-orange" data-oid="llp1aju" />
+              <Calculator className="h-6 w-6 text-orange" data-oid="v7cj6u7" />
             </div>
-            <div data-oid="d241t2t">
+            <div data-oid="kwqtcc8">
               <h1
                 className="text-3xl font-bold text-foreground"
-                data-oid="kcg3sfv"
+                data-oid="7b2:y8b"
               >
                 Emergency Cost Calculator
               </h1>
-              <p className="text-muted-foreground" data-oid="s:cer1y">
+              <p className="text-muted-foreground" data-oid="q7eyjt3">
                 Upload your purchase order or enter product details to get
                 instant landed cost calculations
               </p>
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-4" data-oid="cgger6f">
+          <div className="flex flex-wrap gap-4" data-oid="330a3eo">
             <Badge
               variant="secondary"
               className="status-info"
-              data-oid="4fhl1al"
+              data-oid="die8voi"
             >
-              <TrendingUp className="w-4 h-4 mr-1" data-oid="3v.ylxv" />
+              <TrendingUp className="w-4 h-4 mr-1" data-oid="fk_8ln3" />
               Instant Results
             </Badge>
             <Badge
               variant="secondary"
               className="status-active"
-              data-oid="8t.z5.f"
+              data-oid="dlt7r5f"
             >
-              <FileText className="w-4 h-4 mr-1" data-oid="ih3koo-" />
+              <FileText className="w-4 h-4 mr-1" data-oid="pdlc_nt" />
               PDF Export
             </Badge>
             <Badge
               variant="secondary"
               className="status-warning"
-              data-oid="jcxd3_t"
+              data-oid="wa_ia1q"
             >
-              <Upload className="w-4 h-4 mr-1" data-oid="aukq_k5" />
+              <Upload className="w-4 h-4 mr-1" data-oid="vj_bhvm" />
               Bulk Upload
             </Badge>
           </div>
@@ -101,37 +101,37 @@ export default function CostCalculatorPage() {
       {/* Main Content */}
       <div
         className="container mx-auto px-4 sm:px-6 lg:px-8 py-8"
-        data-oid="kz2mec2"
+        data-oid="mg.6l-r"
       >
         <div
           className="grid grid-cols-1 lg:grid-cols-3 gap-8"
-          data-oid="d5czz3p"
+          data-oid="91nqtdz"
         >
           {/* Input Section */}
-          <div className="lg:col-span-2" data-oid="07bdhpa">
-            <Card data-oid="223ar01">
-              <CardHeader data-oid="u9_o54b">
-                <CardTitle data-oid="nd5sryv">
+          <div className="lg:col-span-2" data-oid="wpd28pf">
+            <Card data-oid="mz-:g.5">
+              <CardHeader data-oid=".lj35sx">
+                <CardTitle data-oid="s94cis4">
                   Calculate Your Landed Costs
                 </CardTitle>
-                <CardDescription data-oid="hio0:pa">
+                <CardDescription data-oid="3ccr185">
                   Choose how you want to input your product information
                 </CardDescription>
               </CardHeader>
-              <CardContent data-oid="749lqfa">
+              <CardContent data-oid="3ctdiwt">
                 <Tabs
                   defaultValue="manual"
                   className="w-full"
-                  data-oid="93sn0u-"
+                  data-oid="m0n1lwy"
                 >
                   <TabsList
                     className="grid w-full grid-cols-2"
-                    data-oid="kio:d1b"
+                    data-oid="bif2tbs"
                   >
-                    <TabsTrigger value="manual" data-oid="xe_edpb">
+                    <TabsTrigger value="manual" data-oid="-31birq">
                       Manual Entry
                     </TabsTrigger>
-                    <TabsTrigger value="upload" data-oid="-ukb5a9">
+                    <TabsTrigger value="upload" data-oid="v41tp06">
                       File Upload
                     </TabsTrigger>
                   </TabsList>
@@ -139,24 +139,24 @@ export default function CostCalculatorPage() {
                   <TabsContent
                     value="manual"
                     className="mt-6"
-                    data-oid="v.zw3j3"
+                    data-oid="rhgmnw8"
                   >
                     <CostCalculatorForm
                       onCalculationComplete={handleCalculationComplete}
                       isCalculating={isCalculating}
-                      data-oid=":i6z.bm"
+                      data-oid="em0pv04"
                     />
                   </TabsContent>
 
                   <TabsContent
                     value="upload"
                     className="mt-6"
-                    data-oid="1-fsvvy"
+                    data-oid="m:56jrv"
                   >
                     <FileUpload
                       onFileUpload={handleFileUpload}
                       isProcessing={isCalculating}
-                      data-oid="6rlajeb"
+                      data-oid="y-4.oeg"
                     />
                   </TabsContent>
                 </Tabs>
@@ -165,81 +165,81 @@ export default function CostCalculatorPage() {
           </div>
 
           {/* Quick Info Sidebar */}
-          <div className="space-y-6" data-oid="l0ar63p">
-            <Card data-oid="hveyqt5">
-              <CardHeader data-oid="-cvpmoi">
-                <CardTitle className="text-lg" data-oid="k2np0or">
+          <div className="space-y-6" data-oid="pdstor4">
+            <Card data-oid="6t:xjm1">
+              <CardHeader data-oid="l_vf3uq">
+                <CardTitle className="text-lg" data-oid="i9nn_pj">
                   How It Works
                 </CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4" data-oid="3hdzyrb">
-                <div className="flex items-start space-x-3" data-oid="82j6sji">
+              <CardContent className="space-y-4" data-oid="n3bi1fg">
+                <div className="flex items-start space-x-3" data-oid="y_ft61a">
                   <div
                     className="w-6 h-6 bg-orange/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5"
-                    data-oid="c6jhjjq"
+                    data-oid="p5p4ljq"
                   >
                     <span
                       className="text-xs font-semibold text-orange"
-                      data-oid="w95q2lf"
+                      data-oid="a1cxneb"
                     >
                       1
                     </span>
                   </div>
-                  <div data-oid="fm:qjwa">
-                    <h4 className="font-medium" data-oid="63oq2x_">
+                  <div data-oid="n1-z439">
+                    <h4 className="font-medium" data-oid="m_cnf-s">
                       Enter Product Details
                     </h4>
                     <p
                       className="text-sm text-muted-foreground"
-                      data-oid="uq.vo1m"
+                      data-oid="6jybj0e"
                     >
                       Add your products manually or upload a CSV/Excel file
                     </p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-3" data-oid="bfknmmw">
+                <div className="flex items-start space-x-3" data-oid="liz9bjt">
                   <div
                     className="w-6 h-6 bg-orange/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5"
-                    data-oid="7-kl8gn"
+                    data-oid="yv_lzmh"
                   >
                     <span
                       className="text-xs font-semibold text-orange"
-                      data-oid="ibm-jdu"
+                      data-oid="dtzr6sn"
                     >
                       2
                     </span>
                   </div>
-                  <div data-oid="ob4hr22">
-                    <h4 className="font-medium" data-oid="oo3:34s">
+                  <div data-oid="-4rfz9-">
+                    <h4 className="font-medium" data-oid="g1bmz00">
                       Get Instant Analysis
                     </h4>
                     <p
                       className="text-sm text-muted-foreground"
-                      data-oid="tj8-k5i"
+                      data-oid="879af9y"
                     >
                       See tariff rates, shipping costs, and total landed costs
                     </p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-3" data-oid="jaug0ay">
+                <div className="flex items-start space-x-3" data-oid="gezdplf">
                   <div
                     className="w-6 h-6 bg-orange/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5"
-                    data-oid="3fe3.d3"
+                    data-oid="9oq6929"
                   >
                     <span
                       className="text-xs font-semibold text-orange"
-                      data-oid="iae8mfr"
+                      data-oid=".70heuz"
                     >
                       3
                     </span>
                   </div>
-                  <div data-oid="rcs.4ut">
-                    <h4 className="font-medium" data-oid="55dmld:">
+                  <div data-oid="suu6e:j">
+                    <h4 className="font-medium" data-oid="2fos:_x">
                       Export Results
                     </h4>
                     <p
                       className="text-sm text-muted-foreground"
-                      data-oid="g1-ojnd"
+                      data-oid="two5jbd"
                     >
                       Download professional reports for your team
                     </p>
@@ -248,16 +248,16 @@ export default function CostCalculatorPage() {
               </CardContent>
             </Card>
 
-            <Card data-oid="re6iz5b">
-              <CardHeader data-oid="7x8ac5i">
-                <CardTitle className="text-lg" data-oid="_e.zrry">
+            <Card data-oid="nv_46d1">
+              <CardHeader data-oid="pe6ewr9">
+                <CardTitle className="text-lg" data-oid="wfshh7h">
                   Sample Data
                 </CardTitle>
               </CardHeader>
-              <CardContent data-oid="2.tgqgv">
+              <CardContent data-oid="h0lzh5h">
                 <p
                   className="text-sm text-muted-foreground mb-4"
-                  data-oid="ouxg4sp"
+                  data-oid="oftzyke"
                 >
                   Try the calculator with sample data to see how it works.
                 </p>
@@ -279,7 +279,7 @@ export default function CostCalculatorPage() {
                       },
                     );
                   }}
-                  data-oid="r.j6os4"
+                  data-oid="k7mugxk"
                 >
                   Load Sample Data
                 </Button>
@@ -290,10 +290,10 @@ export default function CostCalculatorPage() {
 
         {/* Results Section */}
         {calculations.length > 0 && (
-          <div className="mt-8" data-oid="hy_ptwm">
+          <div className="mt-8" data-oid="87l4rtb">
             <CalculationResults
               calculations={calculations}
-              data-oid="kgng698"
+              data-oid="c-uokf0"
             />
           </div>
         )}

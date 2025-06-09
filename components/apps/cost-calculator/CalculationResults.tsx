@@ -70,130 +70,130 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
   };
 
   return (
-    <div className="space-y-6" data-oid="xq:euh_">
+    <div className="space-y-6" data-oid="3qhruqn">
       {/* Summary Cards */}
       <div
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
-        data-oid="16k19t."
+        data-oid="le1ge36"
       >
-        <Card data-oid="03wreuz">
-          <CardContent className="p-6" data-oid=".by59zo">
+        <Card data-oid="4tjgcoi">
+          <CardContent className="p-6" data-oid="e5e3wbd">
             <div
               className="flex items-center justify-between"
-              data-oid="_2koun-"
+              data-oid="9bqzu_."
             >
-              <div data-oid="liiy5vx">
+              <div data-oid="d47jn.:">
                 <p
                   className="text-sm font-medium text-muted-foreground"
-                  data-oid="s2wfzd-"
+                  data-oid="vp06cvt"
                 >
                   Original Cost
                 </p>
-                <p className="text-2xl font-bold" data-oid="627eyk_">
+                <p className="text-2xl font-bold" data-oid="09je970">
                   {formatCurrency(summary.totalOriginalCost)}
                 </p>
               </div>
               <div
                 className="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center"
-                data-oid=".ythfs2"
+                data-oid="wl-p6xz"
               >
-                <Package className="h-6 w-6 text-blue-500" data-oid="16b1a5_" />
+                <Package className="h-6 w-6 text-blue-500" data-oid="ehxxu_g" />
               </div>
             </div>
           </CardContent>
         </Card>
 
-        <Card data-oid="r3d:q5r">
-          <CardContent className="p-6" data-oid="szpps0g">
+        <Card data-oid="7zsx.bz">
+          <CardContent className="p-6" data-oid="4pi_zyv">
             <div
               className="flex items-center justify-between"
-              data-oid="i6fl6f-"
+              data-oid="onf578u"
             >
-              <div data-oid="8x3cfpx">
+              <div data-oid="8ilnspz">
                 <p
                   className="text-sm font-medium text-muted-foreground"
-                  data-oid="d7kqxi4"
+                  data-oid="ey_7:eo"
                 >
                   Tariff Cost
                 </p>
                 <p
                   className="text-2xl font-bold text-orange"
-                  data-oid="5-9.cyv"
+                  data-oid="i_aj-ph"
                 >
                   {formatCurrency(summary.totalTariffCost)}
                 </p>
               </div>
               <div
                 className="w-12 h-12 bg-orange/10 rounded-lg flex items-center justify-center"
-                data-oid="e1iahg."
+                data-oid="-2ibwwv"
               >
                 <DollarSign
                   className="h-6 w-6 text-orange"
-                  data-oid="m6un61x"
+                  data-oid="5of.sg_"
                 />
               </div>
             </div>
           </CardContent>
         </Card>
 
-        <Card data-oid="hkfysff">
-          <CardContent className="p-6" data-oid="gjqcyrf">
+        <Card data-oid="5ivi1ur">
+          <CardContent className="p-6" data-oid="zhz:3n.">
             <div
               className="flex items-center justify-between"
-              data-oid="3.m-kna"
+              data-oid="_o9lm5z"
             >
-              <div data-oid="ccle:ze">
+              <div data-oid="dwub_w8">
                 <p
                   className="text-sm font-medium text-muted-foreground"
-                  data-oid="c0k8n5x"
+                  data-oid="bjo80jh"
                 >
                   Shipping Cost
                 </p>
-                <p className="text-2xl font-bold text-info" data-oid="k5gslx1">
+                <p className="text-2xl font-bold text-info" data-oid="totch78">
                   {formatCurrency(summary.totalShippingCost)}
                 </p>
               </div>
               <div
                 className="w-12 h-12 bg-info/10 rounded-lg flex items-center justify-center"
-                data-oid="au:8a67"
+                data-oid="78t_v.g"
               >
-                <Truck className="h-6 w-6 text-info" data-oid="isgm.wp" />
+                <Truck className="h-6 w-6 text-info" data-oid="e3kgy4_" />
               </div>
             </div>
           </CardContent>
         </Card>
 
-        <Card data-oid="ji_4l-5">
-          <CardContent className="p-6" data-oid="1k5yu8o">
+        <Card data-oid="qngrmbe">
+          <CardContent className="p-6" data-oid="wm6.sxs">
             <div
               className="flex items-center justify-between"
-              data-oid="4.qau.6"
+              data-oid="y2j8f.0"
             >
-              <div data-oid="m296a:b">
+              <div data-oid="aie9zib">
                 <p
                   className="text-sm font-medium text-muted-foreground"
-                  data-oid="tibhbgn"
+                  data-oid="iu:p6ut"
                 >
                   Total Landed Cost
                 </p>
-                <p className="text-2xl font-bold" data-oid="n2:47y2">
+                <p className="text-2xl font-bold" data-oid="80:899l">
                   {formatCurrency(summary.totalLandedCost)}
                 </p>
-                <div className="flex items-center mt-1" data-oid="moea9du">
+                <div className="flex items-center mt-1" data-oid="y-c8lyj">
                   {overallImpact > 0 ? (
                     <TrendingUp
                       className="h-4 w-4 text-destructive mr-1"
-                      data-oid="1vb9:t6"
+                      data-oid="9st6rgk"
                     />
                   ) : (
                     <TrendingDown
                       className="h-4 w-4 text-success mr-1"
-                      data-oid="1a21tif"
+                      data-oid="v0v-:vu"
                     />
                   )}
                   <span
                     className={`text-sm font-medium ${getImpactColor(overallImpact)}`}
-                    data-oid="p5e3wgl"
+                    data-oid="pu-j1qz"
                   >
                     {formatPercentage(overallImpact)}
                   </span>
@@ -207,22 +207,22 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
                       ? "bg-warning/10"
                       : "bg-success/10"
                 }`}
-                data-oid="9djzva_"
+                data-oid="pjxy1ch"
               >
                 {overallImpact > 15 ? (
                   <AlertTriangle
                     className="h-6 w-6 text-destructive"
-                    data-oid="psmth4c"
+                    data-oid="vnwmnol"
                   />
                 ) : overallImpact > 5 ? (
                   <TrendingUp
                     className="h-6 w-6 text-warning"
-                    data-oid="q0s-cu-"
+                    data-oid=".ww46vl"
                   />
                 ) : (
                   <CheckCircle
                     className="h-6 w-6 text-success"
-                    data-oid="vylezcn"
+                    data-oid="r6hcx01"
                   />
                 )}
               </div>
@@ -232,10 +232,10 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
       </div>
 
       {/* Impact Analysis */}
-      <Card data-oid="5vy46ws">
-        <CardHeader data-oid="ibuhma1">
-          <CardTitle className="flex items-center space-x-2" data-oid="6sbf1mk">
-            <span data-oid="4i7nu8s">Impact Analysis</span>
+      <Card data-oid="7_n7pto">
+        <CardHeader data-oid="nu6u9ro">
+          <CardTitle className="flex items-center space-x-2" data-oid="-muauem">
+            <span data-oid="_29y4xl">Impact Analysis</span>
             <Badge
               variant={
                 overallImpact > 15
@@ -244,7 +244,7 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
                     ? "secondary"
                     : "default"
               }
-              data-oid="iz0o_m_"
+              data-oid="iuit9j5"
             >
               {overallImpact > 15
                 ? "High Impact"
@@ -253,7 +253,7 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
                   : "Low Impact"}
             </Badge>
           </CardTitle>
-          <CardDescription data-oid="csmhr4m">
+          <CardDescription data-oid="hnqg01w">
             Overall cost impact:{" "}
             {formatCurrency(
               summary.totalLandedCost - summary.totalOriginalCost,
@@ -261,47 +261,47 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
             ({formatPercentage(overallImpact)} increase)
           </CardDescription>
         </CardHeader>
-        <CardContent data-oid="m_iqlq1">
-          <div className="space-y-4" data-oid="2zw82io">
+        <CardContent data-oid="hc.yb.7">
+          <div className="space-y-4" data-oid=".ygtakx">
             {overallImpact > 20 && (
               <div
                 className="p-4 bg-destructive/10 border border-destructive/20 rounded-lg"
-                data-oid="il9v2d6"
+                data-oid="h.tt2xy"
               >
-                <div className="flex items-start space-x-3" data-oid="wpw3r_a">
+                <div className="flex items-start space-x-3" data-oid="gvmd.aq">
                   <AlertTriangle
                     className="h-5 w-5 text-destructive mt-0.5"
-                    data-oid="qu5b9z-"
+                    data-oid=".x.jdnm"
                   />
 
-                  <div data-oid="but-4vx">
+                  <div data-oid="dl74vao">
                     <h4
                       className="font-medium text-destructive"
-                      data-oid="fy08omt"
+                      data-oid="o8tt9i3"
                     >
                       High Impact Alert
                     </h4>
                     <p
                       className="text-sm text-muted-foreground mt-1"
-                      data-oid="_09c-f0"
+                      data-oid="4ptf944"
                     >
                       This cost increase is significant and may require
                       immediate action. Consider:
                     </p>
                     <ul
                       className="text-sm text-muted-foreground mt-2 space-y-1"
-                      data-oid="u4:2rl0"
+                      data-oid="zvi44wk"
                     >
-                      <li data-oid="mup43db">
+                      <li data-oid="znb7_u_">
                         • Finding alternative suppliers in different countries
                       </li>
-                      <li data-oid="gg7lb38">
+                      <li data-oid="dj06.7g">
                         • Adjusting pricing strategy to maintain margins
                       </li>
-                      <li data-oid="3d-jb:w">
+                      <li data-oid="2ui_xuu">
                         • Negotiating with current suppliers for better terms
                       </li>
-                      <li data-oid="3p9n7lb">
+                      <li data-oid=":fuf3zj">
                         • Exploring different shipping methods or routes
                       </li>
                     </ul>
@@ -313,21 +313,21 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
             {overallImpact > 10 && overallImpact <= 20 && (
               <div
                 className="p-4 bg-warning/10 border border-warning/20 rounded-lg"
-                data-oid="4xtc97j"
+                data-oid="8o7xzz6"
               >
-                <div className="flex items-start space-x-3" data-oid=".t4v3.q">
+                <div className="flex items-start space-x-3" data-oid="xtauqz0">
                   <TrendingUp
                     className="h-5 w-5 text-warning mt-0.5"
-                    data-oid="0jjzfvf"
+                    data-oid="pd5jcm7"
                   />
 
-                  <div data-oid="667hxke">
-                    <h4 className="font-medium text-warning" data-oid="6ycqe5s">
+                  <div data-oid="_:fg24t">
+                    <h4 className="font-medium text-warning" data-oid="45i322x">
                       Medium Impact
                     </h4>
                     <p
                       className="text-sm text-muted-foreground mt-1"
-                      data-oid="5ar-kwu"
+                      data-oid="tsvivke"
                     >
                       This cost increase is manageable but should be monitored.
                       Consider reviewing your pricing strategy.
@@ -340,21 +340,21 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
             {overallImpact <= 10 && (
               <div
                 className="p-4 bg-success/10 border border-success/20 rounded-lg"
-                data-oid="o83e-_t"
+                data-oid=".vpes0z"
               >
-                <div className="flex items-start space-x-3" data-oid="0i1aruo">
+                <div className="flex items-start space-x-3" data-oid="3mnzz.6">
                   <CheckCircle
                     className="h-5 w-5 text-success mt-0.5"
-                    data-oid="gbr4vrx"
+                    data-oid="kd-s_ph"
                   />
 
-                  <div data-oid="4439a08">
-                    <h4 className="font-medium text-success" data-oid="8ar9p9w">
+                  <div data-oid="i6b4t_k">
+                    <h4 className="font-medium text-success" data-oid="p:97g2u">
                       Low Impact
                     </h4>
                     <p
                       className="text-sm text-muted-foreground mt-1"
-                      data-oid="7-19cr4"
+                      data-oid="598j1x1"
                     >
                       This cost increase is minimal and should not significantly
                       affect your business operations.
@@ -368,17 +368,17 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
       </Card>
 
       {/* Detailed Results */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" data-oid="kerju9a">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" data-oid="-awdaet">
         {/* Product List */}
-        <Card data-oid=".ff2i6:">
-          <CardHeader data-oid="fyf3fi6">
-            <CardTitle data-oid="qtre3ls">Product Breakdown</CardTitle>
-            <CardDescription data-oid="628_bd5">
+        <Card data-oid="mqffxa.">
+          <CardHeader data-oid="29p5d:m">
+            <CardTitle data-oid="y56b-ap">Product Breakdown</CardTitle>
+            <CardDescription data-oid="lt30:zc">
               Click on a product to see detailed cost analysis
             </CardDescription>
           </CardHeader>
-          <CardContent data-oid="nc_xn3d">
-            <div className="space-y-3" data-oid="5.03s8i">
+          <CardContent data-oid="7qa8y-:">
+            <div className="space-y-3" data-oid="_l2xe0c">
               {calculations.map((calc) => (
                 <div
                   key={calc.id}
@@ -388,47 +388,47 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
                       : "border-border hover:border-orange/50"
                   }`}
                   onClick={() => setSelectedCalculation(calc)}
-                  data-oid="17e5wxh"
+                  data-oid="kyfxy1s"
                 >
                   <div
                     className="flex items-center justify-between mb-2"
-                    data-oid=":_me890"
+                    data-oid="so4ah-z"
                   >
-                    <h4 className="font-medium" data-oid="c2xdgdc">
+                    <h4 className="font-medium" data-oid="ados0al">
                       {calc.product.name}
                     </h4>
                     <Badge
                       variant={
                         calc.impactPercentage > 15 ? "destructive" : "secondary"
                       }
-                      data-oid="x.zjlb-"
+                      data-oid="_rll7r-"
                     >
                       {formatPercentage(calc.impactPercentage)}
                     </Badge>
                   </div>
                   <div
                     className="grid grid-cols-2 gap-4 text-sm"
-                    data-oid="5ofh7ff"
+                    data-oid="h5njc_z"
                   >
-                    <div data-oid=":p71ssa">
+                    <div data-oid="25x14de">
                       <span
                         className="text-muted-foreground"
-                        data-oid="5qqt6k-"
+                        data-oid="p2px-0y"
                       >
                         Original:
                       </span>
-                      <span className="ml-2 font-medium" data-oid="b6p_jhu">
+                      <span className="ml-2 font-medium" data-oid="h_c.yl-">
                         {formatCurrency(calc.originalCost)}
                       </span>
                     </div>
-                    <div data-oid="tiq9d6_">
+                    <div data-oid="qfypxn4">
                       <span
                         className="text-muted-foreground"
-                        data-oid="3tq:m4:"
+                        data-oid="dqc-_dy"
                       >
                         Landed:
                       </span>
-                      <span className="ml-2 font-medium" data-oid="ukkrd23">
+                      <span className="ml-2 font-medium" data-oid="mmfdlwg">
                         {formatCurrency(calc.totalLandedCost)}
                       </span>
                     </div>
@@ -440,22 +440,22 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
         </Card>
 
         {/* Cost Visualization */}
-        <Card data-oid="r-hm3bc">
-          <CardHeader data-oid="8toleua">
-            <CardTitle data-oid="6gxdivb">Cost Breakdown</CardTitle>
-            <CardDescription data-oid="5f._gyf">
+        <Card data-oid="r2pvb11">
+          <CardHeader data-oid="1n8-q2r">
+            <CardTitle data-oid="-:iovul">Cost Breakdown</CardTitle>
+            <CardDescription data-oid="o1780wy">
               {selectedCalculation
                 ? `Detailed analysis for ${selectedCalculation.product.name}`
                 : "Select a product to see detailed breakdown"}
             </CardDescription>
           </CardHeader>
-          <CardContent data-oid="12:s3n1">
+          <CardContent data-oid="9ub1qqn">
             {selectedCalculation ? (
-              <CostChart calculation={selectedCalculation} data-oid="0pgdl:2" />
+              <CostChart calculation={selectedCalculation} data-oid="18vdr9e" />
             ) : (
               <div
                 className="h-64 flex items-center justify-center text-muted-foreground"
-                data-oid="dk_:1mf"
+                data-oid="crmv.ub"
               >
                 Select a product from the list to view cost breakdown
               </div>
@@ -465,37 +465,37 @@ export function CalculationResults({ calculations }: CalculationResultsProps) {
       </div>
 
       {/* Export Section */}
-      <Card data-oid="dy48t:u">
-        <CardHeader data-oid="lpstmu:">
-          <CardTitle className="flex items-center space-x-2" data-oid="03g1x47">
-            <FileText className="h-5 w-5" data-oid="vgtyi8t" />
-            <span data-oid="y9l1c_h">Export Results</span>
+      <Card data-oid="oz:j6r:">
+        <CardHeader data-oid="lsbk-gt">
+          <CardTitle className="flex items-center space-x-2" data-oid="1a7qhai">
+            <FileText className="h-5 w-5" data-oid="b4at4v8" />
+            <span data-oid="7egawfg">Export Results</span>
           </CardTitle>
-          <CardDescription data-oid="l6pp6vh">
+          <CardDescription data-oid="h_.2hgk">
             Download your cost analysis results in various formats
           </CardDescription>
         </CardHeader>
-        <CardContent data-oid="8k6z71k">
-          <div className="flex flex-wrap gap-4" data-oid="0fr:z2k">
+        <CardContent data-oid="tkrop.9">
+          <div className="flex flex-wrap gap-4" data-oid="y:i.li6">
             <ExportButton
               calculations={calculations}
               format="pdf"
               variant="default"
-              data-oid="ujib.ft"
+              data-oid="sf1uum1"
             />
 
             <ExportButton
               calculations={calculations}
               format="excel"
               variant="outline"
-              data-oid="le1cl.4"
+              data-oid="5r_3qy3"
             />
 
             <ExportButton
               calculations={calculations}
               format="csv"
               variant="outline"
-              data-oid="st3hsmx"
+              data-oid="691ka1k"
             />
           </div>
         </CardContent>

@@ -174,7 +174,7 @@ LED Light Bulbs,8539500000,3.25,10000,0.1,CN,Electronics,Energy efficient LED bu
   };
 
   return (
-    <div className="space-y-6" data-oid="xy.6emo">
+    <div className="space-y-6" data-oid="xamkhuy">
       {/* Upload Area */}
       <Card
         className={`border-2 border-dashed transition-colors ${
@@ -182,30 +182,30 @@ LED Light Bulbs,8539500000,3.25,10000,0.1,CN,Electronics,Energy efficient LED bu
             ? "border-orange bg-orange/5"
             : "border-muted-foreground/25"
         }`}
-        data-oid="g3f7w-l"
+        data-oid="eq2y2nc"
       >
-        <CardContent className="p-8" data-oid="wxpz9ax">
+        <CardContent className="p-8" data-oid="dreh-bb">
           <div
             className="text-center"
             onDragEnter={handleDrag}
             onDragLeave={handleDrag}
             onDragOver={handleDrag}
             onDrop={handleDrop}
-            data-oid="y.9ud7z"
+            data-oid="wr9k8qk"
           >
             <div
               className="mx-auto w-16 h-16 bg-muted rounded-lg flex items-center justify-center mb-4"
-              data-oid="rt6qemu"
+              data-oid="m3ii73f"
             >
               <Upload
                 className="h-8 w-8 text-muted-foreground"
-                data-oid="-0pfuiz"
+                data-oid="gxf1esa"
               />
             </div>
-            <h3 className="text-lg font-semibold mb-2" data-oid="5:t_w3z">
+            <h3 className="text-lg font-semibold mb-2" data-oid="cikrvuq">
               Upload Your Product File
             </h3>
-            <p className="text-muted-foreground mb-4" data-oid="oq3z-k_">
+            <p className="text-muted-foreground mb-4" data-oid="vup0hlc">
               Drag and drop your CSV or Excel file here, or click to browse
             </p>
 
@@ -216,26 +216,26 @@ LED Light Bulbs,8539500000,3.25,10000,0.1,CN,Electronics,Energy efficient LED bu
               className="hidden"
               id="file-upload"
               disabled={isProcessing}
-              data-oid="qxwqo:w"
+              data-oid="ydz0bw:"
             />
 
-            <Button asChild disabled={isProcessing} data-oid="z8z.93e">
+            <Button asChild disabled={isProcessing} data-oid="2pozky5">
               <label
                 htmlFor="file-upload"
                 className="cursor-pointer"
-                data-oid="unn0zd5"
+                data-oid="sjb4-:3"
               >
                 {isProcessing ? (
                   <>
                     <div
                       className="animate-spin rounded-full h-4 w-4 border-b-2 border-current mr-2"
-                      data-oid="103lbsg"
+                      data-oid="fwznqkx"
                     />
                     Processing...
                   </>
                 ) : (
                   <>
-                    <FileText className="h-4 w-4 mr-2" data-oid="6r987-6" />
+                    <FileText className="h-4 w-4 mr-2" data-oid="orf25ax" />
                     Choose File
                   </>
                 )}
@@ -244,10 +244,10 @@ LED Light Bulbs,8539500000,3.25,10000,0.1,CN,Electronics,Energy efficient LED bu
 
             <div
               className="flex flex-wrap justify-center gap-2 mt-4"
-              data-oid="d634hwm"
+              data-oid="3.lce5y"
             >
               {FILE_UPLOAD.allowedExtensions.map((ext) => (
-                <Badge key={ext} variant="secondary" data-oid="qw36up-">
+                <Badge key={ext} variant="secondary" data-oid="eu-52tk">
                   {ext}
                 </Badge>
               ))}
@@ -255,7 +255,7 @@ LED Light Bulbs,8539500000,3.25,10000,0.1,CN,Electronics,Energy efficient LED bu
 
             <p
               className="text-xs text-muted-foreground mt-2"
-              data-oid="dce7lha"
+              data-oid="jlim3ii"
             >
               Maximum file size: {formatFileSize(FILE_UPLOAD.maxSize)}
             </p>
@@ -265,29 +265,29 @@ LED Light Bulbs,8539500000,3.25,10000,0.1,CN,Electronics,Energy efficient LED bu
 
       {/* File Status */}
       {uploadedFile && (
-        <Card data-oid="gwm:b4.">
-          <CardContent className="p-4" data-oid="1rl6ch0">
+        <Card data-oid="e0:cfyh">
+          <CardContent className="p-4" data-oid="vizr0y_">
             <div
               className="flex items-center justify-between"
-              data-oid="50glof_"
+              data-oid="_g7bs:m"
             >
-              <div className="flex items-center space-x-3" data-oid="2505bj2">
+              <div className="flex items-center space-x-3" data-oid="tk7-ar3">
                 <div
                   className="w-10 h-10 bg-success/10 rounded-lg flex items-center justify-center"
-                  data-oid="67_7371"
+                  data-oid="6ap.grk"
                 >
                   <CheckCircle
                     className="h-5 w-5 text-success"
-                    data-oid="68irmkr"
+                    data-oid="ro6wpon"
                   />
                 </div>
-                <div data-oid=":8tnyqe">
-                  <p className="font-medium" data-oid="4elh5n9">
+                <div data-oid="8d8giwk">
+                  <p className="font-medium" data-oid="i8l:kxe">
                     {uploadedFile.name}
                   </p>
                   <p
                     className="text-sm text-muted-foreground"
-                    data-oid="p:8b7be"
+                    data-oid="v:6id_a"
                   >
                     {formatFileSize(uploadedFile.size)}
                   </p>
@@ -296,7 +296,7 @@ LED Light Bulbs,8539500000,3.25,10000,0.1,CN,Electronics,Energy efficient LED bu
               {isProcessing && (
                 <div
                   className="animate-spin rounded-full h-5 w-5 border-b-2 border-orange"
-                  data-oid="toqacii"
+                  data-oid="pl-f0.p"
                 />
               )}
             </div>
@@ -306,19 +306,19 @@ LED Light Bulbs,8539500000,3.25,10000,0.1,CN,Electronics,Energy efficient LED bu
 
       {/* Error Display */}
       {error && (
-        <Card className="border-destructive" data-oid="k3dpuvo">
-          <CardContent className="p-4" data-oid="jiq1g_v">
-            <div className="flex items-center space-x-3" data-oid="8:t1b0a">
+        <Card className="border-destructive" data-oid="geltkf0">
+          <CardContent className="p-4" data-oid="0gkwbsd">
+            <div className="flex items-center space-x-3" data-oid="i5avp15">
               <AlertCircle
                 className="h-5 w-5 text-destructive flex-shrink-0"
-                data-oid="i6.2c8q"
+                data-oid="lrwwit1"
               />
 
-              <div data-oid="e9q6l2o">
-                <p className="font-medium text-destructive" data-oid="8fivd3a">
+              <div data-oid="z9dkkbs">
+                <p className="font-medium text-destructive" data-oid="-k9oe3r">
                   Upload Error
                 </p>
-                <p className="text-sm text-muted-foreground" data-oid="-:rwc_z">
+                <p className="text-sm text-muted-foreground" data-oid="3.o9o75">
                   {error}
                 </p>
               </div>
@@ -328,70 +328,70 @@ LED Light Bulbs,8539500000,3.25,10000,0.1,CN,Electronics,Energy efficient LED bu
       )}
 
       {/* File Format Help */}
-      <Card data-oid="b:k7xh0">
-        <CardHeader data-oid="ke159_z">
-          <CardTitle className="text-lg" data-oid="gp:1sm:">
+      <Card data-oid="u4dh.a.">
+        <CardHeader data-oid="io0bx57">
+          <CardTitle className="text-lg" data-oid="948qtf2">
             File Format Requirements
           </CardTitle>
-          <CardDescription data-oid="nbjwyyr">
+          <CardDescription data-oid="txpcbb_">
             Your file should include the following columns (case-insensitive):
           </CardDescription>
         </CardHeader>
-        <CardContent data-oid="7o-5f2r">
+        <CardContent data-oid="tzq3.gj">
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4"
-            data-oid="s1rqe2m"
+            data-oid="ogeymnf"
           >
-            <div data-oid="z6tlf6-">
-              <h4 className="font-medium text-success mb-2" data-oid="va-r7mu">
+            <div data-oid="rd4-5j7">
+              <h4 className="font-medium text-success mb-2" data-oid="xi5a3:r">
                 Required Columns:
               </h4>
               <ul
                 className="text-sm text-muted-foreground space-y-1"
-                data-oid="u35mint"
+                data-oid="5q546_7"
               >
-                <li data-oid="6.9v:zf">
-                  • <strong data-oid="n0odu8t">name</strong> or{" "}
-                  <strong data-oid="rvnex:x">product</strong> - Product name
+                <li data-oid=".w:0amd">
+                  • <strong data-oid="rtwoujg">name</strong> or{" "}
+                  <strong data-oid="k1qur0y">product</strong> - Product name
                 </li>
-                <li data-oid="pmety8j">
-                  • <strong data-oid="m_3a4ai">cost</strong> or{" "}
-                  <strong data-oid="lgmbwdh">price</strong> - Unit cost in USD
+                <li data-oid="1bt5_6q">
+                  • <strong data-oid=".ggeipp">cost</strong> or{" "}
+                  <strong data-oid="myzyaoh">price</strong> - Unit cost in USD
                 </li>
-                <li data-oid="iwn-t18">
-                  • <strong data-oid="zh8zz1j">quantity</strong> or{" "}
-                  <strong data-oid="ljkfl6w">qty</strong> - Order quantity
+                <li data-oid="0xk.orx">
+                  • <strong data-oid="vljm.l0">quantity</strong> or{" "}
+                  <strong data-oid="5b-4sdb">qty</strong> - Order quantity
                 </li>
-                <li data-oid="e58wek6">
-                  • <strong data-oid="kkg4hxy">country</strong> or{" "}
-                  <strong data-oid="u6ggy6y">supplier</strong> - Supplier
+                <li data-oid="0fvjf3w">
+                  • <strong data-oid="9w-lcf8">country</strong> or{" "}
+                  <strong data-oid="yr9xvj7">supplier</strong> - Supplier
                   country code
                 </li>
               </ul>
             </div>
-            <div data-oid="c59ayfy">
-              <h4 className="font-medium text-info mb-2" data-oid="3hcir2t">
+            <div data-oid="xfamb88">
+              <h4 className="font-medium text-info mb-2" data-oid="8ulp7ys">
                 Optional Columns:
               </h4>
               <ul
                 className="text-sm text-muted-foreground space-y-1"
-                data-oid="houcxz_"
+                data-oid="r:nj_:3"
               >
-                <li data-oid="5ultz61">
-                  • <strong data-oid="jo2azn_">hts</strong> or{" "}
-                  <strong data-oid="2rnbbdq">htscode</strong> - HTS
+                <li data-oid=":o_46p6">
+                  • <strong data-oid="s5t.qjv">hts</strong> or{" "}
+                  <strong data-oid="z6hzn_a">htscode</strong> - HTS
                   classification
                 </li>
-                <li data-oid="va3xf6p">
-                  • <strong data-oid="hsbkvqq">weight</strong> - Product weight
+                <li data-oid="19n5tza">
+                  • <strong data-oid="f.292k6">weight</strong> - Product weight
                   in kg
                 </li>
-                <li data-oid="4nc.t3d">
-                  • <strong data-oid="q_jfrc2">category</strong> - Product
+                <li data-oid="o70fv5.">
+                  • <strong data-oid="qjcelkf">category</strong> - Product
                   category
                 </li>
-                <li data-oid="xokfe-.">
-                  • <strong data-oid="jbbf0l3">description</strong> - Product
+                <li data-oid="xae1jya">
+                  • <strong data-oid="x3:f3_a">description</strong> - Product
                   description
                 </li>
               </ul>
@@ -402,9 +402,9 @@ LED Light Bulbs,8539500000,3.25,10000,0.1,CN,Electronics,Energy efficient LED bu
             variant="outline"
             onClick={downloadSampleFile}
             className="w-full"
-            data-oid="p:q-gy:"
+            data-oid="ysv-.6j"
           >
-            <Download className="h-4 w-4 mr-2" data-oid="c:u:qsz" />
+            <Download className="h-4 w-4 mr-2" data-oid="3j-ji_3" />
             Download Sample CSV Template
           </Button>
         </CardContent>

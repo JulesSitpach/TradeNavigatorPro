@@ -102,11 +102,11 @@ export function CostCalculatorForm({
   );
 
   return (
-    <div className="space-y-6" data-oid="5x891ru">
+    <div className="space-y-6" data-oid="am6i43z">
       {/* Products */}
-      <div className="space-y-4" data-oid="25oimmu">
-        <div className="flex items-center justify-between" data-oid="sit-1x-">
-          <h3 className="text-lg font-semibold" data-oid="o7y_y16">
+      <div className="space-y-4" data-oid="ibmyt0-">
+        <div className="flex items-center justify-between" data-oid="x2.qb6z">
+          <h3 className="text-lg font-semibold" data-oid="ql:y0-u">
             Products
           </h3>
           <Button
@@ -115,21 +115,21 @@ export function CostCalculatorForm({
             size="sm"
             onClick={addProduct}
             className="flex items-center space-x-2"
-            data-oid="s_rrna6"
+            data-oid="94ukio8"
           >
-            <Plus className="h-4 w-4" data-oid="yz-tp_o" />
-            <span data-oid="e:sfr5r">Add Product</span>
+            <Plus className="h-4 w-4" data-oid=".lawqlv" />
+            <span data-oid="4tsttck">Add Product</span>
           </Button>
         </div>
 
         {products.map((product, index) => (
-          <Card key={product.id} className="relative" data-oid="ju7w_l0">
-            <CardHeader className="pb-4" data-oid=".09cwic">
+          <Card key={product.id} className="relative" data-oid="f:4ms8m">
+            <CardHeader className="pb-4" data-oid=":q3g3s2">
               <div
                 className="flex items-center justify-between"
-                data-oid="-jkg5xy"
+                data-oid="ti-ar4j"
               >
-                <CardTitle className="text-base" data-oid="be.n9sh">
+                <CardTitle className="text-base" data-oid="fbp8xo_">
                   Product {index + 1}
                 </CardTitle>
                 {products.length > 1 && (
@@ -139,20 +139,20 @@ export function CostCalculatorForm({
                     size="sm"
                     onClick={() => removeProduct(product.id)}
                     className="text-destructive hover:text-destructive"
-                    data-oid="86sxru5"
+                    data-oid="74h1i14"
                   >
-                    <Minus className="h-4 w-4" data-oid="2ml..ah" />
+                    <Minus className="h-4 w-4" data-oid="jn6bcy9" />
                   </Button>
                 )}
               </div>
             </CardHeader>
-            <CardContent className="space-y-4" data-oid="ve5z21c">
+            <CardContent className="space-y-4" data-oid="d6q22l0">
               <div
                 className="grid grid-cols-1 md:grid-cols-2 gap-4"
-                data-oid="nl_op11"
+                data-oid="oxegpjx"
               >
-                <div data-oid="toxwdlk">
-                  <Label htmlFor={`name-${product.id}`} data-oid="3mnn.-0">
+                <div data-oid="utrk1x1">
+                  <Label htmlFor={`name-${product.id}`} data-oid="iy3bw_f">
                     Product Name *
                   </Label>
                   <Input
@@ -162,11 +162,11 @@ export function CostCalculatorForm({
                       updateProduct(product.id, "name", e.target.value)
                     }
                     placeholder="e.g., Wireless Headphones"
-                    data-oid="hy3rzk3"
+                    data-oid="1-epo0v"
                   />
                 </div>
-                <div data-oid="ye8oryk">
-                  <Label htmlFor={`hts-${product.id}`} data-oid="yb40ji-">
+                <div data-oid="m6nohnc">
+                  <Label htmlFor={`hts-${product.id}`} data-oid="u-iz9hy">
                     HTS Code
                   </Label>
                   <Input
@@ -176,17 +176,17 @@ export function CostCalculatorForm({
                       updateProduct(product.id, "htsCode", e.target.value)
                     }
                     placeholder="e.g., 8518300000"
-                    data-oid="auoztml"
+                    data-oid="llh2w:v"
                   />
                 </div>
               </div>
 
               <div
                 className="grid grid-cols-1 md:grid-cols-3 gap-4"
-                data-oid=".c8-2q_"
+                data-oid="_-:h68:"
               >
-                <div data-oid="yfyxsnk">
-                  <Label htmlFor={`cost-${product.id}`} data-oid="wc4_chc">
+                <div data-oid="g3blvz1">
+                  <Label htmlFor={`cost-${product.id}`} data-oid="zaz4re.">
                     Unit Cost (USD) *
                   </Label>
                   <Input
@@ -203,11 +203,11 @@ export function CostCalculatorForm({
                       )
                     }
                     placeholder="0.00"
-                    data-oid="q.d.sev"
+                    data-oid="0khw6-e"
                   />
                 </div>
-                <div data-oid="i.3s::1">
-                  <Label htmlFor={`quantity-${product.id}`} data-oid=":7gosa:">
+                <div data-oid="3-dwufn">
+                  <Label htmlFor={`quantity-${product.id}`} data-oid="zll7awu">
                     Quantity *
                   </Label>
                   <Input
@@ -223,11 +223,11 @@ export function CostCalculatorForm({
                       )
                     }
                     placeholder="0"
-                    data-oid="w9zow7z"
+                    data-oid="f3x:h44"
                   />
                 </div>
-                <div data-oid="nt0c3df">
-                  <Label htmlFor={`weight-${product.id}`} data-oid="9ou8xai">
+                <div data-oid="res0v5q">
+                  <Label htmlFor={`weight-${product.id}`} data-oid="_vax690">
                     Weight (kg)
                   </Label>
                   <Input
@@ -244,17 +244,17 @@ export function CostCalculatorForm({
                       )
                     }
                     placeholder="0.0"
-                    data-oid="pf0a85z"
+                    data-oid="t00pnnp"
                   />
                 </div>
               </div>
 
               <div
                 className="grid grid-cols-1 md:grid-cols-2 gap-4"
-                data-oid="0of_v57"
+                data-oid="pb_k0xs"
               >
-                <div data-oid="vw0ewf7">
-                  <Label htmlFor={`country-${product.id}`} data-oid="fow.gsf">
+                <div data-oid="z7ywq4z">
+                  <Label htmlFor={`country-${product.id}`} data-oid="047ynp3">
                     Supplier Country *
                   </Label>
                   <Select
@@ -262,20 +262,20 @@ export function CostCalculatorForm({
                     onValueChange={(value) =>
                       updateProduct(product.id, "supplierCountry", value)
                     }
-                    data-oid="6_:p4gb"
+                    data-oid="9noi79e"
                   >
-                    <SelectTrigger data-oid="m5-:sf8">
+                    <SelectTrigger data-oid=":svsm4c">
                       <SelectValue
                         placeholder="Select country"
-                        data-oid="utn91m4"
+                        data-oid="gh4p5hd"
                       />
                     </SelectTrigger>
-                    <SelectContent data-oid="4qdq3:u">
+                    <SelectContent data-oid="dqw01v0">
                       {COUNTRIES.map((country) => (
                         <SelectItem
                           key={country.code}
                           value={country.code}
-                          data-oid="83hz:n3"
+                          data-oid="bw.s.vt"
                         >
                           {country.flag} {country.name}
                         </SelectItem>
@@ -283,8 +283,8 @@ export function CostCalculatorForm({
                     </SelectContent>
                   </Select>
                 </div>
-                <div data-oid="2-5a:uw">
-                  <Label htmlFor={`category-${product.id}`} data-oid="i5.sr1s">
+                <div data-oid="khbdpxq">
+                  <Label htmlFor={`category-${product.id}`} data-oid="-6hde9d">
                     Category
                   </Label>
                   <Select
@@ -292,20 +292,20 @@ export function CostCalculatorForm({
                     onValueChange={(value) =>
                       updateProduct(product.id, "category", value)
                     }
-                    data-oid=":qzsq27"
+                    data-oid=":kgyab1"
                   >
-                    <SelectTrigger data-oid="ltpbzn-">
+                    <SelectTrigger data-oid="5mzibk:">
                       <SelectValue
                         placeholder="Select category"
-                        data-oid="kr.hb4i"
+                        data-oid="_su:84:"
                       />
                     </SelectTrigger>
-                    <SelectContent data-oid="1.:mm0e">
+                    <SelectContent data-oid="xzbez8p">
                       {PRODUCT_CATEGORIES.map((category) => (
                         <SelectItem
                           key={category}
                           value={category}
-                          data-oid="-_s4i.n"
+                          data-oid="kh_jjz7"
                         >
                           {category}
                         </SelectItem>
@@ -315,8 +315,8 @@ export function CostCalculatorForm({
                 </div>
               </div>
 
-              <div data-oid="xw6w5.1">
-                <Label htmlFor={`description-${product.id}`} data-oid="_h1e.l6">
+              <div data-oid="e:nb25v">
+                <Label htmlFor={`description-${product.id}`} data-oid="3ep2f::">
                   Description
                 </Label>
                 <Input
@@ -326,7 +326,7 @@ export function CostCalculatorForm({
                     updateProduct(product.id, "description", e.target.value)
                   }
                   placeholder="Optional product description"
-                  data-oid="oumj9pp"
+                  data-oid="zfnwiya"
                 />
               </div>
             </CardContent>
@@ -335,19 +335,19 @@ export function CostCalculatorForm({
       </div>
 
       {/* Shipping Options */}
-      <Card data-oid="6vtlsr9">
-        <CardHeader data-oid="9c4b875">
-          <CardTitle className="text-base" data-oid="ew5l_xp">
+      <Card data-oid="-93_s76">
+        <CardHeader data-oid="yc8mt2m">
+          <CardTitle className="text-base" data-oid="y0u1q1u">
             Shipping & Additional Costs
           </CardTitle>
         </CardHeader>
-        <CardContent className="space-y-4" data-oid=".o1qf5b">
+        <CardContent className="space-y-4" data-oid="gngkgtp">
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-4"
-            data-oid="989bcas"
+            data-oid="gvl1rbq"
           >
-            <div data-oid="t.6h4.l">
-              <Label htmlFor="shipping-method" data-oid="-atn4de">
+            <div data-oid="657e9sg">
+              <Label htmlFor="shipping-method" data-oid="28-80ix">
                 Shipping Method
               </Label>
               <Select
@@ -355,27 +355,27 @@ export function CostCalculatorForm({
                 onValueChange={(value: "air" | "sea" | "land") =>
                   setShippingMethod(value)
                 }
-                data-oid="cx66i1:"
+                data-oid=".feqp4:"
               >
-                <SelectTrigger data-oid="m4xvx7k">
-                  <SelectValue data-oid="71:o_5l" />
+                <SelectTrigger data-oid="2fm6pp6">
+                  <SelectValue data-oid="5fw5pwx" />
                 </SelectTrigger>
-                <SelectContent data-oid="f6n2az4">
+                <SelectContent data-oid="jonwd-k">
                   {SHIPPING_METHODS.map((method) => (
                     <SelectItem
                       key={method.value}
                       value={method.value}
-                      data-oid="nz739j4"
+                      data-oid=".o3zyqj"
                     >
                       <div
                         className="flex items-center justify-between w-full"
-                        data-oid="spiu5c3"
+                        data-oid="c-6w0fc"
                       >
-                        <span data-oid=".40r.:h">{method.label}</span>
+                        <span data-oid="9b-8kic">{method.label}</span>
                         <Badge
                           variant="secondary"
                           className="ml-2"
-                          data-oid="hzkrpe_"
+                          data-oid="41pac35"
                         >
                           {method.estimatedDays}
                         </Badge>
@@ -385,8 +385,8 @@ export function CostCalculatorForm({
                 </SelectContent>
               </Select>
             </div>
-            <div data-oid=":wkcz5l">
-              <Label htmlFor="additional-fees" data-oid=":4sxmsn">
+            <div data-oid="hwe-wxo">
+              <Label htmlFor="additional-fees" data-oid="o04dts_">
                 Additional Fees (USD)
               </Label>
               <Input
@@ -399,7 +399,7 @@ export function CostCalculatorForm({
                   setAdditionalFees(parseFloat(e.target.value) || 0)
                 }
                 placeholder="0.00"
-                data-oid="y009_p_"
+                data-oid="tx8mmsy"
               />
             </div>
           </div>
@@ -412,19 +412,19 @@ export function CostCalculatorForm({
         disabled={!isFormValid || isCalculating}
         className="w-full btn-orange"
         size="lg"
-        data-oid="d0g-:_c"
+        data-oid="qc4paby"
       >
         {isCalculating ? (
           <>
             <div
               className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"
-              data-oid="prqus09"
+              data-oid="yrkpsxm"
             />
             Calculating...
           </>
         ) : (
           <>
-            <Calculator className="h-4 w-4 mr-2" data-oid="4ip_wui" />
+            <Calculator className="h-4 w-4 mr-2" data-oid="kfgn79l" />
             Calculate Landed Costs
           </>
         )}

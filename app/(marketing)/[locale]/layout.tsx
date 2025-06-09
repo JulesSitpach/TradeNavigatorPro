@@ -17,35 +17,35 @@ export default function MarketingLayout({
   params: { locale: string };
 }) {
   return (
-    <div className="min-h-screen bg-background" data-oid="k2woi_u">
+    <div className="min-h-screen bg-background" data-oid="k_lzehm">
       {/* Header */}
       <header
         className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50"
-        data-oid="01_x0qq"
+        data-oid="4e:6val"
       >
         <div
           className="container mx-auto px-4 sm:px-6 lg:px-8"
-          data-oid="g:f5x_:"
+          data-oid="a-65:hi"
         >
           <div
             className="flex h-16 items-center justify-between"
-            data-oid="wzjvi5j"
+            data-oid="409nthe"
           >
             {/* Logo */}
             <Link
               href={`/${params.locale}`}
               className="flex items-center space-x-2"
-              data-oid="bi70._q"
+              data-oid="hka42v7"
             >
               <div
                 className="h-8 w-8 rounded-lg bg-orange text-white flex items-center justify-center font-bold"
-                data-oid="cjegop4"
+                data-oid="3yiz.._"
               >
                 T
               </div>
               <span
                 className="text-xl font-bold text-foreground"
-                data-oid="8o2hcs:"
+                data-oid="ug:j_z8"
               >
                 TradeNavigatorPro
               </span>
@@ -54,14 +54,14 @@ export default function MarketingLayout({
             {/* Navigation */}
             <nav
               className="hidden md:flex items-center space-x-8"
-              data-oid="fp1vly."
+              data-oid="elfme2s"
             >
               {NAVIGATION_ITEMS.map((item) => (
                 <Link
                   key={item.href}
                   href={`/${params.locale}${item.href}`}
                   className="text-muted-foreground hover:text-foreground transition-colors"
-                  data-oid="viwfsc0"
+                  data-oid="q_vy7cl"
                 >
                   {item.label}
                 </Link>
@@ -69,17 +69,17 @@ export default function MarketingLayout({
             </nav>
 
             {/* CTA Buttons */}
-            <div className="flex items-center space-x-4" data-oid="u6isb2w">
-              <Button variant="ghost" asChild data-oid="penxvjq">
+            <div className="flex items-center space-x-4" data-oid="vod3r-z">
+              <Button variant="ghost" asChild data-oid="5ui2_wu">
                 <Link
                   href={`/${params.locale}/apps/cost-calculator`}
-                  data-oid="69bz-v4"
+                  data-oid="u7sj71f"
                 >
                   Try Free
                 </Link>
               </Button>
-              <Button className="btn-orange" asChild data-oid="3ewqe4t">
-                <Link href={`/${params.locale}/demo`} data-oid=":-c2y.0">
+              <Button className="btn-orange" asChild data-oid="alg3m.j">
+                <Link href={`/${params.locale}/demo`} data-oid="7jd96.t">
                   Watch Demo
                 </Link>
               </Button>
@@ -89,87 +89,87 @@ export default function MarketingLayout({
       </header>
 
       {/* Main Content */}
-      <main data-oid="8the2l:">{children}</main>
+      <main data-oid="ym4kp2i">{children}</main>
 
       {/* Footer */}
-      <footer className="border-t border-border bg-muted/50" data-oid="7eg8mrz">
+      <footer className="border-t border-border bg-muted/50" data-oid="_knntb7">
         <div
           className="container mx-auto px-4 sm:px-6 lg:px-8 py-12"
-          data-oid="wjnox0s"
+          data-oid="6_m5ne6"
         >
           <div
             className="grid grid-cols-1 md:grid-cols-4 gap-8"
-            data-oid=":emmhzq"
+            data-oid="1uw3qdg"
           >
             {/* Company Info */}
-            <div className="space-y-4" data-oid="k5nc7ll">
-              <div className="flex items-center space-x-2" data-oid="t8wuknl">
+            <div className="space-y-4" data-oid="kb0t54-">
+              <div className="flex items-center space-x-2" data-oid="f_tn:1c">
                 <div
                   className="h-6 w-6 rounded bg-orange text-white flex items-center justify-center text-sm font-bold"
-                  data-oid="ekxyj7h"
+                  data-oid="gkr3v3a"
                 >
                   T
                 </div>
-                <span className="font-semibold" data-oid="8r79xp-">
+                <span className="font-semibold" data-oid="r900xn8">
                   TradeNavigatorPro
                 </span>
               </div>
-              <p className="text-sm text-muted-foreground" data-oid="_euz78a">
+              <p className="text-sm text-muted-foreground" data-oid="km9e7yr">
                 Navigate global trade with confidence using AI-powered analysis
                 and optimization tools.
               </p>
             </div>
 
             {/* Solutions */}
-            <div className="space-y-4" data-oid="ywn1xg2">
-              <h3 className="font-semibold" data-oid="br6d8ix">
+            <div className="space-y-4" data-oid="yn6x0uu">
+              <h3 className="font-semibold" data-oid="0hrel9_">
                 Solutions
               </h3>
               <ul
                 className="space-y-2 text-sm text-muted-foreground"
-                data-oid="59svbp."
+                data-oid="y8.blei"
               >
-                <li data-oid="lqe99xr">
+                <li data-oid=".rsuh05">
                   <Link
                     href={`/${params.locale}/apps/cost-calculator`}
                     className="hover:text-foreground"
-                    data-oid="ube4.8:"
+                    data-oid="i13789x"
                   >
                     Cost Calculator
                   </Link>
                 </li>
-                <li data-oid="n0g87rf">
+                <li data-oid="73tb8xb">
                   <Link
                     href={`/${params.locale}/apps/supply-pivot`}
                     className="hover:text-foreground"
-                    data-oid="pe4-2ux"
+                    data-oid="b66cs5t"
                   >
                     Supply Chain Pivot
                   </Link>
                 </li>
-                <li data-oid=".-sl4qn">
+                <li data-oid="hyldqtf">
                   <Link
                     href={`/${params.locale}/apps/pricing-optimizer`}
                     className="hover:text-foreground"
-                    data-oid="s5gonhc"
+                    data-oid="2yjz64l"
                   >
                     Pricing Optimizer
                   </Link>
                 </li>
-                <li data-oid="kvpz7kf">
+                <li data-oid="2f83t62">
                   <Link
                     href={`/${params.locale}/apps/tariff-tracker`}
                     className="hover:text-foreground"
-                    data-oid="5n20-tn"
+                    data-oid="q2m6msn"
                   >
                     Tariff Tracker
                   </Link>
                 </li>
-                <li data-oid="8ibz.-j">
+                <li data-oid="6gt0fkl">
                   <Link
                     href={`/${params.locale}/apps/route-optimizer`}
                     className="hover:text-foreground"
-                    data-oid=":xl-::8"
+                    data-oid="3334lw3"
                   >
                     Route Optimizer
                   </Link>
@@ -178,46 +178,46 @@ export default function MarketingLayout({
             </div>
 
             {/* Company */}
-            <div className="space-y-4" data-oid="9f_5lba">
-              <h3 className="font-semibold" data-oid=".e19_ek">
+            <div className="space-y-4" data-oid="d4to-wt">
+              <h3 className="font-semibold" data-oid="pkaa8pb">
                 Company
               </h3>
               <ul
                 className="space-y-2 text-sm text-muted-foreground"
-                data-oid="py_eait"
+                data-oid="uf:ekkw"
               >
-                <li data-oid="r:-5hs9">
+                <li data-oid="bm.wqlx">
                   <Link
                     href={`/${params.locale}/about`}
                     className="hover:text-foreground"
-                    data-oid="ukks3jj"
+                    data-oid="c.dlakq"
                   >
                     About
                   </Link>
                 </li>
-                <li data-oid="ycv7_49">
+                <li data-oid="4og61zc">
                   <Link
                     href={`/${params.locale}/case-studies`}
                     className="hover:text-foreground"
-                    data-oid="n487ay5"
+                    data-oid="liirn6n"
                   >
                     Case Studies
                   </Link>
                 </li>
-                <li data-oid="nzw:mga">
+                <li data-oid="kw6e0yj">
                   <Link
                     href={`/${params.locale}/blog`}
                     className="hover:text-foreground"
-                    data-oid="mn--_w0"
+                    data-oid="_tspx._"
                   >
                     Blog
                   </Link>
                 </li>
-                <li data-oid="f17sa.x">
+                <li data-oid="4lg9moo">
                   <Link
                     href={`/${params.locale}/contact`}
                     className="hover:text-foreground"
-                    data-oid="f-m-4js"
+                    data-oid="9ai:jjr"
                   >
                     Contact
                   </Link>
@@ -226,37 +226,37 @@ export default function MarketingLayout({
             </div>
 
             {/* Legal */}
-            <div className="space-y-4" data-oid="ldfwgvw">
-              <h3 className="font-semibold" data-oid="7.sat31">
+            <div className="space-y-4" data-oid="0yoynif">
+              <h3 className="font-semibold" data-oid="de26upe">
                 Legal
               </h3>
               <ul
                 className="space-y-2 text-sm text-muted-foreground"
-                data-oid="mp70z:7"
+                data-oid=".mauar9"
               >
-                <li data-oid="6q58aak">
+                <li data-oid="eqo70fa">
                   <Link
                     href={`/${params.locale}/legal/privacy`}
                     className="hover:text-foreground"
-                    data-oid="89jkgw5"
+                    data-oid="ocw1akf"
                   >
                     Privacy Policy
                   </Link>
                 </li>
-                <li data-oid="74jqvt5">
+                <li data-oid=".d_.g7h">
                   <Link
                     href={`/${params.locale}/legal/terms`}
                     className="hover:text-foreground"
-                    data-oid="z-q4gf."
+                    data-oid="f-be8au"
                   >
                     Terms of Service
                   </Link>
                 </li>
-                <li data-oid="8wu1_zy">
+                <li data-oid=".39_0bj">
                   <Link
                     href={`/${params.locale}/legal/security`}
                     className="hover:text-foreground"
-                    data-oid="lttc1oy"
+                    data-oid="n3lu7il"
                   >
                     Security
                   </Link>
@@ -267,51 +267,51 @@ export default function MarketingLayout({
 
           <div
             className="mt-8 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center"
-            data-oid="hqy22.h"
+            data-oid="inhbjnz"
           >
-            <p className="text-sm text-muted-foreground" data-oid="hm3-eod">
+            <p className="text-sm text-muted-foreground" data-oid="pyx:j64">
               © 2024 TradeNavigatorPro. All rights reserved.
             </p>
-            <div className="flex space-x-4 mt-4 sm:mt-0" data-oid="x1-ltxd">
+            <div className="flex space-x-4 mt-4 sm:mt-0" data-oid="9mh8q:n">
               <Link
                 href="#"
                 className="text-muted-foreground hover:text-foreground"
-                data-oid="ekxuwy8"
+                data-oid="veacinh"
               >
-                <span className="sr-only" data-oid="aiqr5q2">
+                <span className="sr-only" data-oid="tdn8uyc">
                   Twitter
                 </span>
                 <svg
                   className="h-5 w-5"
                   fill="currentColor"
                   viewBox="0 0 20 20"
-                  data-oid="6okq8rg"
+                  data-oid="il65dto"
                 >
                   <path
                     d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"
-                    data-oid="i4ty8a8"
+                    data-oid="fm3u32x"
                   />
                 </svg>
               </Link>
               <Link
                 href="#"
                 className="text-muted-foreground hover:text-foreground"
-                data-oid="4w1hubc"
+                data-oid="izsxf.h"
               >
-                <span className="sr-only" data-oid="mnwnadn">
+                <span className="sr-only" data-oid="7xlp9zs">
                   LinkedIn
                 </span>
                 <svg
                   className="h-5 w-5"
                   fill="currentColor"
                   viewBox="0 0 20 20"
-                  data-oid="yl5a.1n"
+                  data-oid="7opxd5u"
                 >
                   <path
                     fillRule="evenodd"
                     d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
                     clipRule="evenodd"
-                    data-oid="1oaysb2"
+                    data-oid="js9oowo"
                   />
                 </svg>
               </Link>
