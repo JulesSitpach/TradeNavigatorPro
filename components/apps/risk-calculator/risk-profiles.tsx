@@ -46,9 +46,9 @@ export function RiskProfiles() {
 
   if (profiles.length === 0) {
     return (
-      <div className="text-center text-gray-500 py-8" data-oid="w6j27sf">
-        <p data-oid="on3iy2g">No saved profiles yet</p>
-        <p className="text-xs mt-1" data-oid="n9q_rxr">
+      <div className="text-center text-gray-500 py-8" data-oid="c6qupqw">
+        <p data-oid="w._hz08">No saved profiles yet</p>
+        <p className="text-xs mt-1" data-oid=".ae8eka">
           Calculate risk and save profiles for quick access
         </p>
       </div>
@@ -56,37 +56,37 @@ export function RiskProfiles() {
   }
 
   return (
-    <div className="space-y-3" data-oid="r9eqlxu">
+    <div className="space-y-3" data-oid="vicwr9p">
       {profiles.map((profile, index) => (
         <div
           key={index}
           className="p-3 border border-gray-200 rounded-lg"
-          data-oid="k0jstez"
+          data-oid="lpqctng"
         >
-          <div className="flex justify-between items-start" data-oid="e7lx85r">
-            <div className="flex-1" data-oid="gf670.3">
-              <h4 className="font-semibold text-gray-900" data-oid="i-c19-t">
+          <div className="flex justify-between items-start" data-oid="p7pottl">
+            <div className="flex-1" data-oid="ik:1qs8">
+              <h4 className="font-semibold text-gray-900" data-oid="z3y_4s-">
                 {profile.name}
               </h4>
-              <div className="text-sm text-gray-600 mt-1" data-oid="3f5p5y4">
-                <div data-oid="3hpvrjn">
+              <div className="text-sm text-gray-600 mt-1" data-oid="2ob4jm0">
+                <div data-oid="qrw0bpc">
                   Balance: $
                   {parseFloat(profile.accountBalance).toLocaleString()}
                 </div>
-                <div data-oid="1l.gl8.">Risk: {profile.riskPercentage}%</div>
-                <div data-oid="2b1ueud">Pair: {profile.currencyPair}</div>
+                <div data-oid="jnjfvhg">Risk: {profile.riskPercentage}%</div>
+                <div data-oid="6fafkw.">Pair: {profile.currencyPair}</div>
               </div>
-              <div className="text-xs text-gray-400 mt-1" data-oid="bu48idj">
+              <div className="text-xs text-gray-400 mt-1" data-oid="2f:c:v:">
                 {new Date(profile.timestamp).toLocaleDateString()}
               </div>
             </div>
-            <div className="flex gap-1" data-oid="0kql-8-">
+            <div className="flex gap-1" data-oid="._5ey9.">
               <Button
                 size="sm"
                 variant="outline"
                 onClick={() => loadProfile(profile)}
                 className="text-xs px-2 py-1"
-                data-oid="rkqjiix"
+                data-oid="hdf84wl"
               >
                 Load
               </Button>
@@ -95,7 +95,7 @@ export function RiskProfiles() {
                 variant="outline"
                 onClick={() => deleteProfile(index)}
                 className="text-xs px-2 py-1 text-red-600 hover:text-red-700"
-                data-oid="jbvn12b"
+                data-oid="rbcp8_w"
               >
                 Delete
               </Button>
