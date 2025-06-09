@@ -54,16 +54,16 @@ export function Sidebar() {
   return (
     <div
       className="w-64 bg-white border-r border-gray-200 min-h-screen"
-      data-oid="pid5mal"
+      data-oid="5bwq4rb"
     >
-      <div className="p-4" data-oid="578jl14">
+      <div className="p-4" data-oid="m7cqs95">
         <h2
           className="text-lg font-semibold text-gray-900 mb-4"
-          data-oid="dzqm6de"
+          data-oid="5b98l.c"
         >
           Applications
         </h2>
-        <nav className="space-y-2" data-oid="b.281tk">
+        <nav className="space-y-2" data-oid="t39ialq">
           {navigation.map((item) => {
             const isActive = pathname === item.href;
             return (
@@ -75,9 +75,9 @@ export function Sidebar() {
                     ? "bg-blue-100 text-blue-700"
                     : "text-gray-600 hover:bg-gray-100 hover:text-gray-900"
                 }`}
-                data-oid=":wwxo9o"
+                data-oid="43non9y"
               >
-                <item.icon className="mr-3 h-5 w-5" data-oid="3rvhddx" />
+                <item.icon className="mr-3 h-5 w-5" data-oid="szinzkw" />
                 {item.name}
               </Link>
             );
