@@ -46,9 +46,9 @@ export function RiskProfiles() {
 
   if (profiles.length === 0) {
     return (
-      <div className="text-center text-gray-500 py-8">
-        <p>No saved profiles yet</p>
-        <p className="text-xs mt-1">
+      <div className="text-center text-gray-500 py-8" data-oid="ww.kdoj">
+        <p data-oid="rcpopwu">No saved profiles yet</p>
+        <p className="text-xs mt-1" data-oid="c0n_s2a">
           Calculate risk and save profiles for quick access
         </p>
       </div>
@@ -56,30 +56,37 @@ export function RiskProfiles() {
   }
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-3" data-oid="v9osbt:">
       {profiles.map((profile, index) => (
-        <div key={index} className="p-3 border border-gray-200 rounded-lg">
-          <div className="flex justify-between items-start">
-            <div className="flex-1">
-              <h4 className="font-semibold text-gray-900">{profile.name}</h4>
-              <div className="text-sm text-gray-600 mt-1">
-                <div>
+        <div
+          key={index}
+          className="p-3 border border-gray-200 rounded-lg"
+          data-oid="s6ws_jc"
+        >
+          <div className="flex justify-between items-start" data-oid="2r4-q2y">
+            <div className="flex-1" data-oid="zl.vz7i">
+              <h4 className="font-semibold text-gray-900" data-oid="_blga_s">
+                {profile.name}
+              </h4>
+              <div className="text-sm text-gray-600 mt-1" data-oid="mwr1neq">
+                <div data-oid="0qa0p5e">
                   Balance: $
                   {parseFloat(profile.accountBalance).toLocaleString()}
                 </div>
-                <div>Risk: {profile.riskPercentage}%</div>
-                <div>Pair: {profile.currencyPair}</div>
+                <div data-oid="voj9was">Risk: {profile.riskPercentage}%</div>
+                <div data-oid="rmahbgg">Pair: {profile.currencyPair}</div>
               </div>
-              <div className="text-xs text-gray-400 mt-1">
+              <div className="text-xs text-gray-400 mt-1" data-oid="tdto633">
                 {new Date(profile.timestamp).toLocaleDateString()}
               </div>
             </div>
-            <div className="flex gap-1">
+            <div className="flex gap-1" data-oid="b0_98ds">
               <Button
                 size="sm"
                 variant="outline"
                 onClick={() => loadProfile(profile)}
                 className="text-xs px-2 py-1"
+                data-oid="erca4oc"
               >
                 Load
               </Button>
@@ -88,6 +95,7 @@ export function RiskProfiles() {
                 variant="outline"
                 onClick={() => deleteProfile(index)}
                 className="text-xs px-2 py-1 text-red-600 hover:text-red-700"
+                data-oid="o-ij-yl"
               >
                 Delete
               </Button>

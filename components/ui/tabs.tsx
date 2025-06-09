@@ -5,7 +5,12 @@ const Tabs = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => (
-  <div ref={ref} className={cn("w-full", className)} {...props} />
+  <div
+    ref={ref}
+    className={cn("w-full", className)}
+    {...props}
+    data-oid="gpm02ed"
+  />
 ));
 Tabs.displayName = "Tabs";
 
@@ -20,6 +25,7 @@ const TabsList = React.forwardRef<
       className,
     )}
     {...props}
+    data-oid="4g86ah0"
   />
 ));
 TabsList.displayName = "TabsList";
@@ -35,6 +41,7 @@ const TabsTrigger = React.forwardRef<
       className,
     )}
     {...props}
+    data-oid="uh8aos7"
   />
 ));
 TabsTrigger.displayName = "TabsTrigger";
@@ -50,6 +57,7 @@ const TabsContent = React.forwardRef<
       className,
     )}
     {...props}
+    data-oid="4ev1tt."
   />
 ));
 TabsContent.displayName = "TabsContent";
