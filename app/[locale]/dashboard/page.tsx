@@ -80,38 +80,25 @@ export default async function DashboardPage({
   }, [trades]);
 
   return (
-    <div className="min-h-screen bg-gray-50" data-oid="x0hv8gm">
+    <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-white shadow" data-oid="teoe7xx">
-        <div
-          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-          data-oid=".j.bxv0"
-        >
-          <div
-            className="flex justify-between items-center py-6"
-            data-oid="ihik_ns"
-          >
-            <div className="flex items-center space-x-4" data-oid="id.3mde">
-              <Link href={`/${locale}`} data-oid="j56jxji">
-                <Button variant="outline" size="sm" data-oid="gn-_0no">
+      <header className="bg-white shadow">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center py-6">
+            <div className="flex items-center space-x-4">
+              <Link href={`/${locale}`}>
+                <Button variant="outline" size="sm">
                   ← Home
                 </Button>
               </Link>
-              <h1
-                className="text-3xl font-bold text-gray-900"
-                data-oid="k1pd9:k"
-              >
+              <h1 className="text-3xl font-bold text-gray-900">
                 TradeNavigatorPro Dashboard
               </h1>
             </div>
-            <div className="flex items-center space-x-4" data-oid="-mu-n66">
-              <span className="text-sm text-gray-600" data-oid="h40u:be">
-                Welcome back!
-              </span>
-              <Link href={`/${locale}/login`} data-oid="-:gc95f">
-                <Button variant="outline" data-oid="_u7ivxz">
-                  Login
-                </Button>
+            <div className="flex items-center space-x-4">
+              <span className="text-sm text-gray-600">Welcome back!</span>
+              <Link href={`/${locale}/login`}>
+                <Button variant="outline">Login</Button>
               </Link>
             </div>
           </div>
@@ -119,93 +106,61 @@ export default async function DashboardPage({
       </header>
 
       {/* Main Content */}
-      <main
-        className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8"
-        data-oid="y-v.5ka"
-      >
-        <div className="px-4 py-6 sm:px-0" data-oid="i0bs56z">
+      <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+        <div className="px-4 py-6 sm:px-0">
           {/* Stats Cards */}
-          <div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8"
-            data-oid="micjxod"
-          >
-            <Card data-oid="u:9:sf-">
-              <CardHeader
-                className="flex flex-row items-center justify-between space-y-0 pb-2"
-                data-oid="dr9annr"
-              >
-                <CardTitle className="text-sm font-medium" data-oid="6:u6vq8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                <CardTitle className="text-sm font-medium">
                   Total Trades
                 </CardTitle>
               </CardHeader>
-              <CardContent data-oid="487sqfl">
-                <div className="text-2xl font-bold" data-oid="69ank_f">
-                  {stats.totalTrades}
-                </div>
-                <p className="text-xs text-muted-foreground" data-oid="p.h7x08">
+              <CardContent>
+                <div className="text-2xl font-bold">{stats.totalTrades}</div>
+                <p className="text-xs text-muted-foreground">
                   Active trading positions
                 </p>
               </CardContent>
             </Card>
 
-            <Card data-oid="n1tju8z">
-              <CardHeader
-                className="flex flex-row items-center justify-between space-y-0 pb-2"
-                data-oid="c0r7pbt"
-              >
-                <CardTitle className="text-sm font-medium" data-oid="c7mthnu">
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                <CardTitle className="text-sm font-medium">
                   Total Value
                 </CardTitle>
               </CardHeader>
-              <CardContent data-oid="_0ecgbj">
-                <div className="text-2xl font-bold" data-oid="dqe3nni">
+              <CardContent>
+                <div className="text-2xl font-bold">
                   ${stats.totalValue.toLocaleString()}
                 </div>
-                <p className="text-xs text-muted-foreground" data-oid="fr720_x">
-                  Portfolio value
-                </p>
+                <p className="text-xs text-muted-foreground">Portfolio value</p>
               </CardContent>
             </Card>
 
-            <Card data-oid="lkm7q9g">
-              <CardHeader
-                className="flex flex-row items-center justify-between space-y-0 pb-2"
-                data-oid="m-khv:e"
-              >
-                <CardTitle className="text-sm font-medium" data-oid="oc.gmny">
-                  Completed
-                </CardTitle>
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                <CardTitle className="text-sm font-medium">Completed</CardTitle>
               </CardHeader>
-              <CardContent data-oid="kyb_adt">
-                <div
-                  className="text-2xl font-bold text-green-600"
-                  data-oid="g_dfhay"
-                >
+              <CardContent>
+                <div className="text-2xl font-bold text-green-600">
                   {stats.completedTrades}
                 </div>
-                <p className="text-xs text-muted-foreground" data-oid="pfzsv:-">
+                <p className="text-xs text-muted-foreground">
                   Successful trades
                 </p>
               </CardContent>
             </Card>
 
-            <Card data-oid="z31m0y8">
-              <CardHeader
-                className="flex flex-row items-center justify-between space-y-0 pb-2"
-                data-oid="nfibwjn"
-              >
-                <CardTitle className="text-sm font-medium" data-oid="-pd_dj:">
-                  Pending
-                </CardTitle>
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                <CardTitle className="text-sm font-medium">Pending</CardTitle>
               </CardHeader>
-              <CardContent data-oid="sr28d._">
-                <div
-                  className="text-2xl font-bold text-yellow-600"
-                  data-oid="-:.dkw7"
-                >
+              <CardContent>
+                <div className="text-2xl font-bold text-yellow-600">
                   {stats.pendingTrades}
                 </div>
-                <p className="text-xs text-muted-foreground" data-oid="rluea._">
+                <p className="text-xs text-muted-foreground">
                   Awaiting execution
                 </p>
               </CardContent>
@@ -213,34 +168,20 @@ export default async function DashboardPage({
           </div>
 
           {/* Trades Section */}
-          <div
-            className="flex justify-between items-center mb-6"
-            data-oid="--btd2x"
-          >
-            <h2 className="text-2xl font-bold text-gray-900" data-oid="68p1qvj">
-              Recent Trades
-            </h2>
-            <Button data-oid="hllzb7.">Add New Trade</Button>
+          <div className="flex justify-between items-center mb-6">
+            <h2 className="text-2xl font-bold text-gray-900">Recent Trades</h2>
+            <Button>Add New Trade</Button>
           </div>
 
           {/* Trades List */}
-          <div className="grid gap-4" data-oid="15g4jw.">
+          <div className="grid gap-4">
             {trades.map((trade) => (
-              <Card key={trade.id} data-oid="8agyq8t">
-                <CardContent className="p-6" data-oid="3wsz18u">
-                  <div
-                    className="flex justify-between items-start"
-                    data-oid="2xjnb09"
-                  >
-                    <div className="flex-1" data-oid="dz4erxd">
-                      <div
-                        className="flex items-center space-x-4"
-                        data-oid="s27dzbt"
-                      >
-                        <h3
-                          className="text-lg font-semibold"
-                          data-oid="c4sp4yd"
-                        >
+              <Card key={trade.id}>
+                <CardContent className="p-6">
+                  <div className="flex justify-between items-start">
+                    <div className="flex-1">
+                      <div className="flex items-center space-x-4">
+                        <h3 className="text-lg font-semibold">
                           {trade.symbol}
                         </h3>
                         <Badge
@@ -252,45 +193,30 @@ export default async function DashboardPage({
                               ? "bg-green-100 text-green-800"
                               : "bg-red-100 text-red-800"
                           }
-                          data-oid="3iyol32"
                         >
                           {trade.type.toUpperCase()}
                         </Badge>
                       </div>
-                      <div
-                        className="mt-2 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-gray-600"
-                        data-oid="0kd3jyv"
-                      >
-                        <div data-oid="4hxe53n">
-                          <span className="font-medium" data-oid="cvodzu7">
-                            Quantity:
-                          </span>{" "}
+                      <div className="mt-2 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-gray-600">
+                        <div>
+                          <span className="font-medium">Quantity:</span>{" "}
                           {trade.quantity}
                         </div>
-                        <div data-oid="r00gg6n">
-                          <span className="font-medium" data-oid="lnhm9ot">
-                            Price:
-                          </span>{" "}
-                          ${trade.price}
+                        <div>
+                          <span className="font-medium">Price:</span> $
+                          {trade.price}
                         </div>
-                        <div data-oid="wuwuttc">
-                          <span className="font-medium" data-oid="1_.yt4_">
-                            Total:
-                          </span>{" "}
-                          ${trade.total.toLocaleString()}
+                        <div>
+                          <span className="font-medium">Total:</span> $
+                          {trade.total.toLocaleString()}
                         </div>
-                        <div data-oid="ld55qi4">
-                          <span className="font-medium" data-oid="1n4v85l">
-                            Date:
-                          </span>{" "}
+                        <div>
+                          <span className="font-medium">Date:</span>{" "}
                           {new Date(trade.created_at).toLocaleDateString()}
                         </div>
                       </div>
                     </div>
-                    <div
-                      className="flex flex-col items-end space-y-2"
-                      data-oid="g7jbiqp"
-                    >
+                    <div className="flex flex-col items-end space-y-2">
                       <Badge
                         variant={
                           trade.status === "completed"
@@ -299,15 +225,14 @@ export default async function DashboardPage({
                               ? "secondary"
                               : "destructive"
                         }
-                        data-oid=".oekbq2"
                       >
                         {trade.status}
                       </Badge>
-                      <div className="flex space-x-2" data-oid="0c3xsqc">
-                        <Button size="sm" variant="outline" data-oid=":80ilcr">
+                      <div className="flex space-x-2">
+                        <Button size="sm" variant="outline">
                           Edit
                         </Button>
-                        <Button size="sm" variant="outline" data-oid="n7ijoqo">
+                        <Button size="sm" variant="outline">
                           View
                         </Button>
                       </div>
@@ -319,51 +244,31 @@ export default async function DashboardPage({
           </div>
 
           {/* Quick Actions */}
-          <div className="mt-8" data-oid="i4dk:8p">
-            <h3 className="text-lg font-semibold mb-4" data-oid="0zz5_ff">
-              Quick Actions
-            </h3>
-            <div
-              className="grid grid-cols-1 md:grid-cols-3 gap-4"
-              data-oid="kofomnf"
-            >
-              <Card
-                className="cursor-pointer hover:shadow-md transition-shadow"
-                data-oid="x:qblcz"
-              >
-                <CardContent className="p-6 text-center" data-oid="imt61w5">
-                  <h4 className="font-semibold" data-oid="v5arrhd">
-                    Market Analysis
-                  </h4>
-                  <p className="text-sm text-gray-600 mt-2" data-oid="cgnjri3">
+          <div className="mt-8">
+            <h3 className="text-lg font-semibold mb-4">Quick Actions</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <Card className="cursor-pointer hover:shadow-md transition-shadow">
+                <CardContent className="p-6 text-center">
+                  <h4 className="font-semibold">Market Analysis</h4>
+                  <p className="text-sm text-gray-600 mt-2">
                     View market trends and analysis
                   </p>
                 </CardContent>
               </Card>
 
-              <Card
-                className="cursor-pointer hover:shadow-md transition-shadow"
-                data-oid="j89hol:"
-              >
-                <CardContent className="p-6 text-center" data-oid="hq45ccg">
-                  <h4 className="font-semibold" data-oid="-2scotj">
-                    Portfolio Overview
-                  </h4>
-                  <p className="text-sm text-gray-600 mt-2" data-oid="0::y8-0">
+              <Card className="cursor-pointer hover:shadow-md transition-shadow">
+                <CardContent className="p-6 text-center">
+                  <h4 className="font-semibold">Portfolio Overview</h4>
+                  <p className="text-sm text-gray-600 mt-2">
                     Check your portfolio performance
                   </p>
                 </CardContent>
               </Card>
 
-              <Card
-                className="cursor-pointer hover:shadow-md transition-shadow"
-                data-oid="ue28pyq"
-              >
-                <CardContent className="p-6 text-center" data-oid="tfzi_ed">
-                  <h4 className="font-semibold" data-oid="kv1it2r">
-                    Trade History
-                  </h4>
-                  <p className="text-sm text-gray-600 mt-2" data-oid="q5xfgjb">
+              <Card className="cursor-pointer hover:shadow-md transition-shadow">
+                <CardContent className="p-6 text-center">
+                  <h4 className="font-semibold">Trade History</h4>
+                  <p className="text-sm text-gray-600 mt-2">
                     View detailed trade history
                   </p>
                 </CardContent>
