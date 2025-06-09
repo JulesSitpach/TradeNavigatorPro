@@ -77,173 +77,110 @@ const watchlist = [
 
 export default function DashboardPage() {
   return (
-    <div className="min-h-screen bg-background p-6" data-oid="md9s.8g">
-      <div className="max-w-7xl mx-auto space-y-6" data-oid="f2w3z_5">
+    <div className="min-h-screen bg-background p-6">
+      <div className="max-w-7xl mx-auto space-y-6">
         {/* Header */}
-        <div className="flex items-center justify-between" data-oid="5:vtrks">
-          <div data-oid="50t-a4w">
-            <h1
-              className="text-3xl font-bold text-foreground"
-              data-oid="_kdgbcc"
-            >
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-3xl font-bold text-foreground">
               Trading Dashboard
             </h1>
-            <p className="text-muted-foreground" data-oid="w0wpihj">
+            <p className="text-muted-foreground">
               Welcome back! Here's your trading overview.
             </p>
           </div>
-          <div className="flex items-center gap-4" data-oid="c-51uj-">
-            <button
-              className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
-              data-oid="tqh:0sr"
-            >
-              <Icons.RefreshCw className="w-4 h-4" data-oid="r_n_3ko" />
+          <div className="flex items-center gap-4">
+            <button className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors">
+              <Icons.RefreshCw className="w-4 h-4" />
               Refresh
             </button>
-            <button
-              className="flex items-center gap-2 px-4 py-2 border border-border rounded-lg hover:bg-accent transition-colors"
-              data-oid="5t1oy:8"
-            >
-              <Icons.Settings className="w-4 h-4" data-oid="9wgbz8t" />
+            <button className="flex items-center gap-2 px-4 py-2 border border-border rounded-lg hover:bg-accent transition-colors">
+              <Icons.Settings className="w-4 h-4" />
               Settings
             </button>
           </div>
         </div>
 
         {/* Stats Grid */}
-        <div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
-          data-oid="h_zcid2"
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, index) => {
             const IconComponent = Icons[stat.icon as keyof typeof Icons];
             return (
               <div
                 key={index}
                 className="bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-shadow"
-                data-oid="imnfaqh"
               >
-                <div
-                  className="flex items-center justify-between mb-4"
-                  data-oid="s56f454"
-                >
-                  <div
-                    className="p-2 bg-primary/10 rounded-lg"
-                    data-oid="hex_8q5"
-                  >
-                    <IconComponent
-                      className="w-6 h-6 text-primary"
-                      data-oid="ln-kl3:"
-                    />
+                <div className="flex items-center justify-between mb-4">
+                  <div className="p-2 bg-primary/10 rounded-lg">
+                    <IconComponent className="w-6 h-6 text-primary" />
                   </div>
                   <div
                     className={`flex items-center gap-1 text-sm ${
                       stat.trend === "up" ? "text-green-600" : "text-red-600"
                     }`}
-                    data-oid="r.rs4up"
                   >
                     {stat.trend === "up" ? (
-                      <Icons.TrendingUp
-                        className="w-4 h-4"
-                        data-oid="owirecd"
-                      />
+                      <Icons.TrendingUp className="w-4 h-4" />
                     ) : (
-                      <Icons.TrendingDown
-                        className="w-4 h-4"
-                        data-oid="g6b.rhd"
-                      />
+                      <Icons.TrendingDown className="w-4 h-4" />
                     )}
                     {stat.change}
                   </div>
                 </div>
-                <h3
-                  className="text-2xl font-bold text-foreground mb-1"
-                  data-oid="hodtaur"
-                >
+                <h3 className="text-2xl font-bold text-foreground mb-1">
                   {stat.value}
                 </h3>
-                <p className="text-sm text-muted-foreground" data-oid="030:7i6">
-                  {stat.title}
-                </p>
+                <p className="text-sm text-muted-foreground">{stat.title}</p>
               </div>
             );
           })}
         </div>
 
         {/* Main Content Grid */}
-        <div
-          className="grid grid-cols-1 lg:grid-cols-3 gap-6"
-          data-oid="x367ekm"
-        >
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Recent Trades */}
-          <div
-            className="lg:col-span-2 bg-card border border-border rounded-lg"
-            data-oid="il-2wzi"
-          >
-            <div className="p-6 border-b border-border" data-oid="-zv8auz">
-              <div
-                className="flex items-center justify-between"
-                data-oid="tpkzmtv"
-              >
-                <h2
-                  className="text-xl font-semibold text-foreground"
-                  data-oid=":gwkp4z"
-                >
+          <div className="lg:col-span-2 bg-card border border-border rounded-lg">
+            <div className="p-6 border-b border-border">
+              <div className="flex items-center justify-between">
+                <h2 className="text-xl font-semibold text-foreground">
                   Recent Trades
                 </h2>
-                <button
-                  className="text-primary hover:text-primary/80 text-sm font-medium"
-                  data-oid="4r7a5fu"
-                >
+                <button className="text-primary hover:text-primary/80 text-sm font-medium">
                   View All
                 </button>
               </div>
             </div>
-            <div className="p-6" data-oid="-cjyz4t">
-              <div className="space-y-4" data-oid="yj4x1t5">
+            <div className="p-6">
+              <div className="space-y-4">
                 {recentTrades.map((trade, index) => (
                   <div
                     key={index}
                     className="flex items-center justify-between p-4 bg-muted/50 rounded-lg"
-                    data-oid="vyx2ohi"
                   >
-                    <div className="flex items-center gap-4" data-oid="1w9yxu5">
+                    <div className="flex items-center gap-4">
                       <div
                         className={`px-2 py-1 rounded text-xs font-medium ${
                           trade.action === "BUY"
                             ? "bg-green-100 text-green-800"
                             : "bg-red-100 text-red-800"
                         }`}
-                        data-oid="k8xw.kc"
                       >
                         {trade.action}
                       </div>
-                      <div data-oid="4a9i749">
-                        <p
-                          className="font-medium text-foreground"
-                          data-oid="awjw2d0"
-                        >
+                      <div>
+                        <p className="font-medium text-foreground">
                           {trade.symbol}
                         </p>
-                        <p
-                          className="text-sm text-muted-foreground"
-                          data-oid="9ht3_z-"
-                        >
+                        <p className="text-sm text-muted-foreground">
                           {trade.quantity} shares
                         </p>
                       </div>
                     </div>
-                    <div className="text-right" data-oid="b7d57tw">
-                      <p
-                        className="font-medium text-foreground"
-                        data-oid="7mrz2ag"
-                      >
+                    <div className="text-right">
+                      <p className="font-medium text-foreground">
                         ${trade.price}
                       </p>
-                      <p
-                        className="text-sm text-muted-foreground"
-                        data-oid="7t1hp4m"
-                      >
+                      <p className="text-sm text-muted-foreground">
                         {trade.time}
                       </p>
                     </div>
@@ -254,59 +191,39 @@ export default function DashboardPage() {
           </div>
 
           {/* Watchlist */}
-          <div
-            className="bg-card border border-border rounded-lg"
-            data-oid="91l9myf"
-          >
-            <div className="p-6 border-b border-border" data-oid="m:uspvc">
-              <div
-                className="flex items-center justify-between"
-                data-oid="2qlhu71"
-              >
-                <h2
-                  className="text-xl font-semibold text-foreground"
-                  data-oid="byou69j"
-                >
+          <div className="bg-card border border-border rounded-lg">
+            <div className="p-6 border-b border-border">
+              <div className="flex items-center justify-between">
+                <h2 className="text-xl font-semibold text-foreground">
                   Watchlist
                 </h2>
-                <button
-                  className="p-2 hover:bg-accent rounded-lg transition-colors"
-                  data-oid="-y42y-b"
-                >
-                  <Icons.Plus className="w-4 h-4" data-oid=":o53v_g" />
+                <button className="p-2 hover:bg-accent rounded-lg transition-colors">
+                  <Icons.Plus className="w-4 h-4" />
                 </button>
               </div>
             </div>
-            <div className="p-6" data-oid="hd7muq6">
-              <div className="space-y-4" data-oid="b31uoka">
+            <div className="p-6">
+              <div className="space-y-4">
                 {watchlist.map((stock, index) => (
                   <div
                     key={index}
                     className="flex items-center justify-between"
-                    data-oid="gp:g6m7"
                   >
-                    <div data-oid="6j083fa">
-                      <p
-                        className="font-medium text-foreground"
-                        data-oid="crxk89m"
-                      >
+                    <div>
+                      <p className="font-medium text-foreground">
                         {stock.symbol}
                       </p>
-                      <p
-                        className="text-sm text-muted-foreground"
-                        data-oid="m9-h-:b"
-                      >
+                      <p className="text-sm text-muted-foreground">
                         ${stock.price}
                       </p>
                     </div>
-                    <div className="text-right" data-oid="k9yz07o">
+                    <div className="text-right">
                       <p
                         className={`text-sm font-medium ${
                           stock.change.startsWith("+")
                             ? "text-green-600"
                             : "text-red-600"
                         }`}
-                        data-oid="f221.ye"
                       >
                         {stock.change}
                       </p>
@@ -316,7 +233,6 @@ export default function DashboardPage() {
                             ? "text-green-600"
                             : "text-red-600"
                         }`}
-                        data-oid="l26g3w0"
                       >
                         {stock.changePercent}
                       </p>
@@ -329,58 +245,31 @@ export default function DashboardPage() {
         </div>
 
         {/* Chart Section */}
-        <div
-          className="bg-card border border-border rounded-lg p-6"
-          data-oid="xz05rfe"
-        >
-          <div
-            className="flex items-center justify-between mb-6"
-            data-oid="swr2i:3"
-          >
-            <h2
-              className="text-xl font-semibold text-foreground"
-              data-oid="30_ke3b"
-            >
+        <div className="bg-card border border-border rounded-lg p-6">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-xl font-semibold text-foreground">
               Portfolio Performance
             </h2>
-            <div className="flex items-center gap-2" data-oid="80m:8dh">
-              <button
-                className="px-3 py-1 text-sm bg-primary text-primary-foreground rounded"
-                data-oid="40dqe6y"
-              >
+            <div className="flex items-center gap-2">
+              <button className="px-3 py-1 text-sm bg-primary text-primary-foreground rounded">
                 1D
               </button>
-              <button
-                className="px-3 py-1 text-sm text-muted-foreground hover:text-foreground rounded"
-                data-oid="9uhn1u4"
-              >
+              <button className="px-3 py-1 text-sm text-muted-foreground hover:text-foreground rounded">
                 1W
               </button>
-              <button
-                className="px-3 py-1 text-sm text-muted-foreground hover:text-foreground rounded"
-                data-oid="-q59x28"
-              >
+              <button className="px-3 py-1 text-sm text-muted-foreground hover:text-foreground rounded">
                 1M
               </button>
-              <button
-                className="px-3 py-1 text-sm text-muted-foreground hover:text-foreground rounded"
-                data-oid="o7d:_x5"
-              >
+              <button className="px-3 py-1 text-sm text-muted-foreground hover:text-foreground rounded">
                 1Y
               </button>
             </div>
           </div>
-          <div
-            className="h-64 bg-muted/30 rounded-lg flex items-center justify-center"
-            data-oid="v65i6ln"
-          >
-            <div className="text-center" data-oid="4o0g48m">
-              <Icons.BarChart3
-                className="w-12 h-12 text-muted-foreground mx-auto mb-2"
-                data-oid="kyfg4jy"
-              />
+          <div className="h-64 bg-muted/30 rounded-lg flex items-center justify-center">
+            <div className="text-center">
+              <Icons.BarChart3 className="w-12 h-12 text-muted-foreground mx-auto mb-2" />
 
-              <p className="text-muted-foreground" data-oid="8jxlc.g">
+              <p className="text-muted-foreground">
                 Chart will be displayed here
               </p>
             </div>
