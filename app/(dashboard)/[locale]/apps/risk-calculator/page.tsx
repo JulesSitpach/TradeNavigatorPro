@@ -77,34 +77,34 @@ const watchlist = [
 
 export default function DashboardPage() {
   return (
-    <div className="min-h-screen bg-background p-6" data-oid="z.lw.y6">
-      <div className="max-w-7xl mx-auto space-y-6" data-oid="0-sf:oq">
+    <div className="min-h-screen bg-background p-6" data-oid="prqq25x">
+      <div className="max-w-7xl mx-auto space-y-6" data-oid="gea1bug">
         {/* Header */}
-        <div className="flex items-center justify-between" data-oid="08lbiag">
-          <div data-oid="_d:0udp">
+        <div className="flex items-center justify-between" data-oid=".1w078v">
+          <div data-oid="pq78rl0">
             <h1
               className="text-3xl font-bold text-foreground"
-              data-oid="x:tn61c"
+              data-oid="ne7gcwh"
             >
               Trading Dashboard
             </h1>
-            <p className="text-muted-foreground" data-oid="u4w_jv_">
+            <p className="text-muted-foreground" data-oid="94856nf">
               Welcome back! Here's your trading overview.
             </p>
           </div>
-          <div className="flex items-center gap-4" data-oid="y-tm90e">
+          <div className="flex items-center gap-4" data-oid="qul.9wp">
             <button
               className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
-              data-oid="4mx5bi9"
+              data-oid="6j4vior"
             >
-              <Icons.RefreshCw className="w-4 h-4" data-oid="_ayhhy." />
+              <Icons.RefreshCw className="w-4 h-4" data-oid="owd_jci" />
               Refresh
             </button>
             <button
               className="flex items-center gap-2 px-4 py-2 border border-border rounded-lg hover:bg-accent transition-colors"
-              data-oid="bde5y3s"
+              data-oid="9.v.:7y"
             >
-              <Icons.Settings className="w-4 h-4" data-oid="oq8ro2:" />
+              <Icons.Settings className="w-4 h-4" data-oid=":0kugh." />
               Settings
             </button>
           </div>
@@ -113,7 +113,7 @@ export default function DashboardPage() {
         {/* Stats Grid */}
         <div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
-          data-oid=":emsfn."
+          data-oid="wjmai6l"
         >
           {stats.map((stat, index) => {
             const IconComponent = Icons[stat.icon as keyof typeof Icons];
@@ -121,36 +121,36 @@ export default function DashboardPage() {
               <div
                 key={index}
                 className="bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-shadow"
-                data-oid="t7uoq-r"
+                data-oid="_vple9z"
               >
                 <div
                   className="flex items-center justify-between mb-4"
-                  data-oid="dzv2ngp"
+                  data-oid="jvndlsd"
                 >
                   <div
                     className="p-2 bg-primary/10 rounded-lg"
-                    data-oid="w:qkz6p"
+                    data-oid="ux0w3au"
                   >
                     <IconComponent
                       className="w-6 h-6 text-primary"
-                      data-oid="2dwycgj"
+                      data-oid="3grs0jl"
                     />
                   </div>
                   <div
                     className={`flex items-center gap-1 text-sm ${
                       stat.trend === "up" ? "text-green-600" : "text-red-600"
                     }`}
-                    data-oid="yafbqe:"
+                    data-oid="egd_2g_"
                   >
                     {stat.trend === "up" ? (
                       <Icons.TrendingUp
                         className="w-4 h-4"
-                        data-oid="up.bq32"
+                        data-oid="y8e1z0:"
                       />
                     ) : (
                       <Icons.TrendingDown
                         className="w-4 h-4"
-                        data-oid="wawg1gw"
+                        data-oid="81udq6z"
                       />
                     )}
                     {stat.change}
@@ -158,11 +158,11 @@ export default function DashboardPage() {
                 </div>
                 <h3
                   className="text-2xl font-bold text-foreground mb-1"
-                  data-oid="61:tid1"
+                  data-oid="7zn6mvl"
                 >
                   {stat.value}
                 </h3>
-                <p className="text-sm text-muted-foreground" data-oid="ozz_.y_">
+                <p className="text-sm text-muted-foreground" data-oid="a3b5kk_">
                   {stat.title}
                 </p>
               </div>
@@ -173,76 +173,76 @@ export default function DashboardPage() {
         {/* Main Content Grid */}
         <div
           className="grid grid-cols-1 lg:grid-cols-3 gap-6"
-          data-oid="-f_9rj."
+          data-oid="hc.89w6"
         >
           {/* Recent Trades */}
           <div
             className="lg:col-span-2 bg-card border border-border rounded-lg"
-            data-oid="-0l5g9m"
+            data-oid="7uuqige"
           >
-            <div className="p-6 border-b border-border" data-oid=":jgybtq">
+            <div className="p-6 border-b border-border" data-oid="_w1lati">
               <div
                 className="flex items-center justify-between"
-                data-oid="g8vfooq"
+                data-oid="lgf.iy-"
               >
                 <h2
                   className="text-xl font-semibold text-foreground"
-                  data-oid="85er49o"
+                  data-oid="r.3-.ie"
                 >
                   Recent Trades
                 </h2>
                 <button
                   className="text-primary hover:text-primary/80 text-sm font-medium"
-                  data-oid="0dbih5g"
+                  data-oid="-fh8m1_"
                 >
                   View All
                 </button>
               </div>
             </div>
-            <div className="p-6" data-oid="ka-7izi">
-              <div className="space-y-4" data-oid="ligvr-8">
+            <div className="p-6" data-oid="j7ir50t">
+              <div className="space-y-4" data-oid="bknupjt">
                 {recentTrades.map((trade, index) => (
                   <div
                     key={index}
                     className="flex items-center justify-between p-4 bg-muted/50 rounded-lg"
-                    data-oid="bwii7rj"
+                    data-oid="ckq.uid"
                   >
-                    <div className="flex items-center gap-4" data-oid="vaamixo">
+                    <div className="flex items-center gap-4" data-oid="88--4ob">
                       <div
                         className={`px-2 py-1 rounded text-xs font-medium ${
                           trade.action === "BUY"
                             ? "bg-green-100 text-green-800"
                             : "bg-red-100 text-red-800"
                         }`}
-                        data-oid="8rm8ke3"
+                        data-oid="zzp.er_"
                       >
                         {trade.action}
                       </div>
-                      <div data-oid="n2rc4q4">
+                      <div data-oid="ir:gs-9">
                         <p
                           className="font-medium text-foreground"
-                          data-oid="aqdu3oq"
+                          data-oid="7_:wi5f"
                         >
                           {trade.symbol}
                         </p>
                         <p
                           className="text-sm text-muted-foreground"
-                          data-oid="2786c-2"
+                          data-oid="s3m0f9p"
                         >
                           {trade.quantity} shares
                         </p>
                       </div>
                     </div>
-                    <div className="text-right" data-oid="y9v_zhm">
+                    <div className="text-right" data-oid="0qa2xoz">
                       <p
                         className="font-medium text-foreground"
-                        data-oid="f:8b2cu"
+                        data-oid="gk0sls3"
                       >
                         ${trade.price}
                       </p>
                       <p
                         className="text-sm text-muted-foreground"
-                        data-oid="7k_lvvp"
+                        data-oid="oy4:3ej"
                       >
                         {trade.time}
                       </p>
@@ -256,57 +256,57 @@ export default function DashboardPage() {
           {/* Watchlist */}
           <div
             className="bg-card border border-border rounded-lg"
-            data-oid=".bmi_j_"
+            data-oid="aiqd-xq"
           >
-            <div className="p-6 border-b border-border" data-oid="-ho7n8m">
+            <div className="p-6 border-b border-border" data-oid="i6d71xa">
               <div
                 className="flex items-center justify-between"
-                data-oid="8rvnw:3"
+                data-oid="-kcsho1"
               >
                 <h2
                   className="text-xl font-semibold text-foreground"
-                  data-oid=".6-ryz4"
+                  data-oid="c7g4lh_"
                 >
                   Watchlist
                 </h2>
                 <button
                   className="p-2 hover:bg-accent rounded-lg transition-colors"
-                  data-oid="iegv32b"
+                  data-oid=".erqqzj"
                 >
-                  <Icons.Plus className="w-4 h-4" data-oid="aq.puqo" />
+                  <Icons.Plus className="w-4 h-4" data-oid="u5k47ot" />
                 </button>
               </div>
             </div>
-            <div className="p-6" data-oid="9jk7e.e">
-              <div className="space-y-4" data-oid="v1_fo89">
+            <div className="p-6" data-oid="9-fqxel">
+              <div className="space-y-4" data-oid="h_ut43p">
                 {watchlist.map((stock, index) => (
                   <div
                     key={index}
                     className="flex items-center justify-between"
-                    data-oid="c31wki7"
+                    data-oid="_fvvzh_"
                   >
-                    <div data-oid="k2r9:s4">
+                    <div data-oid="8un.-pa">
                       <p
                         className="font-medium text-foreground"
-                        data-oid=":txei6k"
+                        data-oid="xih0wyf"
                       >
                         {stock.symbol}
                       </p>
                       <p
                         className="text-sm text-muted-foreground"
-                        data-oid="816d5b:"
+                        data-oid="yi-mei4"
                       >
                         ${stock.price}
                       </p>
                     </div>
-                    <div className="text-right" data-oid="7zynqnu">
+                    <div className="text-right" data-oid="qqqi:q8">
                       <p
                         className={`text-sm font-medium ${
                           stock.change.startsWith("+")
                             ? "text-green-600"
                             : "text-red-600"
                         }`}
-                        data-oid="ua7jtxc"
+                        data-oid="3shrjep"
                       >
                         {stock.change}
                       </p>
@@ -316,7 +316,7 @@ export default function DashboardPage() {
                             ? "text-green-600"
                             : "text-red-600"
                         }`}
-                        data-oid="m._7tih"
+                        data-oid="j92ifk6"
                       >
                         {stock.changePercent}
                       </p>
@@ -331,40 +331,40 @@ export default function DashboardPage() {
         {/* Chart Section */}
         <div
           className="bg-card border border-border rounded-lg p-6"
-          data-oid="x8w-:r:"
+          data-oid="gcsh6ts"
         >
           <div
             className="flex items-center justify-between mb-6"
-            data-oid="-7mic5a"
+            data-oid="hgcb.4d"
           >
             <h2
               className="text-xl font-semibold text-foreground"
-              data-oid="uajipp9"
+              data-oid="om.fvgv"
             >
               Portfolio Performance
             </h2>
-            <div className="flex items-center gap-2" data-oid="zqihiax">
+            <div className="flex items-center gap-2" data-oid="dtragck">
               <button
                 className="px-3 py-1 text-sm bg-primary text-primary-foreground rounded"
-                data-oid="12o8qt."
+                data-oid="60a5xhk"
               >
                 1D
               </button>
               <button
                 className="px-3 py-1 text-sm text-muted-foreground hover:text-foreground rounded"
-                data-oid="43evfoq"
+                data-oid="fqcox.7"
               >
                 1W
               </button>
               <button
                 className="px-3 py-1 text-sm text-muted-foreground hover:text-foreground rounded"
-                data-oid="qeljpem"
+                data-oid="ae.ac6h"
               >
                 1M
               </button>
               <button
                 className="px-3 py-1 text-sm text-muted-foreground hover:text-foreground rounded"
-                data-oid="uti-tbh"
+                data-oid="l4mvixt"
               >
                 1Y
               </button>
@@ -372,15 +372,15 @@ export default function DashboardPage() {
           </div>
           <div
             className="h-64 bg-muted/30 rounded-lg flex items-center justify-center"
-            data-oid="88_rv76"
+            data-oid="_mwdst3"
           >
-            <div className="text-center" data-oid="pkexf7.">
+            <div className="text-center" data-oid="rqvbwx2">
               <Icons.BarChart3
                 className="w-12 h-12 text-muted-foreground mx-auto mb-2"
-                data-oid=":dv0yfr"
+                data-oid="aw111f5"
               />
 
-              <p className="text-muted-foreground" data-oid="4er0qau">
+              <p className="text-muted-foreground" data-oid="_a3s:t_">
                 Chart will be displayed here
               </p>
             </div>

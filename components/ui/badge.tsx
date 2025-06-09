@@ -24,7 +24,7 @@ function Badge({ className, variant = "default", ...props }: BadgeProps) {
         className,
       )}
       {...props}
-      data-oid="hsmss3o"
+      data-oid="n1t3qjj"
     />
   );
 }
