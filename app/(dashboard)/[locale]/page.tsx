@@ -87,7 +87,7 @@ export default async function DashboardPage({
       title: apps.costCalculator.title,
       description: apps.costCalculator.description,
       problem: apps.costCalculator.problem,
-      icon: <Icons.calculator className="h-6 w-6" data-oid="-2dt20j" />,
+      icon: <Icons.calculator className="h-6 w-6" data-oid="t5nozbg" />,
       href: `/${locale}/apps/cost-calculator`,
       features: [
         apps.costCalculator.uploadData,
@@ -102,7 +102,7 @@ export default async function DashboardPage({
       title: apps.supplyChainPlanner.title,
       description: apps.supplyChainPlanner.description,
       problem: apps.supplyChainPlanner.problem,
-      icon: <Icons.network className="h-6 w-6" data-oid="t9m0jv5" />,
+      icon: <Icons.network className="h-6 w-6" data-oid="k7o0ibb" />,
       href: `/${locale}/apps/supply-pivot`,
       features: [
         apps.supplyChainPlanner.alternativeSuppliers,
@@ -118,7 +118,7 @@ export default async function DashboardPage({
       title: apps.pricingOptimizer.title,
       description: apps.pricingOptimizer.description,
       problem: apps.pricingOptimizer.problem,
-      icon: <Icons.dollarSign className="h-6 w-6" data-oid="jf1ojv7" />,
+      icon: <Icons.dollarSign className="h-6 w-6" data-oid="fk8l:z0" />,
       href: `/${locale}/apps/pricing-optimizer`,
       features: [
         apps.pricingOptimizer.scenarioModeling,
@@ -134,7 +134,7 @@ export default async function DashboardPage({
       title: apps.tariffTracker.title,
       description: apps.tariffTracker.description,
       problem: apps.tariffTracker.problem,
-      icon: <Icons.clock className="h-6 w-6" data-oid="2upohb0" />,
+      icon: <Icons.clock className="h-6 w-6" data-oid="d-a2p6p" />,
       href: `/${locale}/apps/tariff-tracker`,
       features: [
         apps.tariffTracker.announcements,
@@ -150,7 +150,7 @@ export default async function DashboardPage({
       title: apps.routeOptimizer.title,
       description: apps.routeOptimizer.description,
       problem: apps.routeOptimizer.problem,
-      icon: <Icons.route className="h-6 w-6" data-oid=":ocpvsc" />,
+      icon: <Icons.route className="h-6 w-6" data-oid="g5._iit" />,
       href: `/${locale}/apps/route-optimizer`,
       features: [
         apps.routeOptimizer.routingSuggestions,
@@ -189,13 +189,13 @@ export default async function DashboardPage({
   ];
 
   return (
-    <div className="flex flex-col gap-6 p-6 md:gap-8" data-oid="idu94fx">
+    <div className="flex flex-col gap-6 p-6 md:gap-8" data-oid="mpkqaz0">
       {/* Page header */}
-      <div className="flex flex-col gap-2" data-oid="_xvojz:">
-        <h1 className="text-3xl font-bold tracking-tight" data-oid="klrblqo">
+      <div className="flex flex-col gap-2" data-oid="xvz5avx">
+        <h1 className="text-3xl font-bold tracking-tight" data-oid="uq_933j">
           {t.title}
         </h1>
-        <p className="text-muted-foreground" data-oid="hz3npsw">
+        <p className="text-muted-foreground" data-oid="l:nmv-8">
           {dictionary.common.welcome} to TradeNavigatorPro
         </p>
       </div>
@@ -203,123 +203,123 @@ export default async function DashboardPage({
       {/* Key metrics */}
       <div
         className="grid gap-4 md:grid-cols-2 lg:grid-cols-4"
-        data-oid="vao3zk7"
+        data-oid="kxywbcc"
       >
-        <Card data-oid="c9l8km5">
+        <Card data-oid="_zb3ddj">
           <CardHeader
             className="flex flex-row items-center justify-between pb-2"
-            data-oid="9_he0gm"
+            data-oid="a5v.182"
           >
-            <CardTitle className="text-sm font-medium" data-oid=".9v8_9u">
+            <CardTitle className="text-sm font-medium" data-oid="csctttf">
               {t.costImpact}
             </CardTitle>
             <Icons.dollarSign
               className="h-4 w-4 text-muted-foreground"
-              data-oid="jxme-fo"
+              data-oid=".aar2ul"
             />
           </CardHeader>
-          <CardContent data-oid="6.29rdu">
-            <div className="text-2xl font-bold" data-oid="vqwn6--">
+          <CardContent data-oid="jwcv-8m">
+            <div className="text-2xl font-bold" data-oid="wu_.sh6">
               {metrics.costImpact.value}
             </div>
             <p
               className={`text-xs ${metrics.costImpact.increasing ? "text-green-500" : "text-red-500"} flex items-center`}
-              data-oid="ggz3si-"
+              data-oid="797hzkb"
             >
               {metrics.costImpact.increasing ? (
-                <Icons.arrowUp className="mr-1 h-3 w-3" data-oid="n_:wnc:" />
+                <Icons.arrowUp className="mr-1 h-3 w-3" data-oid="-axn.h-" />
               ) : (
-                <Icons.arrowDown className="mr-1 h-3 w-3" data-oid="xep:g30" />
+                <Icons.arrowDown className="mr-1 h-3 w-3" data-oid="::ro5y8" />
               )}
               {metrics.costImpact.change} from last month
             </p>
           </CardContent>
         </Card>
-        <Card data-oid="v84dvl7">
+        <Card data-oid="ere:gj-">
           <CardHeader
             className="flex flex-row items-center justify-between pb-2"
-            data-oid="_it3wtl"
+            data-oid="mnvpi8."
           >
-            <CardTitle className="text-sm font-medium" data-oid="4le9np_">
+            <CardTitle className="text-sm font-medium" data-oid="dld5x7t">
               {t.upcomingChanges}
             </CardTitle>
             <Icons.alertTriangle
               className="h-4 w-4 text-muted-foreground"
-              data-oid="-yrnkf4"
+              data-oid="qynw:z1"
             />
           </CardHeader>
-          <CardContent data-oid="c64k8q9">
-            <div className="text-2xl font-bold" data-oid="vjvxx8i">
+          <CardContent data-oid="8piaqrr">
+            <div className="text-2xl font-bold" data-oid="lg:aaqn">
               {metrics.tariffChanges.value}
             </div>
             <p
               className={`text-xs ${metrics.tariffChanges.increasing ? "text-amber-500" : "text-green-500"} flex items-center`}
-              data-oid="353slpq"
+              data-oid="efah9vr"
             >
               {metrics.tariffChanges.increasing ? (
-                <Icons.arrowUp className="mr-1 h-3 w-3" data-oid="2uv2d:l" />
+                <Icons.arrowUp className="mr-1 h-3 w-3" data-oid="pg_25gs" />
               ) : (
-                <Icons.arrowDown className="mr-1 h-3 w-3" data-oid="l2z7-46" />
+                <Icons.arrowDown className="mr-1 h-3 w-3" data-oid="n8ne_qq" />
               )}
               {metrics.tariffChanges.change} from last month
             </p>
           </CardContent>
         </Card>
-        <Card data-oid="2kcc9_z">
+        <Card data-oid="jgfzni9">
           <CardHeader
             className="flex flex-row items-center justify-between pb-2"
-            data-oid="jbpaw_j"
+            data-oid="7kzfw9d"
           >
-            <CardTitle className="text-sm font-medium" data-oid="qtunzs3">
+            <CardTitle className="text-sm font-medium" data-oid="n7grrsp">
               Supplier Alternatives
             </CardTitle>
             <Icons.network
               className="h-4 w-4 text-muted-foreground"
-              data-oid="x:c4vyu"
+              data-oid="k8gk-bv"
             />
           </CardHeader>
-          <CardContent data-oid="040xpwq">
-            <div className="text-2xl font-bold" data-oid="rd8n:_z">
+          <CardContent data-oid="vfqrgzf">
+            <div className="text-2xl font-bold" data-oid=".7v38fb">
               {metrics.supplierAlternatives.value}
             </div>
             <p
               className={`text-xs ${metrics.supplierAlternatives.increasing ? "text-green-500" : "text-red-500"} flex items-center`}
-              data-oid="bvjwuyq"
+              data-oid="ztq0b7x"
             >
               {metrics.supplierAlternatives.increasing ? (
-                <Icons.arrowUp className="mr-1 h-3 w-3" data-oid="ve3ew_q" />
+                <Icons.arrowUp className="mr-1 h-3 w-3" data-oid="yx0l16h" />
               ) : (
-                <Icons.arrowDown className="mr-1 h-3 w-3" data-oid="6lmi9y." />
+                <Icons.arrowDown className="mr-1 h-3 w-3" data-oid="6qmxo.r" />
               )}
               {metrics.supplierAlternatives.change} new options
             </p>
           </CardContent>
         </Card>
-        <Card data-oid="b49ti7l">
+        <Card data-oid="_vubar9">
           <CardHeader
             className="flex flex-row items-center justify-between pb-2"
-            data-oid="bt4tik_"
+            data-oid="_uxyzet"
           >
-            <CardTitle className="text-sm font-medium" data-oid="nk46fvu">
+            <CardTitle className="text-sm font-medium" data-oid="adrtbgk">
               Duty Drawbacks
             </CardTitle>
             <Icons.fileCheck
               className="h-4 w-4 text-muted-foreground"
-              data-oid="kzruc-9"
+              data-oid="h_8eisg"
             />
           </CardHeader>
-          <CardContent data-oid="ny1fa9y">
-            <div className="text-2xl font-bold" data-oid="x423ayt">
+          <CardContent data-oid="mk.421c">
+            <div className="text-2xl font-bold" data-oid="8j7.hkh">
               {metrics.dutyDrawbacks.value}
             </div>
             <p
               className={`text-xs ${metrics.dutyDrawbacks.increasing ? "text-green-500" : "text-red-500"} flex items-center`}
-              data-oid="ds-c_2y"
+              data-oid="jbrbv4f"
             >
               {metrics.dutyDrawbacks.increasing ? (
-                <Icons.arrowUp className="mr-1 h-3 w-3" data-oid="s_x.z-8" />
+                <Icons.arrowUp className="mr-1 h-3 w-3" data-oid="0ls5gqj" />
               ) : (
-                <Icons.arrowDown className="mr-1 h-3 w-3" data-oid="g6u11hl" />
+                <Icons.arrowDown className="mr-1 h-3 w-3" data-oid="whn12fp" />
               )}
               {metrics.dutyDrawbacks.change} available
             </p>
@@ -328,55 +328,55 @@ export default async function DashboardPage({
       </div>
 
       {/* Core applications */}
-      <div data-oid="6vcocwm">
+      <div data-oid="i-icxpa">
         <h2
           className="mb-4 text-xl font-semibold tracking-tight"
-          data-oid="jgg6f9v"
+          data-oid="lde.:ue"
         >
           {dictionary.navigation.applications}
         </h2>
         <div
           className="grid gap-4 md:grid-cols-2 lg:grid-cols-3"
-          data-oid="ingd7z1"
+          data-oid=":mndplj"
         >
           {coreApplications.map((app) => (
-            <Card key={app.id} className="overflow-hidden" data-oid="l9-0gw_">
-              <CardHeader className="p-4" data-oid="_la4.io">
-                <div className="flex items-center gap-2" data-oid="lvisctx">
+            <Card key={app.id} className="overflow-hidden" data-oid="n-qjnc_">
+              <CardHeader className="p-4" data-oid="04pqi5d">
+                <div className="flex items-center gap-2" data-oid="bdswb6.">
                   <div
                     className={`rounded-md p-2 ${app.color}`}
-                    data-oid="0_u.4qs"
+                    data-oid="fahatgq"
                   >
                     {app.icon}
                   </div>
-                  <CardTitle className="text-lg" data-oid="ucmm-v8">
+                  <CardTitle className="text-lg" data-oid=".cktg7k">
                     {app.title}
                   </CardTitle>
                 </div>
-                <CardDescription data-oid="7xcrrpw">
+                <CardDescription data-oid="_4ir::1">
                   {app.description}
                 </CardDescription>
               </CardHeader>
-              <CardContent className="p-4 pt-0" data-oid="0g1g.o8">
+              <CardContent className="p-4 pt-0" data-oid="c79da29">
                 <div
                   className="mb-3 inline-flex items-center rounded-md bg-muted px-3 py-1 text-sm"
-                  data-oid="oqe0ybx"
+                  data-oid=".ctz8v3"
                 >
-                  <Icons.info className="mr-1 h-4 w-4" data-oid="flm87tp" />
-                  <span className="text-muted-foreground" data-oid="pqs3_8i">
+                  <Icons.info className="mr-1 h-4 w-4" data-oid="cb347e1" />
+                  <span className="text-muted-foreground" data-oid="6:xefj0">
                     {app.problem}
                   </span>
                 </div>
-                <ul className="mt-2 space-y-1 text-sm" data-oid="y0l.n6k">
+                <ul className="mt-2 space-y-1 text-sm" data-oid="_6ztyr0">
                   {app.features.map((feature, index) => (
                     <li
                       key={index}
                       className="flex items-center"
-                      data-oid="4v_jbb_"
+                      data-oid="9knvnqo"
                     >
                       <Icons.check
                         className="mr-2 h-4 w-4 text-green-500"
-                        data-oid="1ybrmvj"
+                        data-oid="6e5:abh"
                       />
 
                       {feature}
@@ -384,13 +384,13 @@ export default async function DashboardPage({
                   ))}
                 </ul>
               </CardContent>
-              <CardFooter className="p-4 pt-0" data-oid="up.fqi:">
-                <Button asChild className="w-full" data-oid="14uq.vu">
-                  <Link href={app.href} data-oid="c-_4d7t">
+              <CardFooter className="p-4 pt-0" data-oid="tnl62g2">
+                <Button asChild className="w-full" data-oid=".zd27jr">
+                  <Link href={app.href} data-oid="zaqkl8d">
                     {dictionary.common.open}
                     <Icons.chevronRight
                       className="ml-2 h-4 w-4"
-                      data-oid="x5ok-19"
+                      data-oid="namd71h"
                     />
                   </Link>
                 </Button>
@@ -401,140 +401,140 @@ export default async function DashboardPage({
       </div>
 
       {/* Recent activity and alerts */}
-      <div className="grid gap-4 md:grid-cols-2" data-oid="9v5bq63">
-        <Card data-oid="exjase9">
-          <CardHeader data-oid="_g6a.0_">
-            <CardTitle data-oid="9mzfpbv">{t.recentActivity}</CardTitle>
+      <div className="grid gap-4 md:grid-cols-2" data-oid="-.6fged">
+        <Card data-oid="ep.3:1k">
+          <CardHeader data-oid="aufurpc">
+            <CardTitle data-oid="b5rao_k">{t.recentActivity}</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-4" data-oid="86wwx4j">
+          <CardContent className="space-y-4" data-oid="5q4xpi4">
             <div
               className="flex items-center justify-between space-x-4"
-              data-oid="isa4e2:"
+              data-oid="4-nq348"
             >
-              <div className="flex items-center space-x-4" data-oid="lo:5q.y">
+              <div className="flex items-center space-x-4" data-oid="ielc6-e">
                 <div
                   className="rounded-md bg-primary/10 p-2"
-                  data-oid=".iklzr:"
+                  data-oid="uyxhl8u"
                 >
                   <Icons.calculator
                     className="h-4 w-4 text-primary"
-                    data-oid="wv-.3b0"
+                    data-oid="n0c:z.v"
                   />
                 </div>
-                <div data-oid="oc:_oa.">
-                  <p className="text-sm font-medium" data-oid="xt0y3wr">
+                <div data-oid="f-yi8f1">
+                  <p className="text-sm font-medium" data-oid="tx_xtyt">
                     Cost calculation completed
                   </p>
                   <p
                     className="text-xs text-muted-foreground"
-                    data-oid="56lio_k"
+                    data-oid="dzfj:mh"
                   >
                     Today, 10:30 AM
                   </p>
                 </div>
               </div>
-              <Button variant="ghost" size="sm" data-oid="ex:ca7:">
-                <Icons.eye className="h-4 w-4" data-oid="87787c0" />
-                <span className="sr-only" data-oid="2g-7mml">
+              <Button variant="ghost" size="sm" data-oid="g0d_qbr">
+                <Icons.eye className="h-4 w-4" data-oid="ja8x-tl" />
+                <span className="sr-only" data-oid="rem955s">
                   View
                 </span>
               </Button>
             </div>
             <div
               className="flex items-center justify-between space-x-4"
-              data-oid="wuvb6.8"
+              data-oid="i0v9v0i"
             >
-              <div className="flex items-center space-x-4" data-oid="sky8.0k">
+              <div className="flex items-center space-x-4" data-oid="aywy2wd">
                 <div
                   className="rounded-md bg-primary/10 p-2"
-                  data-oid="3y38tfx"
+                  data-oid="ez9-zk:"
                 >
                   <Icons.upload
                     className="h-4 w-4 text-primary"
-                    data-oid="fgioz87"
+                    data-oid="07_fx8o"
                   />
                 </div>
-                <div data-oid="6ppj9zc">
-                  <p className="text-sm font-medium" data-oid="_7dvda.">
+                <div data-oid="raui2s5">
+                  <p className="text-sm font-medium" data-oid="i45mp_1">
                     Data uploaded
                   </p>
                   <p
                     className="text-xs text-muted-foreground"
-                    data-oid="hxz0.fc"
+                    data-oid="c2y94k2"
                   >
                     Yesterday, 4:45 PM
                   </p>
                 </div>
               </div>
-              <Button variant="ghost" size="sm" data-oid="68lyc63">
-                <Icons.eye className="h-4 w-4" data-oid="v8hq3_m" />
-                <span className="sr-only" data-oid="-l3addu">
+              <Button variant="ghost" size="sm" data-oid="vnnd1t2">
+                <Icons.eye className="h-4 w-4" data-oid="p00onsk" />
+                <span className="sr-only" data-oid="30i76x2">
                   View
                 </span>
               </Button>
             </div>
             <div
               className="flex items-center justify-between space-x-4"
-              data-oid="3dxa7y8"
+              data-oid="e9n2u6n"
             >
-              <div className="flex items-center space-x-4" data-oid="ueb47z9">
+              <div className="flex items-center space-x-4" data-oid="d5pzxtt">
                 <div
                   className="rounded-md bg-primary/10 p-2"
-                  data-oid="ww4qd6m"
+                  data-oid="0k5e8x-"
                 >
                   <Icons.fileChart
                     className="h-4 w-4 text-primary"
-                    data-oid="8iv-7gu"
+                    data-oid="-asm92_"
                   />
                 </div>
-                <div data-oid="ovbjx6m">
-                  <p className="text-sm font-medium" data-oid="kiob71c">
+                <div data-oid="1kh03v9">
+                  <p className="text-sm font-medium" data-oid="_oe9k__">
                     Report generated
                   </p>
                   <p
                     className="text-xs text-muted-foreground"
-                    data-oid="6albx9m"
+                    data-oid="n3:j6no"
                   >
                     Yesterday, 2:20 PM
                   </p>
                 </div>
               </div>
-              <Button variant="ghost" size="sm" data-oid="6x7y8yt">
-                <Icons.eye className="h-4 w-4" data-oid="fg0_gn:" />
-                <span className="sr-only" data-oid="h5feji4">
+              <Button variant="ghost" size="sm" data-oid="j0s8ulh">
+                <Icons.eye className="h-4 w-4" data-oid="gfqb13v" />
+                <span className="sr-only" data-oid="984rb76">
                   View
                 </span>
               </Button>
             </div>
           </CardContent>
-          <CardFooter data-oid=".8.9h0u">
-            <Button variant="outline" className="w-full" data-oid="t-41978">
+          <CardFooter data-oid="ve..gfr">
+            <Button variant="outline" className="w-full" data-oid="2b_hfbx">
               {dictionary.common.viewAll}
             </Button>
           </CardFooter>
         </Card>
 
-        <Card data-oid="ls.1vdl">
-          <CardHeader data-oid="4e110gp">
-            <CardTitle data-oid="571.eqc">{t.alerts}</CardTitle>
+        <Card data-oid="99ztv38">
+          <CardHeader data-oid="mnnuyt7">
+            <CardTitle data-oid="bwymnsq">{t.alerts}</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-4" data-oid="u6sdsc7">
+          <CardContent className="space-y-4" data-oid="jto9w0v">
             {recentAlerts.map((alert) => {
               const alertIcon =
                 alert.type === "tariff" ? (
                   <Icons.alertTriangle
                     className="h-4 w-4 text-red-500"
-                    data-oid="ssp5mu2"
+                    data-oid="5glanup"
                   />
                 ) : alert.type === "supplier" ? (
                   <Icons.network
                     className="h-4 w-4 text-blue-500"
-                    data-oid="s_a9nrx"
+                    data-oid="fxue.tz"
                   />
                 ) : (
                   <Icons.fileCheck
                     className="h-4 w-4 text-green-500"
-                    data-oid="_tfpaqf"
+                    data-oid="ekvzxh."
                   />
                 );
 
@@ -549,25 +549,25 @@ export default async function DashboardPage({
                 <div
                   key={alert.id}
                   className="flex items-center justify-between space-x-4"
-                  data-oid="pn18bgz"
+                  data-oid="27mwvhp"
                 >
                   <div
                     className="flex items-center space-x-4"
-                    data-oid="0:yx5fv"
+                    data-oid="l.y:h5y"
                   >
                     <div
                       className="rounded-md bg-primary/10 p-2"
-                      data-oid="en2pvp."
+                      data-oid="6we1ae4"
                     >
                       {alertIcon}
                     </div>
-                    <div data-oid="dvr86er">
-                      <p className="text-sm font-medium" data-oid="8pk.sm-">
+                    <div data-oid="fzz.b-p">
+                      <p className="text-sm font-medium" data-oid="vjem:tt">
                         {alert.title}
                       </p>
                       <p
                         className="text-xs text-muted-foreground"
-                        data-oid="dkafc9d"
+                        data-oid="m5p0-_l"
                       >
                         {alert.date}
                       </p>
@@ -576,7 +576,7 @@ export default async function DashboardPage({
                   <Badge
                     variant="outline"
                     className={impactBadgeClass}
-                    data-oid="8nbo7sd"
+                    data-oid="wg_pb5g"
                   >
                     {alert.impact}
                   </Badge>
@@ -584,8 +584,8 @@ export default async function DashboardPage({
               );
             })}
           </CardContent>
-          <CardFooter data-oid="0owj3k9">
-            <Button variant="outline" className="w-full" data-oid="1dyodq5">
+          <CardFooter data-oid="b53tnd_">
+            <Button variant="outline" className="w-full" data-oid="j:vpxmi">
               {dictionary.common.viewAll}
             </Button>
           </CardFooter>
@@ -593,58 +593,58 @@ export default async function DashboardPage({
       </div>
 
       {/* Quick actions */}
-      <Card data-oid="48nvn3k">
-        <CardHeader data-oid="xoh1ng-">
-          <CardTitle data-oid="ewuanhl">{t.quickActions}</CardTitle>
+      <Card data-oid="-o6dy-m">
+        <CardHeader data-oid="f3i1.a1">
+          <CardTitle data-oid="ftj7ott">{t.quickActions}</CardTitle>
         </CardHeader>
-        <CardContent data-oid="xai9c.x">
-          <div className="grid gap-2 md:grid-cols-3" data-oid="_.lhz_a">
+        <CardContent data-oid="lt20sl8">
+          <div className="grid gap-2 md:grid-cols-3" data-oid=".1b6xqv">
             <Button
               variant="outline"
               className="justify-start"
-              data-oid="e-ptd88"
+              data-oid="i-0gywk"
             >
-              <Icons.upload className="mr-2 h-4 w-4" data-oid="awj2glx" />
+              <Icons.upload className="mr-2 h-4 w-4" data-oid="i2iskr2" />
               {dictionary.common.upload}
             </Button>
             <Button
               variant="outline"
               className="justify-start"
-              data-oid="fkn1ykr"
+              data-oid="av1-i5d"
             >
-              <Icons.calculator className="mr-2 h-4 w-4" data-oid="r32epyl" />
+              <Icons.calculator className="mr-2 h-4 w-4" data-oid="_6239_o" />
               {apps.costCalculator.calculateImpact}
             </Button>
             <Button
               variant="outline"
               className="justify-start"
-              data-oid="y4jpwqm"
+              data-oid="u-cw4gt"
             >
-              <Icons.fileChart className="mr-2 h-4 w-4" data-oid="skk13h2" />
+              <Icons.fileChart className="mr-2 h-4 w-4" data-oid="6uue4_s" />
               {dictionary.reports.generateReport}
             </Button>
             <Button
               variant="outline"
               className="justify-start"
-              data-oid="l.byo_j"
+              data-oid="j.061_b"
             >
-              <Icons.bell className="mr-2 h-4 w-4" data-oid="95d1p1w" />
+              <Icons.bell className="mr-2 h-4 w-4" data-oid="5l-xjvt" />
               {apps.tariffTracker.setAlerts}
             </Button>
             <Button
               variant="outline"
               className="justify-start"
-              data-oid="0jjh89q"
+              data-oid="s4kfc71"
             >
-              <Icons.route className="mr-2 h-4 w-4" data-oid="ptiz25j" />
+              <Icons.route className="mr-2 h-4 w-4" data-oid="gil-ox." />
               {apps.routeOptimizer.compareRoutes}
             </Button>
             <Button
               variant="outline"
               className="justify-start"
-              data-oid="9dc08gw"
+              data-oid="ii8s0yj"
             >
-              <Icons.dollarSign className="mr-2 h-4 w-4" data-oid="f93:p5j" />
+              <Icons.dollarSign className="mr-2 h-4 w-4" data-oid="-3qvxf2" />
               {apps.pricingOptimizer.optimizedPrice}
             </Button>
           </div>

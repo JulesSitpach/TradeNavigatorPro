@@ -9,7 +9,7 @@ const Tabs = React.forwardRef<
     ref={ref}
     className={cn("w-full", className)}
     {...props}
-    data-oid="e1e4f_c"
+    data-oid="towx061"
   />
 ));
 Tabs.displayName = "Tabs";
@@ -25,7 +25,7 @@ const TabsList = React.forwardRef<
       className,
     )}
     {...props}
-    data-oid="02-ecv-"
+    data-oid="0kcabne"
   />
 ));
 TabsList.displayName = "TabsList";
@@ -41,7 +41,7 @@ const TabsTrigger = React.forwardRef<
       className,
     )}
     {...props}
-    data-oid="j:1pxmm"
+    data-oid="uh8a2ln"
   />
 ));
 TabsTrigger.displayName = "TabsTrigger";
@@ -57,7 +57,7 @@ const TabsContent = React.forwardRef<
       className,
     )}
     {...props}
-    data-oid="za2i2ei"
+    data-oid="csc:lcd"
   />
 ));
 TabsContent.displayName = "TabsContent";
