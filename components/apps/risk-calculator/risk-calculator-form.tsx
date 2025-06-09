@@ -110,13 +110,13 @@ export function RiskCalculatorForm() {
   };
 
   return (
-    <div className="space-y-4" data-oid="o_u6yn_">
-      <div className="grid grid-cols-2 gap-4" data-oid="yzdk_m-">
-        <div data-oid="sb32jbs">
+    <div className="space-y-4" data-oid="dx50wpe">
+      <div className="grid grid-cols-2 gap-4" data-oid="dg14eeh">
+        <div data-oid="97j3g7f">
           <label
             htmlFor="accountBalance"
             className="block text-sm font-medium text-gray-700 mb-1"
-            data-oid="g32e59q"
+            data-oid=":12s9b-"
           >
             Account Balance ($)
           </label>
@@ -129,15 +129,15 @@ export function RiskCalculatorForm() {
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="10000"
             step="0.01"
-            data-oid="4yd201j"
+            data-oid="tr82n7g"
           />
         </div>
 
-        <div data-oid="fnfnnz_">
+        <div data-oid=".pyjl8p">
           <label
             htmlFor="riskPercentage"
             className="block text-sm font-medium text-gray-700 mb-1"
-            data-oid="xhvjv8:"
+            data-oid="7-.s8t:"
           >
             Risk per Trade (%)
           </label>
@@ -152,16 +152,16 @@ export function RiskCalculatorForm() {
             step="0.1"
             min="0.1"
             max="10"
-            data-oid="3_hkssx"
+            data-oid="x0-jyv0"
           />
         </div>
       </div>
 
-      <div data-oid="o1il74d">
+      <div data-oid="yg3d4q_">
         <label
           htmlFor="currencyPair"
           className="block text-sm font-medium text-gray-700 mb-1"
-          data-oid="ypk84x0"
+          data-oid="hhbfg3g"
         >
           Currency Pair
         </label>
@@ -171,38 +171,38 @@ export function RiskCalculatorForm() {
           value={formData.currencyPair}
           onChange={handleChange}
           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          data-oid="pdova_h"
+          data-oid="8:6d0_a"
         >
-          <option value="EUR/USD" data-oid="106sowp">
+          <option value="EUR/USD" data-oid="j_b:i6l">
             EUR/USD
           </option>
-          <option value="GBP/USD" data-oid="u2cptbd">
+          <option value="GBP/USD" data-oid="228qeiw">
             GBP/USD
           </option>
-          <option value="USD/JPY" data-oid="66gdue7">
+          <option value="USD/JPY" data-oid="okijgmw">
             USD/JPY
           </option>
-          <option value="USD/CHF" data-oid=":gmp-ap">
+          <option value="USD/CHF" data-oid="91l7.w:">
             USD/CHF
           </option>
-          <option value="AUD/USD" data-oid="t7.uc-v">
+          <option value="AUD/USD" data-oid="1rjlwil">
             AUD/USD
           </option>
-          <option value="USD/CAD" data-oid="8l:q3wd">
+          <option value="USD/CAD" data-oid="lwezzfi">
             USD/CAD
           </option>
-          <option value="NZD/USD" data-oid="tk35wnu">
+          <option value="NZD/USD" data-oid="--rvf-h">
             NZD/USD
           </option>
         </select>
       </div>
 
-      <div className="grid grid-cols-3 gap-4" data-oid="l165yjk">
-        <div data-oid="duo8r7l">
+      <div className="grid grid-cols-3 gap-4" data-oid="p.fpx8k">
+        <div data-oid="t0-n1wd">
           <label
             htmlFor="entryPrice"
             className="block text-sm font-medium text-gray-700 mb-1"
-            data-oid="k:t5cbi"
+            data-oid="to30_e-"
           >
             Entry Price
           </label>
@@ -215,15 +215,15 @@ export function RiskCalculatorForm() {
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="1.1000"
             step="0.0001"
-            data-oid="jw4a41n"
+            data-oid="e3qk0jv"
           />
         </div>
 
-        <div data-oid="c8q:zov">
+        <div data-oid="fxfv5qp">
           <label
             htmlFor="stopLoss"
             className="block text-sm font-medium text-gray-700 mb-1"
-            data-oid="ux58gqv"
+            data-oid="g34wgzm"
           >
             Stop Loss
           </label>
@@ -236,15 +236,15 @@ export function RiskCalculatorForm() {
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="1.0950"
             step="0.0001"
-            data-oid="s7mjusd"
+            data-oid="v1451t6"
           />
         </div>
 
-        <div data-oid="zf0xjpr">
+        <div data-oid="5y6yknx">
           <label
             htmlFor="takeProfit"
             className="block text-sm font-medium text-gray-700 mb-1"
-            data-oid="h41_io2"
+            data-oid=":y7le1y"
           >
             Take Profit (Optional)
           </label>
@@ -257,16 +257,16 @@ export function RiskCalculatorForm() {
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="1.1100"
             step="0.0001"
-            data-oid="j3tbkki"
+            data-oid="y-l4xsk"
           />
         </div>
       </div>
 
-      <div className="flex gap-2" data-oid="ko-tpah">
+      <div className="flex gap-2" data-oid="o6bn6:y">
         <Button
           onClick={calculateRisk}
           className="flex-1 bg-blue-600 text-white hover:bg-blue-700"
-          data-oid="p7sdkza"
+          data-oid="zyy._74"
         >
           Calculate Risk
         </Button>
@@ -275,7 +275,7 @@ export function RiskCalculatorForm() {
             onClick={saveProfile}
             variant="outline"
             className="px-6"
-            data-oid="dh4d6ht"
+            data-oid="rm6nura"
           >
             Save Profile
           </Button>
@@ -283,48 +283,48 @@ export function RiskCalculatorForm() {
       </div>
 
       {calculation && (
-        <div className="mt-6 p-4 bg-gray-50 rounded-lg" data-oid="bumar-z">
-          <h3 className="text-lg font-semibold mb-3" data-oid="e:w79:x">
+        <div className="mt-6 p-4 bg-gray-50 rounded-lg" data-oid=".-v8w1r">
+          <h3 className="text-lg font-semibold mb-3" data-oid="37c4qh9">
             Calculation Results
           </h3>
-          <div className="grid grid-cols-2 gap-4 text-sm" data-oid="n2310z4">
-            <div data-oid="z54h.ag">
-              <span className="text-gray-600" data-oid="db-87te">
+          <div className="grid grid-cols-2 gap-4 text-sm" data-oid="rzk_0yo">
+            <div data-oid="3ju93br">
+              <span className="text-gray-600" data-oid="85_m_9c">
                 Position Size:
               </span>
-              <span className="font-semibold ml-2" data-oid="iyuykia">
+              <span className="font-semibold ml-2" data-oid="xwb1-ec">
                 {calculation.positionSize.toLocaleString()} units
               </span>
             </div>
-            <div data-oid="s739xk5">
-              <span className="text-gray-600" data-oid="dmzt7gi">
+            <div data-oid="g.70reh">
+              <span className="text-gray-600" data-oid="kyvyol3">
                 Risk Amount:
               </span>
               <span
                 className="font-semibold ml-2 text-red-600"
-                data-oid="o3gixw9"
+                data-oid="bhxypts"
               >
                 ${calculation.riskAmount.toLocaleString()}
               </span>
             </div>
             {calculation.rewardAmount > 0 && (
               <>
-                <div data-oid="_dyf73z">
-                  <span className="text-gray-600" data-oid="jarmjle">
+                <div data-oid="e9t4ef_">
+                  <span className="text-gray-600" data-oid="o88et8r">
                     Reward Amount:
                   </span>
                   <span
                     className="font-semibold ml-2 text-green-600"
-                    data-oid="5cq-jyh"
+                    data-oid="rucr0y4"
                   >
                     ${calculation.rewardAmount.toLocaleString()}
                   </span>
                 </div>
-                <div data-oid="9.wv9b.">
-                  <span className="text-gray-600" data-oid="6c6xqz4">
+                <div data-oid="f-7:l8u">
+                  <span className="text-gray-600" data-oid="32gq5pd">
                     Risk/Reward Ratio:
                   </span>
-                  <span className="font-semibold ml-2" data-oid="o367631">
+                  <span className="font-semibold ml-2" data-oid="q83cy.i">
                     1:{calculation.riskRewardRatio}
                   </span>
                 </div>

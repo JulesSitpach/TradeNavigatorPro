@@ -77,14 +77,14 @@ const Logo = (props: LucideProps) => (
     strokeLinecap="round"
     strokeLinejoin="round"
     {...props}
-    data-oid="zde7x89"
+    data-oid="ok6bqf5"
   >
-    <path stroke="none" d="M0 0h24v24H0z" fill="none" data-oid="07.k8bf" />
-    <path d="M12 3l8 4.5v9l-8 4.5l-8 -4.5v-9l8 -4.5" data-oid="r33mqdo" />
-    <path d="M12 12l8 -4.5" data-oid="jzbw8_2" />
-    <path d="M12 12v9" data-oid="i1r:kn9" />
-    <path d="M12 12l-8 -4.5" data-oid="1ds.-wq" />
-    <path d="M16 5.25l-8 4.5" data-oid="daf-cc5" />
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" data-oid="nraqvo9" />
+    <path d="M12 3l8 4.5v9l-8 4.5l-8 -4.5v-9l8 -4.5" data-oid="hnh0gw4" />
+    <path d="M12 12l8 -4.5" data-oid="kp4885." />
+    <path d="M12 12v9" data-oid="v_98z08" />
+    <path d="M12 12l-8 -4.5" data-oid="y950jx7" />
+    <path d="M16 5.25l-8 4.5" data-oid="dddlnl1" />
   </svg>
 );
 
@@ -99,19 +99,19 @@ const FileChart = (props: LucideProps) => (
     strokeLinecap="round"
     strokeLinejoin="round"
     {...props}
-    data-oid="a83d5-:"
+    data-oid="4u6j8sp"
   >
     <path
       d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"
-      data-oid="2.z7zcp"
+      data-oid="imc9:p8"
     />
 
-    <polyline points="14 2 14 8 20 8" data-oid="zg2axuy" />
-    <path d="M8 13h2" data-oid="a1aqrd0" />
-    <path d="M8 17h2" data-oid="91ero62" />
-    <path d="M14 13h2" data-oid="kz69rgl" />
-    <path d="M14 17h2" data-oid="u2usacs" />
-    <path d="M10 9h4" data-oid=".jhq6tw" />
+    <polyline points="14 2 14 8 20 8" data-oid="23-635c" />
+    <path d="M8 13h2" data-oid="x4l361s" />
+    <path d="M8 17h2" data-oid="w2gxjt-" />
+    <path d="M14 13h2" data-oid="fgi9mma" />
+    <path d="M14 17h2" data-oid="c8soes6" />
+    <path d="M10 9h4" data-oid=".yom9gq" />
   </svg>
 );
 
